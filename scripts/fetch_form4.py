@@ -112,7 +112,7 @@ def find_raw_xml_url(cik10, accession_nodashes):
     folder's own index and pick the .xml file that ISN'T inside an xsl*
     subfolder — that's the actual data file this script needs.
     """
-    index = get_json(f"https://data.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/index.json")
+    index = get_json(f"https://www.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/index.json")
     items = index.get("directory", {}).get("item", [])
     candidates = [
         it["name"] for it in items
