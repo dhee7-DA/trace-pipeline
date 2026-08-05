@@ -1,0 +1,8 @@
+{
+  "_readme": "Tickers to pull Form 4 insider filings for. CIKs are NOT stored here — fetch_form4.py resolves them live from SEC's own company_tickers.json on every run, so this list never goes stale even if a CIK changes.",
+  "tickers": [
+    "AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","JPM","V","UNH","JNJ","XOM",
+    "PG","HD","CVX","KO","COST","NFLX","ADBE","CRM","AMD","WMT","TSM","COIN",
+    "PLTR","CRWD","AMT","ADI","OXY","BAC"
+  ]
+}

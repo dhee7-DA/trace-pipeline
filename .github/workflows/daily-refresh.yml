@@ -1,0 +1,53 @@
+name: Daily data refresh
+
+on:
+  schedule:
+    # 11:45 PM UTC ≈ after SEC EDGAR's own daily index refresh and after
+    # US market close — runs once a day. Cron is UTC regardless of your TZ.
+    - cron: "45 23 * * 1-5"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Form 4 insider trades (SEC EDGAR, free, official)
+        env:
+          EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
+        run: python scripts/fetch_form4.py
+
+      - name: Fetch 13F hedge fund holdings (SEC EDGAR, free, official)
+        env:
+          EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
+        run: python scripts/fetch_13f.py
+
+      - name: Fetch Congress trades (tiered: Quiver if configured, else free Senate/House sources)
+        env:
+          QUIVER_API_KEY: ${{ secrets.QUIVER_API_KEY }}
+          EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
+        run: python scripts/fetch_congress.py
+
+      - name: Fetch prices (Twelve Data, only if key configured) — must run last, reads the outputs above
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+        run: python scripts/fetch_prices.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "trace-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet && echo "No data changes" || git commit -m "Daily data refresh: $(date -u +%Y-%m-%d)"
+          git push
