@@ -18,7 +18,7 @@ import json
 import os
 from datetime import datetime
 from lxml import etree
-from edgar_client import company_submissions, load_company_tickers, filing_doc_url, get_text
+from edgar_client import company_submissions, load_company_tickers, filing_doc_url, get_text, get_json
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "config", "watchlist_tickers.json")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "form4.json")
@@ -102,6 +102,29 @@ def parse_form4(xml_text, source_url):
     }
 
 
+def find_raw_xml_url(cik10, accession_nodashes):
+    """
+    The `primaryDocument` field from EDGAR's submissions API points at the
+    XSL-rendered HTML view (SEC's own naming convention: the xslF345X06/
+    subfolder means "rendered via stylesheet X06" — it's HTML despite the
+    .xml filename). The real machine-readable ownership XML sits as a
+    separate, top-level file in the same accession folder. We fetch the
+    folder's own index and pick the .xml file that ISN'T inside an xsl*
+    subfolder — that's the actual data file this script needs.
+    """
+    index = get_json(f"https://data.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/index.json")
+    items = index.get("directory", {}).get("item", [])
+    candidates = [
+        it["name"] for it in items
+        if it["name"].lower().endswith(".xml") and "/" not in it["name"] and not it["name"].lower().startswith("xsl")
+    ]
+    if not candidates:
+        return None
+    # Prefer a name that doesn't look like an index/summary file
+    candidates.sort(key=lambda n: ("index" in n.lower(), len(n)))
+    return filing_doc_url(cik10, accession_nodashes, candidates[0])
+
+
 def main():
     with open(CONFIG_PATH) as f:
         watchlist = json.load(f)["tickers"]
@@ -135,9 +158,17 @@ def main():
             attempted += 1
             accession = recent["accessionNumber"][i]
             accession_nodashes = accession.replace("-", "")
-            primary_doc = recent["primaryDocument"][i]
             filed_date = recent["filingDate"][i]
-            doc_url = filing_doc_url(cik10, accession_nodashes, primary_doc)
+            try:
+                doc_url = find_raw_xml_url(cik10, accession_nodashes)
+            except Exception as e:
+                failures += 1
+                print(f"[warn] could not locate raw XML for {ticker} accession {accession}: {e}")
+                continue
+            if not doc_url:
+                failures += 1
+                print(f"[warn] no non-rendered .xml file found for {ticker} accession {accession}")
+                continue
             try:
                 xml_text = get_text(doc_url)
                 parsed = parse_form4(xml_text, source_url=f"https://www.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/")
