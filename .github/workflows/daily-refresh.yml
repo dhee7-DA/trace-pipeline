@@ -33,7 +33,7 @@ jobs:
           EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
         run: python scripts/fetch_13f.py
 
-      - name: Fetch Congress trades (tiered: Quiver if configured, else free Senate/House sources)
+      - name: "Fetch Congress trades (tiered: Quiver if configured, else free Senate/House sources)"
         env:
           QUIVER_API_KEY: ${{ secrets.QUIVER_API_KEY }}
           EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
