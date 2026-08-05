@@ -88,7 +88,7 @@ def find_latest_13f(cik10):
 
 def find_info_table_url(cik10, accession):
     accession_nodashes = accession.replace("-", "")
-    index = get_json(f"https://data.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/index.json")
+    index = get_json(f"https://www.sec.gov/Archives/edgar/data/{int(cik10)}/{accession_nodashes}/index.json")
     items = index.get("directory", {}).get("item", [])
     candidates = [it["name"] for it in items if "infotable" in it["name"].lower()]
     if not candidates:
