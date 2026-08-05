@@ -16,14 +16,16 @@ the one place in the whole app where every field is a real filed fact.
 """
 import json
 import os
-import xml.etree.ElementTree as ET
 from datetime import datetime
+from lxml import etree
 from edgar_client import company_submissions, load_company_tickers, filing_doc_url, get_text
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "..", "config", "watchlist_tickers.json")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "form4.json")
+DEBUG_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "form4_debug_sample.txt")
 
-MAX_FILINGS_PER_TICKER = 15
+MAX_FILINGS_PER_TICKER = 15   # caps ATTEMPTS now, not just successes — see main()
+_debug_sample_saved = False   # only save one raw-content sample per run, not one per failure
 
 
 def local_tag(elem):
@@ -36,7 +38,21 @@ def text_of(root, path):
 
 
 def parse_form4(xml_text, source_url):
-    root = ET.fromstring(xml_text)
+    """
+    Uses lxml with recover=True: SEC Form 4 documents are supposed to be
+    clean XML, but in practice some filings (older ones, or ones routed
+    through an XSLT-rendering path) come back with malformed or HTML-ish
+    markup that Python's stdlib xml.etree rejects outright with
+    "mismatched tag". lxml's recovering parser reconstructs a best-effort
+    tree instead of aborting, which is the right tradeoff here: we still
+    only extract fields that are actually present in the reconstructed
+    tree — this doesn't invent data, it just tolerates messy markup.
+    """
+    parser = etree.XMLParser(recover=True)
+    root = etree.fromstring(xml_text.encode("utf-8", errors="replace"), parser=parser)
+    if root is None:
+        raise ValueError("document could not be recovered as XML at all (root is None)")
+
     issuer_symbol = text_of(root, ".//issuer/issuerTradingSymbol")
     issuer_name = text_of(root, ".//issuer/issuerName")
     period_of_report = text_of(root, ".//periodOfReport")
@@ -68,6 +84,12 @@ def parse_form4(xml_text, source_url):
             "pricePerShare": float(price) if price else None,
             "acquiredOrDisposed": "Acquired" if acq_disp == "A" else "Disposed" if acq_disp == "D" else None,
         })
+
+    if not issuer_name and not owner_name and not transactions:
+        # Recovered a tree but found none of the fields we expect — almost
+        # certainly not a Form 4 ownership document at all (e.g. an HTML
+        # cover page). Treat as a failure rather than emitting an empty record.
+        raise ValueError("recovered document has none of the expected Form 4 fields")
 
     return {
         "issuerTicker": issuer_symbol,
@@ -102,12 +124,15 @@ def main():
 
         recent = subs.get("filings", {}).get("recent", {})
         forms = recent.get("form", [])
-        count = 0
+        count = 0        # successful parses
+        attempted = 0    # total tries — THIS is what caps the loop now
+        failures = 0
         for i, form in enumerate(forms):
             if form != "4":
                 continue
-            if count >= MAX_FILINGS_PER_TICKER:
+            if attempted >= MAX_FILINGS_PER_TICKER:
                 break
+            attempted += 1
             accession = recent["accessionNumber"][i]
             accession_nodashes = accession.replace("-", "")
             primary_doc = recent["primaryDocument"][i]
@@ -129,8 +154,20 @@ def main():
                 all_filings.append(parsed)
                 count += 1
             except Exception as e:
-                print(f"[warn] failed to parse Form 4 doc for {ticker}: {e}")
-        print(f"[ok] {ticker}: {count} Form 4 filings")
+                failures += 1
+                print(f"[warn] failed to parse Form 4 doc for {ticker} ({doc_url}): {e}")
+                global _debug_sample_saved
+                if not _debug_sample_saved:
+                    try:
+                        raw = get_text(doc_url)
+                        with open(DEBUG_PATH, "w", encoding="utf-8") as dbg:
+                            dbg.write(f"URL: {doc_url}\n\n--- first 3000 chars of raw response ---\n\n")
+                            dbg.write(raw[:3000])
+                        _debug_sample_saved = True
+                        print(f"       saved raw content sample to {DEBUG_PATH} for diagnosis")
+                    except Exception:
+                        pass
+        print(f"[{'ok' if count else 'warn'}] {ticker}: {count} parsed, {failures} failed, {attempted} attempted")
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w") as f:
