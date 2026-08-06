@@ -530,9 +530,25 @@ function detectInsiderClusters(){
    more DIFFERENT sources (Hedge Fund / Insider / Congress) within a short
    window. Each source discloses independently and usually doesn't know
    about the others, so convergence across sources is a real, distinct
-   signal from a cluster within a single source. */
+   signal from a cluster within a single source.
+
+   IMPORTANT: this only runs across sources that are actually LIVE. If 13F
+   is still simulated demo data, a "hedge fund + insider" overlap card would
+   be half-real, half-fake without the reader knowing which half — so any
+   source still in demo mode is excluded here entirely rather than silently
+   blended in. The card only ever claims what it can actually back up. */
+function liveSourceTypes(){
+  const live = new Set();
+  if(dataStatus.form4.live) live.add("Insider");
+  if(dataStatus.thirteenF.live) live.add("Hedge Fund");
+  if(dataStatus.congress.live) live.add("Congress");
+  return live;
+}
 function detectCrossSourceOverlap(){
+  const live = liveSourceTypes();
+  if(live.size < 2) return []; // need at least 2 live sources for a real overlap to exist
   const buyLike = UNIFIED_MOVES.filter(m=>{
+    if(!live.has(m.source)) return false; // exclude any source still in demo mode
     const a = (m.action||m.type||"").toLowerCase();
     return a.includes("buy") || a.includes("increas") || a.includes("purchase") || a.includes("new position");
   });
@@ -1027,10 +1043,22 @@ function renderOverlapBanner(){
   const overlaps = detectCrossSourceOverlap();
   const container = document.getElementById("overlapBanner");
   if(!container) return;
+  const live = liveSourceTypes();
+  if(live.size < 2){
+    // Not enough live sources to form a real cross-source signal — say so
+    // plainly instead of just showing nothing with no explanation.
+    const missing = ["Hedge Fund","Insider","Congress"].filter(s=>!live.has(s));
+    container.innerHTML = `
+      <div class="rounded-xl border border-dashed p-4 text-xs" style="border-color:var(--line);color:var(--text-low);">
+        Cross-Source Signals needs at least 2 live sources to compare — currently waiting on: ${missing.join(", ")}.
+      </div>`;
+    return;
+  }
   if(!overlaps.length){ container.innerHTML = ""; return; }
   const sourceLabel = s => s==="Hedge Fund"?"a hedge fund manager":s==="Insider"?"a company insider":"a member of Congress";
   container.innerHTML = `
-    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="crosshair" class="w-5 h-5" style="color:var(--amber);"></i>Cross-Source Signals</h2>
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-1"><i data-lucide="crosshair" class="w-5 h-5" style="color:var(--amber);"></i>Cross-Source Signals</h2>
+    <p class="text-xs mb-4" style="color:var(--text-low);">Only combines sources currently LIVE (${[...live].join(", ")}) — never blended with simulated data.</p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
       ${overlaps.slice(0,6).map(o=>`
         <div class="rounded-xl border p-4" style="border-color:var(--amber);background:color-mix(in srgb, var(--amber) 6%, var(--bg-surface));">
@@ -1042,7 +1070,7 @@ function renderOverlapBanner(){
         </div>`).join("")}
     </div>`;
   lucide.createIcons();
-  document.querySelectorAll("#overlapBanner .rounded-xl").forEach((el,i)=>{
+  document.querySelectorAll("#overlapBanner .rounded-xl:not(.border-dashed)").forEach((el,i)=>{
     el.style.cursor="pointer";
     el.addEventListener("click",()=>{ const o=overlaps[i]; if(o && o.moves[0]) openPersonModal(o.moves[0].person); });
   });
