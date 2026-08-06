@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-terminal">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRACE · Smart Money Terminal</title>
+<meta name="description" content="Track hedge fund 13F moves, insider Form 4 trades, and Congress STOCK Act disclosures in one feed.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Sora:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Barlow+Condensed:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+
+<style>
+  /* ============================================================
+     THEME SYSTEM — 7 themes, each a real aesthetic with its own
+     palette + font pairing, not a recolored default. Applied by
+     setting a class on <html> (theme-terminal, theme-amber, etc).
+     Every component below reads colors via var(--x) and fonts via
+     var(--font-display/body/mono), so switching the class on <html>
+     re-skins the whole app with no other code changes needed.
+     ============================================================ */
+  :root, html.theme-terminal{
+    /* TERMINAL — the original PULSE-inherited trading-desk identity */
+    --bg-void:#05070d; --bg-base:#0a0e1a; --bg-surface:#0f1420; --bg-elevated:#141b2c;
+    --line:#1e2740; --line-soft:#161d30;
+    --blue:#3b7bff; --blue-soft:#3b7bff33; --cyan:#22d3ee;
+    --green:#22c55e; --amber:#f5a524; --red:#f5455c;
+    --text-hi:#eef1f8; --text-mid:#9aa4bf; --text-low:#5b6584;
+    --font-display:'Space Grotesk',sans-serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  }
+  html.theme-amber{
+    /* BLOOMBERG AMBER — monochrome CRT terminal, all-monospace on purpose */
+    --bg-void:#000000; --bg-base:#050301; --bg-surface:#0c0904; --bg-elevated:#151006;
+    --line:#2b2013; --line-soft:#1c1608;
+    --blue:#ffb020; --blue-soft:#ffb02033; --cyan:#ff8c1a;
+    --green:#8bc34a; --amber:#ffb020; --red:#ff5f4d;
+    --text-hi:#ffd699; --text-mid:#c9922f; --text-low:#7a5a1e;
+    --font-display:'Space Mono',monospace; --font-body:'IBM Plex Mono',monospace; --font-mono:'IBM Plex Mono',monospace;
+  }
+  html.theme-ledger{
+    /* LEDGER — aged accounting-paper light theme, forest-green ink */
+    --bg-void:#e3dcc6; --bg-base:#efe9d8; --bg-surface:#faf7ee; --bg-elevated:#ffffff;
+    --line:#d8cfb0; --line-soft:#e6dfc7;
+    --blue:#2f5233; --blue-soft:#2f523322; --cyan:#8a6d3b;
+    --green:#2f7d32; --amber:#a9762c; --red:#a13d2b;
+    --text-hi:#241f14; --text-mid:#5b5340; --text-low:#8c8368;
+    --font-display:'Source Serif 4',serif; --font-body:'Inter',sans-serif; --font-mono:'IBM Plex Mono',monospace;
+  }
+  html.theme-quartz{
+    /* QUARTZ — crisp daytime research light mode, indigo accent */
+    --bg-void:#e4e7ef; --bg-base:#eef1f7; --bg-surface:#ffffff; --bg-elevated:#ffffff;
+    --line:#dbe0eb; --line-soft:#e8ebf2;
+    --blue:#5b3df5; --blue-soft:#5b3df522; --cyan:#0ea5a0;
+    --green:#16a34a; --amber:#d97706; --red:#dc2626;
+    --text-hi:#151726; --text-mid:#565b73; --text-low:#8b90a3;
+    --font-display:'Sora',sans-serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  }
+  html.theme-verdant{
+    /* VERDANT — money-green dark theme, gold highlight */
+    --bg-void:#04120a; --bg-base:#081a10; --bg-surface:#0d2417; --bg-elevated:#13301e;
+    --line:#1f4530; --line-soft:#173726;
+    --blue:#34d399; --blue-soft:#34d39933; --cyan:#facc15;
+    --green:#4ade80; --amber:#facc15; --red:#f87171;
+    --text-hi:#eafbf1; --text-mid:#8fc7a8; --text-low:#4f7a63;
+    --font-display:'Fraunces',serif; --font-body:'Inter',sans-serif; --font-mono:'IBM Plex Mono',monospace;
+  }
+  html.theme-crimson{
+    /* CRIMSON DESK — urgent red-black alert-terminal theme */
+    --bg-void:#0a0303; --bg-base:#140505; --bg-surface:#1c0808; --bg-elevated:#280b0b;
+    --line:#4a1414; --line-soft:#33100f;
+    --blue:#ff3b3b; --blue-soft:#ff3b3b33; --cyan:#ff8a3b;
+    --green:#5fd67a; --amber:#ffb020; --red:#ff3b3b;
+    --text-hi:#fbe9e9; --text-mid:#c98686; --text-low:#7a4a4a;
+    --font-display:'Barlow Condensed',sans-serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  }
+  html.theme-slate{
+    /* SLATE & GOLD — private-bank charcoal-and-brass sophistication */
+    --bg-void:#0c0e12; --bg-base:#12151b; --bg-surface:#181c24; --bg-elevated:#1f2430;
+    --line:#2a3040; --line-soft:#232837;
+    --blue:#c9a44c; --blue-soft:#c9a44c33; --cyan:#8fa3bf;
+    --green:#5fb87a; --amber:#c9a44c; --red:#c1584f;
+    --text-hi:#f1efe9; --text-mid:#a3a8b5; --text-low:#666c7a;
+    --font-display:'Playfair Display',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;} html{scroll-behavior:smooth;}
+  body{background:var(--bg-base);color:var(--text-hi);font-family:var(--font-body);-webkit-font-smoothing:antialiased;transition:background .3s ease,color .3s ease;padding-bottom:64px;}
+  .font-display{font-family:var(--font-display);} .font-mono{font-family:var(--font-mono);}
+  ::selection{background:var(--blue);color:#fff;}
+  ::-webkit-scrollbar{height:8px;width:8px;} ::-webkit-scrollbar-track{background:transparent;}
+  ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;} ::-webkit-scrollbar-thumb:hover{background:var(--blue);}
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px;}
+  .glow-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;}
+  .glow-card:hover{transform:translateY(-3px);border-color:var(--blue);box-shadow:0 12px 32px -12px var(--blue-soft);}
+  .enter{opacity:0;transform:translateY(14px);animation:enter-up .5s cubic-bezier(.16,1,.3,1) forwards;}
+  @keyframes enter-up{to{opacity:1;transform:translateY(0);}}
+  .rail{scroll-snap-type:x proximity;} .rail>*{scroll-snap-align:start;}
+  tbody tr{transition:background .15s ease;} tbody tr:hover{background:var(--bg-elevated);}
+  body.compact tbody td{padding-top:.4rem;padding-bottom:.4rem;}
+  .avatar{display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;color:#fff;border-radius:999px;flex-shrink:0;}
+  .pill{border:1px solid var(--line);}
+  .pill.active{background:var(--blue);border-color:var(--blue);color:#fff;}
+  .modal-backdrop{background:rgba(4,6,12,.72);backdrop-filter:blur(6px);}
+  .pulse-dot{position:relative;}
+  .pulse-dot::after{content:'';position:absolute;inset:-4px;border-radius:999px;border:1px solid var(--green);opacity:0;animation:pulse-ring 2s ease-out infinite;}
+  @keyframes pulse-ring{0%{opacity:.6;transform:scale(.6);}100%{opacity:0;transform:scale(1.8);}}
+  input[type="checkbox"]{accent-color:var(--blue);}
+  .bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:40;background:color-mix(in srgb, var(--bg-surface) 92%, transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line);}
+  .bottom-nav a{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;color:var(--text-low);padding:8px 0;flex:1;}
+  .bottom-nav a.active{color:var(--blue);}
+  .theme-swatch{width:22px;height:22px;border-radius:6px;flex-shrink:0;border:1px solid rgba(255,255,255,.15);}
+  .theme-menu{position:absolute;right:0;top:calc(100% + 8px);z-index:50;width:240px;border-radius:12px;border:1px solid var(--line);background:var(--bg-surface);box-shadow:0 16px 40px -12px rgba(0,0,0,.5);padding:8px;}
+  .theme-option{display:flex;align-items:center;gap:10px;width:100%;padding:8px;border-radius:8px;text-align:left;}
+  .theme-option:hover{background:var(--bg-elevated);}
+  .theme-option.active{outline:1px solid var(--blue);}
+  #scrollTopBtn{position:fixed;bottom:76px;right:16px;z-index:39;width:40px;height:40px;border-radius:999px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);background:var(--bg-surface);box-shadow:0 8px 24px -8px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:opacity .2s ease;}
+  #scrollTopBtn.visible{opacity:1;pointer-events:auto;}
+  @media (prefers-reduced-motion: reduce){*{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}}
+</style>
+</head>
+<body>
+
+<header class="sticky top-0 z-40 border-b backdrop-blur" style="background:color-mix(in srgb, var(--bg-base) 88%, transparent);border-color:var(--line);">
+  <div class="max-w-[1400px] mx-auto px-4 md:px-8 h-16 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-md flex items-center justify-center" style="background:linear-gradient(135deg,var(--blue),var(--cyan));">
+        <i data-lucide="radar" class="w-4 h-4 text-white"></i>
+      </div>
+      <span class="font-display font-bold text-lg tracking-tight">TRACE<span style="color:var(--blue);">.</span></span>
+      <span class="hidden sm:inline text-[11px] font-mono px-2 py-0.5 rounded-full ml-1" style="color:var(--text-low);border:1px solid var(--line);">SMART MONEY</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-medium" style="color:var(--text-mid);" aria-label="Primary">
+      <a href="#home" style="color:inherit;">Home</a>
+      <a href="#discover" style="color:inherit;">Discover</a>
+      <a href="#feed" style="color:inherit;">Feed</a>
+      <a href="#congress" style="color:inherit;">Congress</a>
+      <a href="#insiders" style="color:inherit;">Insiders</a>
+      <a href="#letters" style="color:inherit;">Research</a>
+      <a href="#watchlist" style="color:inherit;">Watchlist</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <div class="hidden sm:flex items-center gap-2 text-[11px] font-mono px-2.5 py-1 rounded-full" style="color:var(--text-low);border:1px solid var(--line);">
+        <span class="w-1.5 h-1.5 rounded-full pulse-dot" style="background:var(--green);"></span><span id="lastUpdated">LIVE · --</span>
+      </div>
+      <div class="relative">
+        <button id="themeToggle" class="w-9 h-9 rounded-lg flex items-center justify-center border" style="border-color:var(--line);" aria-label="Choose theme" aria-haspopup="true" aria-expanded="false"><i data-lucide="palette" class="w-4 h-4"></i></button>
+        <div id="themeMenu" class="theme-menu hidden" role="menu"></div>
+      </div>
+      <div class="relative">
+        <button id="fontToggle" class="w-9 h-9 rounded-lg flex items-center justify-center border" style="border-color:var(--line);" aria-label="Choose typeface" aria-haspopup="true" aria-expanded="false"><i data-lucide="type" class="w-4 h-4"></i></button>
+        <div id="fontMenu" class="theme-menu hidden" role="menu" style="width:260px;"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="home" class="max-w-[1400px] mx-auto px-4 md:px-8">
+
+  <!-- DATA STATUS BANNER -->
+  <div id="dataStatusBanner" class="mt-4 rounded-xl border p-3 flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] font-mono" style="border-color:var(--line);background:var(--bg-surface);"></div>
+  <div class="mt-2 mb-2 text-[11px] leading-relaxed" style="color:var(--text-low);">Informational only — not investment advice. Trade timing and disclosure lag vary by source; see status above and per-row detail below.</div>
+
+  <!-- HERO -->
+  <section class="pt-10 pb-6">
+    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-8">
+      <div class="enter">
+        <div class="text-[11px] font-mono tracking-[0.2em] mb-3" style="color:var(--blue);">HEDGE FUNDS · INSIDERS · CONGRESS</div>
+        <h1 class="font-display text-4xl md:text-5xl font-bold leading-[1.05] tracking-tight max-w-xl">Follow the money before the headlines do.</h1>
+        <p class="mt-3 text-sm md:text-base max-w-md" style="color:var(--text-mid);">Every disclosed 13F move, Form 4 filing, and STOCK Act trade — one feed, one watchlist.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 enter" style="animation-delay:.08s;">
+        <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);"><div class="text-[11px] font-mono" style="color:var(--text-low);">INVESTORS</div><div class="font-display text-2xl font-bold mt-1" id="statInvestors">--</div></div>
+        <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);"><div class="text-[11px] font-mono" style="color:var(--text-low);">INSIDER FILINGS</div><div class="font-display text-2xl font-bold mt-1" id="statInsiders">--</div></div>
+        <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);"><div class="text-[11px] font-mono" style="color:var(--text-low);">CONGRESS TRADES</div><div class="font-display text-2xl font-bold mt-1" id="statCongress">--</div></div>
+        <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);"><div class="text-[11px] font-mono" style="color:var(--text-low);">TOTAL MOVES</div><div class="font-display text-2xl font-bold mt-1" id="statTotal">--</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT -->
+  <section class="pb-10 enter" style="animation-delay:.1s;">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="flame" class="w-5 h-5" style="color:var(--amber);"></i>In the Spotlight</h2>
+    <div id="spotlightRail" class="rail flex gap-4 overflow-x-auto pb-3 -mx-1 px-1"></div>
+  </section>
+
+  <!-- RESEARCH & INSIGHTS (real external links) -->
+  <section id="letters" class="pb-10 pt-4 scroll-mt-20 enter" style="animation-delay:.14s;">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-1"><i data-lucide="mail" class="w-5 h-5" style="color:var(--cyan);"></i>Research &amp; Insights</h2>
+    <p class="text-xs mb-4" style="color:var(--text-low);">Real links to each issuer's own research hub — opens their site directly, nothing reproduced here.</p>
+    <div id="lettersRail" class="rail flex gap-4 overflow-x-auto pb-3 -mx-1 px-1"></div>
+  </section>
+
+  <!-- CROSS-SOURCE OVERLAP SIGNALS -->
+  <section class="pb-8 pt-2">
+    <div id="overlapBanner"></div>
+  </section>
+
+  <!-- RECENT MOVES (unified feed) -->
+  <section class="pb-10 pt-2 enter" style="animation-delay:.18s;">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="font-display text-xl font-semibold flex items-center gap-2"><i data-lucide="activity" class="w-5 h-5" style="color:var(--blue);"></i>Recent Moves</h2>
+    </div>
+    <div id="recentMoves" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+  </section>
+
+  <!-- DISCOVER -->
+  <section id="discover" class="pb-10 pt-4 scroll-mt-20">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="compass" class="w-5 h-5" style="color:var(--blue);"></i>Discover</h2>
+    <div class="flex gap-2 mb-5" role="tablist">
+      <button class="discover-tab pill active px-4 py-2 rounded-full text-sm font-medium" data-tab="stocks">Stocks</button>
+      <button class="discover-tab pill px-4 py-2 rounded-full text-sm font-medium" data-tab="people">People</button>
+    </div>
+    <div id="discoverStocks" class="grid grid-cols-1 lg:grid-cols-3 gap-5"></div>
+    <div id="discoverPeople" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-5"></div>
+  </section>
+
+  <!-- FEED -->
+  <section id="feed" class="pb-10 pt-4 scroll-mt-20">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="list-filter" class="w-5 h-5" style="color:var(--blue);"></i>Master Feed</h2>
+    <div class="flex flex-wrap gap-2 mb-4">
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2" style="color:var(--text-low);"></i>
+        <input id="feedSearch" type="text" placeholder="Search person or ticker..." class="pl-9 pr-3 py-2 rounded-lg text-sm border bg-transparent" style="border-color:var(--line);min-width:220px;">
+      </div>
+      <div id="sourceFilters" class="flex flex-wrap gap-1.5"></div>
+      <div id="actionFilters" class="flex flex-wrap gap-1.5"></div>
+      <button id="densityToggle" class="pill text-[11px] px-2.5 py-1.5 rounded-full flex items-center gap-1.5 ml-auto" aria-pressed="false">
+        <i data-lucide="rows-3" class="w-3.5 h-3.5"></i><span id="densityLabel">Comfortable</span>
+      </button>
+    </div>
+    <div class="rounded-xl border overflow-hidden" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left border-b" style="border-color:var(--line);color:var(--text-low);">
+            <th class="px-3 py-3 font-mono text-[11px]">SOURCE</th>
+            <th class="px-3 py-3 font-mono text-[11px]">PERSON</th>
+            <th class="px-3 py-3 font-mono text-[11px]">COMPANY</th>
+            <th class="px-3 py-3 font-mono text-[11px]">ACTION</th>
+            <th class="px-3 py-3 font-mono text-[11px]">AMOUNT</th>
+            <th class="px-3 py-3 font-mono text-[11px]">DATE</th>
+            <th class="px-3 py-3 font-mono text-[11px]">SRC</th>
+          </tr></thead>
+          <tbody id="feedBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="feedPagination" class="flex items-center justify-between mt-3 text-xs" style="color:var(--text-mid);"></div>
+  </section>
+
+  <!-- CONGRESS -->
+  <section id="congress" class="pb-10 pt-4 scroll-mt-20">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-1"><i data-lucide="landmark" class="w-5 h-5" style="color:var(--cyan);"></i>Congress Trades<span class="text-[11px] font-mono font-normal px-2 py-0.5 rounded-full ml-2" style="color:var(--text-low);border:1px solid var(--line);">STOCK ACT</span></h2>
+    <p class="text-xs mb-5 max-w-2xl" style="color:var(--text-mid);">Periodic Transaction Reports filed by members of Congress — disclosed in dollar ranges, up to 45 days after execution.</p>
+    <div id="clusterBanner" class="hidden mb-5"></div>
+    <div class="flex flex-wrap gap-2 mb-4">
+      <div id="chamberFilters" class="flex flex-wrap gap-1.5"></div>
+      <div id="partyFilters" class="flex flex-wrap gap-1.5"></div>
+    </div>
+    <div class="rounded-xl border overflow-hidden" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left border-b" style="border-color:var(--line);color:var(--text-low);">
+            <th class="px-3 py-3 font-mono text-[11px]">MEMBER</th><th class="px-3 py-3 font-mono text-[11px]">CHAMBER</th>
+            <th class="px-3 py-3 font-mono text-[11px]">COMPANY</th><th class="px-3 py-3 font-mono text-[11px]">TYPE</th>
+            <th class="px-3 py-3 font-mono text-[11px]">AMOUNT</th><th class="px-3 py-3 font-mono text-[11px]">TRADED</th>
+            <th class="px-3 py-3 font-mono text-[11px]">DISCLOSED</th><th class="px-3 py-3 font-mono text-[11px]">DELAY</th>
+            <th class="px-3 py-3 font-mono text-[11px]">CONFIDENCE</th>
+          </tr></thead>
+          <tbody id="congressBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="congressPagination" class="flex items-center justify-between mt-3 text-xs" style="color:var(--text-mid);"></div>
+  </section>
+
+  <!-- INSIDERS -->
+  <section id="insiders" class="pb-10 pt-4 scroll-mt-20">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-1"><i data-lucide="badge-check" class="w-5 h-5" style="color:var(--green);"></i>Insider Trades<span class="text-[11px] font-mono font-normal px-2 py-0.5 rounded-full ml-2" style="color:var(--text-low);border:1px solid var(--line);">FORM 4</span></h2>
+    <p class="text-xs mb-5 max-w-2xl" style="color:var(--text-mid);">Officer and director transactions filed with the SEC within two business days of execution.</p>
+    <div id="insiderClusterBanner" class="hidden mb-5"></div>
+    <div class="flex flex-wrap gap-2 mb-4">
+      <div id="roleFilters" class="flex flex-wrap gap-1.5"></div>
+    </div>
+    <div class="rounded-xl border overflow-hidden" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left border-b" style="border-color:var(--line);color:var(--text-low);">
+            <th class="px-3 py-3 font-mono text-[11px]">ROLE</th><th class="px-3 py-3 font-mono text-[11px]">COMPANY</th>
+            <th class="px-3 py-3 font-mono text-[11px]">TYPE</th>
+            <th class="px-3 py-3 font-mono text-[11px]">SHARES</th><th class="px-3 py-3 font-mono text-[11px]">VALUE</th>
+            <th class="px-3 py-3 font-mono text-[11px]">FILED</th><th class="px-3 py-3 font-mono text-[11px]">LAG</th>
+            <th class="px-3 py-3 font-mono text-[11px]">SRC</th>
+          </tr></thead>
+          <tbody id="insidersBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div id="insidersPagination" class="flex items-center justify-between mt-3 text-xs" style="color:var(--text-mid);"></div>
+  </section>
+
+  <!-- WATCHLIST -->
+  <section id="watchlist" class="pb-16 pt-4 scroll-mt-20">
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="star" class="w-5 h-5" style="color:var(--amber);"></i>Watchlist</h2>
+    <div id="watchlistGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    <div id="watchlistEmpty" class="text-sm rounded-xl border border-dashed p-8 text-center" style="border-color:var(--line);color:var(--text-mid);">Star a person from Discover or the Feed to follow their moves here.</div>
+  </section>
+
+  <footer class="border-t py-8 text-xs" style="border-color:var(--line);color:var(--text-low);">
+    <div class="max-w-xl leading-relaxed">
+      <div class="font-display font-semibold text-sm mb-1" style="color:var(--text-mid);">Methodology</div>
+      All figures are simulated for demonstration. In production: hedge fund positions from SEC EDGAR 13F filings, insider trades from Form 4 filings, and Congress trades from House Clerk / Senate eFD Periodic Transaction Reports (or a normalized feed like Quiver Quantitative / EODHD). Performance-since-trade is computed from the disclosed trade date to present.
+    </div>
+  </footer>
+</main>
+
+<!-- PERSON DETAIL MODAL -->
+<div id="personModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-start md:items-center justify-center p-0 md:p-6" role="dialog" aria-modal="true">
+  <div class="w-full md:max-w-2xl md:rounded-2xl border max-h-[100vh] md:max-h-[85vh] overflow-y-auto" style="background:var(--bg-surface);border-color:var(--line);">
+    <div class="sticky top-0 z-10 flex items-start justify-between p-5 border-b backdrop-blur" style="border-color:var(--line);background:color-mix(in srgb, var(--bg-surface) 92%, transparent);">
+      <div class="flex items-center gap-3">
+        <div id="modalAvatar" class="avatar w-12 h-12 text-base"></div>
+        <div>
+          <div id="modalName" class="font-display font-bold text-lg"></div>
+          <div id="modalRole" class="text-xs" style="color:var(--text-mid);"></div>
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <button id="modalWatchBtn" class="w-9 h-9 rounded-lg border flex items-center justify-center" style="border-color:var(--line);" aria-label="Toggle watchlist"><i data-lucide="star" class="w-4 h-4"></i></button>
+        <button id="modalClose" class="w-9 h-9 rounded-lg border flex items-center justify-center" style="border-color:var(--line);" aria-label="Close"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+    </div>
+    <div class="p-5">
+      <div class="text-sm font-semibold mb-3">Recent Moves</div>
+      <div id="modalMoves" class="flex flex-col gap-2"></div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="hidden fixed bottom-16 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 rounded-lg text-sm font-medium border" style="background:var(--bg-elevated);border-color:var(--line);"></div>
+
+<button id="scrollTopBtn" aria-label="Scroll to top"><i data-lucide="arrow-up" class="w-4 h-4"></i></button>
+
+<nav class="bottom-nav flex md:hidden" aria-label="Bottom navigation">
+  <a href="#home" class="active"><i data-lucide="home" class="w-5 h-5"></i>Home</a>
+  <a href="#discover"><i data-lucide="compass" class="w-5 h-5"></i>Discover</a>
+  <a href="#feed"><i data-lucide="list-filter" class="w-5 h-5"></i>Feed</a>
+  <a href="#watchlist"><i data-lucide="star" class="w-5 h-5"></i>Watchlist</a>
+</nav>
+
+<script>
+/* ============================================================================
+   TRACE — Smart Money Terminal. Mock data generated deterministically.
+   ============================================================================ */
+function hashSeed(str){let h=1779033703^str.length;for(let i=0;i<str.length;i++){h=Math.imul(h^str.charCodeAt(i),3432918353);h=(h<<13)|(h>>>19);}return()=>{h=Math.imul(h^(h>>>16),2246822507);h=Math.imul(h^(h>>>13),3266489909);h^=h>>>16;return(h>>>0)/4294967296;};}
+function pick(rng,arr){return arr[Math.floor(rng()*arr.length)];}
+const PALETTE = ["#3b7bff","#22d3ee","#22c55e","#f5a524","#f5455c","#a78bfa","#f472b6","#60a5fa"];
+
+const COMPANY_POOL = [
+  {name:"Apple Inc",ticker:"AAPL",sector:"Technology"},{name:"Microsoft Corp",ticker:"MSFT",sector:"Technology"},
+  {name:"NVIDIA Corp",ticker:"NVDA",sector:"Technology"},{name:"Amazon.com Inc",ticker:"AMZN",sector:"Consumer Discretionary"},
+  {name:"Alphabet Inc",ticker:"GOOGL",sector:"Communication"},{name:"Meta Platforms",ticker:"META",sector:"Communication"},
+  {name:"Tesla Inc",ticker:"TSLA",sector:"Consumer Discretionary"},{name:"Berkshire Hathaway",ticker:"BRK.B",sector:"Financials"},
+  {name:"JPMorgan Chase",ticker:"JPM",sector:"Financials"},{name:"Visa Inc",ticker:"V",sector:"Financials"},
+  {name:"UnitedHealth Group",ticker:"UNH",sector:"Healthcare"},{name:"Johnson & Johnson",ticker:"JNJ",sector:"Healthcare"},
+  {name:"ExxonMobil Corp",ticker:"XOM",sector:"Energy"},{name:"Procter & Gamble",ticker:"PG",sector:"Consumer Staples"},
+  {name:"Home Depot Inc",ticker:"HD",sector:"Consumer Discretionary"},{name:"Chevron Corp",ticker:"CVX",sector:"Energy"},
+  {name:"Coca-Cola Co",ticker:"KO",sector:"Consumer Staples"},{name:"Costco Wholesale",ticker:"COST",sector:"Consumer Staples"},
+  {name:"Netflix Inc",ticker:"NFLX",sector:"Communication"},{name:"Adobe Inc",ticker:"ADBE",sector:"Technology"},
+  {name:"Salesforce Inc",ticker:"CRM",sector:"Technology"},{name:"AMD Inc",ticker:"AMD",sector:"Technology"},
+  {name:"Walmart Inc",ticker:"WMT",sector:"Consumer Staples"},{name:"Taiwan Semiconductor",ticker:"TSM",sector:"Technology"},
+  {name:"Coinbase Global",ticker:"COIN",sector:"Technology"},{name:"Palantir Technologies",ticker:"PLTR",sector:"Technology"},
+  {name:"CrowdStrike Holdings",ticker:"CRWD",sector:"Technology"},{name:"American Tower Corp",ticker:"AMT",sector:"Real Estate"},
+  {name:"Analog Devices",ticker:"ADI",sector:"Technology"},{name:"Knight-Swift Transportation",ticker:"KNX",sector:"Industrials"},
+  {name:"Occidental Petroleum",ticker:"OXY",sector:"Energy"},{name:"Bank of America",ticker:"BAC",sector:"Financials"},
+];
+
+/* ---------- hedge fund / notable investors (public 13F filers) ---------- */
+const INVESTORS = [
+  {name:"Warren Buffett",firm:"Berkshire Hathaway",tag:"Value"},
+  {name:"Michael Burry",firm:"Scion Asset Management",tag:"Contrarian"},
+  {name:"Carl Icahn",firm:"Icahn Enterprises",tag:"Activist"},
+  {name:"Stanley Druckenmiller",firm:"Duquesne Family Office",tag:"Macro"},
+  {name:"Bill Ackman",firm:"Pershing Square",tag:"Activist"},
+  {name:"Cathie Wood",firm:"ARK Invest",tag:"Innovation"},
+  {name:"Ray Dalio",firm:"Bridgewater Associates",tag:"Macro"},
+  {name:"David Tepper",firm:"Appaloosa Management",tag:"Distressed"},
+  {name:"Seth Klarman",firm:"Baupost Group",tag:"Value"},
+  {name:"Li Lu",firm:"Himalaya Capital",tag:"Value"},
+  {name:"Mohnish Pabrai",firm:"Pabrai Investment Funds",tag:"Value"},
+  {name:"Chase Coleman",firm:"Tiger Global",tag:"Growth"},
+  {name:"Ken Griffin",firm:"Citadel",tag:"Multi-Strategy"},
+  {name:"Terry Smith",firm:"Fundsmith",tag:"Quality"},
+  {name:"Joel Greenblatt",firm:"Gotham Asset Management",tag:"Value"},
+  {name:"Tom Gayner",firm:"Markel Group",tag:"Value"},
+  {name:"Louis Bacon",firm:"Moore Capital",tag:"Macro"},
+];
+
+/* ---------- politicians (public STOCK Act filers) ---------- */
+const POLITICIANS = [
+  {name:"Nancy Pelosi",chamber:"House",party:"D",state:"CA"},{name:"Dan Crenshaw",chamber:"House",party:"R",state:"TX"},
+  {name:"Josh Gottheimer",chamber:"House",party:"D",state:"NJ"},{name:"Ro Khanna",chamber:"House",party:"D",state:"CA"},
+  {name:"Marjorie Taylor Greene",chamber:"House",party:"R",state:"GA"},{name:"Tommy Tuberville",chamber:"Senate",party:"R",state:"AL"},
+  {name:"Markwayne Mullin",chamber:"Senate",party:"R",state:"OK"},{name:"Susie Lee",chamber:"House",party:"D",state:"NV"},
+  {name:"Michael McCaul",chamber:"House",party:"R",state:"TX"},{name:"Debbie Wasserman Schultz",chamber:"House",party:"D",state:"FL"},
+  {name:"Dan Meuser",chamber:"House",party:"R",state:"PA"},{name:"Shelley Moore Capito",chamber:"Senate",party:"R",state:"WV"},
+];
+
+/* ---------- insider roles (Form 4 — role + company, no fabricated personal names) ---------- */
+const ROLES = ["Chief Executive Officer","Chief Financial Officer","Chief Operating Officer","Director","10% Owner","EVP, General Counsel"];
+
+const TXN_TYPES = ["Buy","Sell","Increase","Decrease"];
+const AMOUNT_BANDS = ["$1,001–$15,000","$15,001–$50,000","$50,001–$100,000","$100,001–$250,000","$250,001–$500,000","$500,001–$1,000,000"];
+const today = new Date("2026-08-02");
+
+/* ---------- generate 13F investor moves ---------- */
+function buildInvestorMoves(){
+  const rng = hashSeed("investor-moves-v1");
+  const moves = [];
+  INVESTORS.forEach((inv,ii)=>{
+    const n = 3+Math.floor(rng()*4);
+    for(let i=0;i<n;i++){
+      const co = pick(rng,COMPANY_POOL);
+      const action = pick(rng,["Increased","Decreased","New Position","Sold Out"]);
+      const pctChange = +(2+rng()*rng()*40).toFixed(1);
+      const value = Math.round((5e5+rng()*rng()*8e8));
+      const daysAgo = Math.floor(rng()*120)+1;
+      const date = new Date(today - daysAgo*86400000);
+      const sinceTrade = +((rng()-0.4)*35).toFixed(1);
+      moves.push({id:`inv-${ii}-${i}`, source:"Hedge Fund", person:inv.name, meta:inv.firm, ticker:co.ticker, company:co.name,
+        action, pctChange, value, date: date.toISOString().slice(0,10), sinceTrade,
+        label: action==="New Position" ? `New position in ${co.ticker}` : action==="Sold Out" ? `Sold out of ${co.ticker}` : `${action} ${co.ticker} by ${pctChange}%`});
+    }
+  });
+  return moves.sort((a,b)=>new Date(b.date)-new Date(a.date));
+}
+const INVESTOR_MOVES = buildInvestorMoves();
+
+/* ---------- generate Form 4 insider trades ---------- */
+function buildInsiderTrades(){
+  const rng = hashSeed("insider-trades-v1");
+  const trades = [];
+  for(let i=0;i<90;i++){
+    const co = pick(rng,COMPANY_POOL);
+    const role = pick(rng,ROLES);
+    const type = rng()>0.5?"Sell":"Buy";
+    const shares = Math.floor(5000+rng()*rng()*400000);
+    const price = +(20+rng()*450).toFixed(2);
+    const value = Math.round(shares*price);
+    const daysAgo = Math.floor(rng()*100)+1;
+    const date = new Date(today - daysAgo*86400000);
+    const sinceTrade = +((rng()-0.42)*30).toFixed(1);
+    trades.push({id:`ins-${i}`, source:"Insider", person:`${role}`, meta:co.name, ticker:co.ticker, company:co.name,
+      role, type, shares, value, date: date.toISOString().slice(0,10), sinceTrade,
+      label:`${type==="Buy"?"Bought":"Sold"} ${shares.toLocaleString()} shares`});
+  }
+  return trades.sort((a,b)=>new Date(b.date)-new Date(a.date));
+}
+const INSIDER_TRADES = buildInsiderTrades();
+
+/* ---------- generate Congress STOCK Act trades ---------- */
+function buildCongressTrades(){
+  const rng = hashSeed("congress-trades-v1");
+  const trades = [];
+  for(let i=0;i<130;i++){
+    const member = pick(rng,POLITICIANS);
+    const co = pick(rng,COMPANY_POOL);
+    const type = pick(rng,["Purchase","Sale (Full)","Sale (Partial)","Exchange"]);
+    const amount = pick(rng,AMOUNT_BANDS);
+    const tradedDaysAgo = Math.floor(rng()*150)+1;
+    const tradeDate = new Date(today - tradedDaysAgo*86400000);
+    const delay = Math.floor(rng()*44)+1;
+    const discloseDate = new Date(tradeDate.getTime()+delay*86400000);
+    const sinceTrade = +((rng()-0.4)*32).toFixed(1);
+    trades.push({id:`ct-${i}`, source:"Congress", person:member.name, meta:`${member.chamber} · ${member.party}-${member.state}`,
+      chamber:member.chamber, party:member.party, ticker:co.ticker, company:co.name, type, amount, sinceTrade,
+      date:tradeDate.toISOString().slice(0,10), discloseDate:discloseDate.toISOString().slice(0,10), delay,
+      label:`${type} of ${co.ticker}`});
+  }
+  return trades.sort((a,b)=>new Date(b.date)-new Date(a.date));
+}
+const CONGRESS_TRADES = buildCongressTrades();
+
+function detectClusters(){
+  const buys = CONGRESS_TRADES.filter(t=>t.type==="Purchase");
+  const byTicker = {};
+  buys.forEach(t=>(byTicker[t.ticker]=byTicker[t.ticker]||[]).push(t));
+  const clusters=[];
+  Object.entries(byTicker).forEach(([ticker,list])=>{
+    list.sort((a,b)=>new Date(a.date)-new Date(b.date));
+    for(let i=0;i<list.length;i++){
+      const members=new Set([list[i].person]);
+      for(let j=i+1;j<list.length;j++){ if((new Date(list[j].date)-new Date(list[i].date))/86400000<=21) members.add(list[j].person); }
+      if(members.size>=3){ clusters.push({ticker,company:list[i].company,members:[...members]}); break; }
+    }
+  });
+  return clusters;
+}
+
+/* ---------- insider cluster detection ----------
+   Multiple DISTINCT insiders at the same company buying within a short
+   window is a stronger signal than one insider buying alone. We only count
+   distinct `person` values — for live Form 4 data that's a real reporting-
+   owner name, so this is a genuine distinct-people count. For mock/demo
+   data, `person` is a role label (e.g. "Director"), so the same role
+   appearing twice is conservatively treated as one person, not two —
+   this never overclaims distinctness it can't actually verify. */
+function detectInsiderClusters(){
+  const buys = INSIDER_TRADES.filter(t=>t.type==="Buy");
+  const byTicker = {};
+  buys.forEach(t=>(byTicker[t.ticker]=byTicker[t.ticker]||[]).push(t));
+  const clusters=[];
+  Object.entries(byTicker).forEach(([ticker,list])=>{
+    list.sort((a,b)=>new Date(a.date)-new Date(b.date));
+    for(let i=0;i<list.length;i++){
+      const people=new Set([list[i].person]);
+      const window=[list[i]];
+      for(let j=i+1;j<list.length;j++){
+        if((new Date(list[j].date)-new Date(list[i].date))/86400000<=21){ people.add(list[j].person); window.push(list[j]); }
+      }
+      if(people.size>=2){ clusters.push({ticker, company:list[i].company, people:[...people], count:window.length}); break; }
+    }
+  });
+  return clusters;
+}
+
+/* ---------- cross-source overlap detection ----------
+   The one thing that's genuinely unique to combining three separate
+   disclosure sources in one feed: the same ticker showing up from two or
+   more DIFFERENT sources (Hedge Fund / Insider / Congress) within a short
+   window. Each source discloses independently and usually doesn't know
+   about the others, so convergence across sources is a real, distinct
+   signal from a cluster within a single source. */
+function detectCrossSourceOverlap(){
+  const buyLike = UNIFIED_MOVES.filter(m=>{
+    const a = (m.action||m.type||"").toLowerCase();
+    return a.includes("buy") || a.includes("increas") || a.includes("purchase") || a.includes("new position");
+  });
+  const byTicker = {};
+  buyLike.forEach(m=>{ if(m.ticker && !m.ticker.startsWith("(")) (byTicker[m.ticker]=byTicker[m.ticker]||[]).push(m); });
+  const overlaps=[];
+  Object.entries(byTicker).forEach(([ticker,list])=>{
+    list.sort((a,b)=>new Date(a.date)-new Date(b.date));
+    for(let i=0;i<list.length;i++){
+      const sources=new Set([list[i].source]);
+      const window=[list[i]];
+      for(let j=i+1;j<list.length;j++){
+        if((new Date(list[j].date)-new Date(list[i].date))/86400000<=21){ sources.add(list[j].source); window.push(list[j]); }
+      }
+      if(sources.size>=2){ overlaps.push({ticker, company:list[i].company, sources:[...sources], moves:window}); break; }
+    }
+  });
+  return overlaps;
+}
+
+/* Old synthetic LETTERS/buildLetters() removed — replaced by the real,
+   verified RESEARCH_LINKS above. Nothing here is generated or fabricated. */
+
+/* ---------- API integration placeholders ---------- */
+async function fetch13F(manager){
+  // PRODUCTION: SEC EDGAR full-text search / structured 13F XML filings (form 13F-HR),
+  // or a normalized feed like WhaleWisdom / HedgeFollow API.
+  return INVESTOR_MOVES.filter(m=>m.person===manager);
+}
+async function fetchForm4(ticker){
+  // PRODUCTION: SEC EDGAR Form 4 filings (via the company's CIK), normalized per transaction code.
+  return INSIDER_TRADES.filter(t=>t.ticker===ticker);
+}
+async function fetchCongressTrades(){
+  // PRODUCTION: Quiver Quantitative / EODHD Congressional Trades API, or House Clerk + Senate eFD directly.
+  return CONGRESS_TRADES;
+}
+
+/* ============================================================================
+   STATE + HELPERS
+   ============================================================================ */
+const state = {
+  watchlist: new Set(JSON.parse(localStorage.getItem("trace_watchlist")||"[]")),
+  discoverTab: "stocks",
+  feed: { search:"", sources:new Set(), actions:new Set(), page:1, perPage:14 },
+  congress: { chambers:new Set(), parties:new Set(), page:1, perPage:12 },
+  insiders: { roles:new Set(), page:1, perPage:12 },
+  activeModalPerson: null,
+};
+function saveWatchlist(){ localStorage.setItem("trace_watchlist", JSON.stringify([...state.watchlist])); }
+const fmtMoney = n => (n===null||n===undefined||Number.isNaN(n)) ? "—" : n>=1e9?`$${(n/1e9).toFixed(2)}B`:n>=1e6?`$${(n/1e6).toFixed(1)}M`:`$${(n/1e3).toFixed(0)}K`;
+const fmtPct = n => (n===null||n===undefined||Number.isNaN(n)) ? "—" : `${n>0?"+":""}${n.toFixed(1)}%`;
+const fmtDate = d => d ? new Date(d).toLocaleDateString("en-US",{month:"short",day:"numeric"}) : "—";
+const changeColor = n => (n===null||n===undefined||Number.isNaN(n)) ? "var(--text-low)" : (n>=0 ? "var(--green)" : "var(--red)");
+function initials(name){ return name.split(" ").map(w=>w[0]).slice(0,2).join("").toUpperCase(); }
+function avatarColor(name){ const rng=hashSeed(name); return PALETTE[Math.floor(rng()*PALETTE.length)]; }
+let toastTimer;
+function showToast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.remove("hidden"); clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.add("hidden"),2400); }
+
+const ALL_PEOPLE = [
+  ...INVESTORS.map(i=>({id:i.name, name:i.name, role:i.firm, type:"Hedge Fund", tag:i.tag})),
+  ...POLITICIANS.map(p=>({id:p.name, name:p.name, role:`${p.chamber} · ${p.party}-${p.state}`, type:"Congress", tag:p.party})),
+];
+
+let UNIFIED_MOVES = [...INVESTOR_MOVES, ...INSIDER_TRADES.map(t=>({...t})), ...CONGRESS_TRADES.map(t=>({...t}))]
+  .sort((a,b)=>new Date(b.date)-new Date(a.date));
+function rebuildUnifiedMoves(){
+  UNIFIED_MOVES = [...INVESTOR_MOVES, ...INSIDER_TRADES.map(t=>({...t})), ...CONGRESS_TRADES.map(t=>({...t}))]
+    .sort((a,b)=>new Date(b.date)-new Date(a.date));
+}
+
+/* ============================================================================
+   LIVE DATA LAYER
+   Replaces the corresponding mock array in place (splice, not reassignment,
+   so every other reference to INSIDER_TRADES/CONGRESS_TRADES/INVESTOR_MOVES
+   stays valid) whenever the real pipeline output at data/*.json is reachable
+   and non-empty. Falls back to the seeded demo data per-source, independently,
+   if a fetch fails, 404s, or the file is still the empty seed. Nothing here
+   ever invents a number — a source that isn't live stays visibly simulated.
+   ============================================================================ */
+const dataStatus = {
+  form4: {live:false, generatedAt:null, count:0},
+  thirteenF: {live:false, generatedAt:null, count:0},
+  congress: {live:false, generatedAt:null, count:0},
+};
+
+function resolveTickerFromIssuerName(issuerName){
+  if(!issuerName) return null;
+  const hit = COMPANY_POOL.find(c=>issuerName.toUpperCase().includes(c.name.split(" ")[0].toUpperCase()));
+  return hit ? hit.ticker : null;
+}
+
+async function loadLiveData(){
+  const [form4Res, tfRes, congRes] = await Promise.allSettled([
+    fetch("./data/form4.json").then(r=>r.ok?r.json():Promise.reject(r.status)),
+    fetch("./data/13f.json").then(r=>r.ok?r.json():Promise.reject(r.status)),
+    fetch("./data/congress.json").then(r=>r.ok?r.json():Promise.reject(r.status)),
+  ]);
+
+  // --- Form 4 (insiders): freshest, official, real reporting-owner names ---
+  if(form4Res.status==="fulfilled" && Array.isArray(form4Res.value.filings) && form4Res.value.filings.length){
+    const live = [];
+    form4Res.value.filings.forEach((f,fi)=>{
+      (f.transactions||[]).forEach((t,ti)=>{
+        if(!t.transactionDate) return;
+        const shares = t.shares||0, price = t.pricePerShare;
+        live.push({
+          id:`live-ins-${fi}-${ti}`, source:"Insider",
+          person: f.ownerName || f.role, role: f.role, meta: `${f.role}, ${f.issuerName||""}`,
+          ticker: f.issuerTicker, company: f.issuerName,
+          type: t.acquiredOrDisposed==="Acquired" ? "Buy" : t.acquiredOrDisposed==="Disposed" ? "Sell" : "Filed",
+          shares, value: (price && shares) ? Math.round(price*shares) : null,
+          date: t.transactionDate, sinceTrade: null,
+          label: `${t.acquiredOrDisposed==="Disposed"?"Sold":"Acquired"} ${shares?shares.toLocaleString():""} shares`.trim(),
+          sourceUrl: f.sourceUrl, filingLagDays: f.filingLagDays,
+        });
+      });
+    });
+    if(live.length){ INSIDER_TRADES.length=0; INSIDER_TRADES.push(...live.sort((a,b)=>new Date(b.date)-new Date(a.date)));
+      dataStatus.form4 = {live:true, generatedAt:form4Res.value.generated_at_utc, count:live.length}; }
+  }
+
+  // --- 13F (hedge funds): real filings, ticker resolved best-effort from issuer name ---
+  if(tfRes.status==="fulfilled" && Array.isArray(tfRes.value.managers) && tfRes.value.managers.length){
+    const live = [];
+    tfRes.value.managers.forEach((m,mi)=>{
+      (m.holdings||[]).forEach((h,hi)=>{
+        const ticker = resolveTickerFromIssuerName(h.issuer);
+        live.push({
+          id:`live-inv-${mi}-${hi}`, source:"Hedge Fund",
+          person:m.display_name, meta:m.firm,
+          ticker: ticker || "(CUSIP "+ (h.cusip||"—") +")", company:h.issuer,
+          action:h.action, pctChange:null,
+          value:(h.value_thousands_usd||0)*1000,
+          date:m.filedDate, sinceTrade:null,
+          label: h.action==="New Position" ? `New position in ${h.issuer}` : h.action==="Sold Out" ? `Sold out of ${h.issuer}` : `${h.action} — ${h.issuer}`,
+          sourceUrl:m.filingUrl, periodOfReport:m.periodOfReport,
+        });
+      });
+    });
+    if(live.length){ INVESTOR_MOVES.length=0; INVESTOR_MOVES.push(...live.sort((a,b)=>new Date(b.date)-new Date(a.date)));
+      dataStatus.thirteenF = {live:true, generatedAt:tfRes.value.generated_at_utc, count:live.length}; }
+  }
+
+  // --- Congress: tiered confidence — vendor-api / scraped / index-only, never uniform ---
+  if(congRes.status==="fulfilled" && Array.isArray(congRes.value.trades) && congRes.value.trades.length){
+    const live = congRes.value.trades.map((t,i)=>{
+      let delay=null;
+      if(t.tradeDate && t.disclosedDate){ delay=Math.round((new Date(t.disclosedDate)-new Date(t.tradeDate))/86400000); }
+      return {
+        id:`live-ct-${i}`, source:"Congress", person:t.person, meta:`${t.chamber} · ${t.party||""}`,
+        chamber:t.chamber, party:t.party, ticker:t.ticker||"—", company:t.ticker||"—",
+        type:t.transactionType||"Filed", amount:t.amountRange||"—", sinceTrade:null,
+        date:t.tradeDate||t.disclosedDate, discloseDate:t.disclosedDate, delay,
+        label: t.ticker ? `${t.transactionType} of ${t.ticker}` : "PTR filed — ticker not auto-extracted",
+        confidence:t.confidence, sourceUrl:t.sourceUrl,
+      };
+    });
+    if(live.length){ CONGRESS_TRADES.length=0; CONGRESS_TRADES.push(...live.sort((a,b)=>new Date(b.date||0)-new Date(a.date||0)));
+      dataStatus.congress = {live:true, generatedAt:congRes.value.generated_at_utc, count:live.length}; }
+  }
+
+  rebuildUnifiedMoves();
+  await applyPriceData();
+}
+
+/* ---------- price enrichment (Twelve Data, free tier) ---------- */
+async function applyPriceData(){
+  let prices;
+  try{
+    const resp = await fetch("./data/prices.json");
+    if(!resp.ok) return;
+    prices = await resp.json();
+  }catch(e){ return; }
+  if(!prices || !prices.latest) return;
+
+  const enrich = (arr) => {
+    arr.forEach(rec=>{
+      if(!rec.id || !rec.id.startsWith("live-")) return; // never overwrite mock's synthetic sinceTrade
+      const ticker = rec.ticker;
+      if(!ticker || ticker.startsWith("(")) return; // unresolved CUSIP placeholder
+      const current = prices.latest[ticker];
+      const historical = prices.historicalCache ? prices.historicalCache[`${ticker}|${rec.date}`] : null;
+      if(current!=null && historical!=null && historical>0){
+        rec.sinceTrade = +(((current-historical)/historical)*100).toFixed(1);
+        rec.priceAtTrade = historical;
+        rec.currentPrice = current;
+      }
+    });
+  };
+  enrich(INSIDER_TRADES); enrich(INVESTOR_MOVES); enrich(CONGRESS_TRADES);
+  rebuildUnifiedMoves();
+}
+
+function renderDataStatusBanner(){
+  const row = (label, s) => {
+    const dot = s.live ? "var(--green)" : "var(--amber)";
+    const text = s.live ? `LIVE · ${s.count} records · updated ${s.generatedAt ? new Date(s.generatedAt).toLocaleString("en-US",{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}) : "—"}` : "SIMULATED · demo data";
+    return `<span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full" style="background:${dot};"></span>${label}: <span style="color:${s.live?'var(--green)':'var(--amber)'};">${text}</span></span>`;
+  };
+  document.getElementById("dataStatusBanner").innerHTML =
+    row("Form 4", dataStatus.form4) + row("13F", dataStatus.thirteenF) + row("Congress", dataStatus.congress);
+}
+
+/* ============================================================================
+   RENDER: SPOTLIGHT
+   ============================================================================ */
+function renderSpotlight(){
+  const rng = hashSeed("spotlight-order");
+  const pool = [...ALL_PEOPLE].sort(()=>rng()-0.5).slice(0,10);
+  document.getElementById("spotlightRail").innerHTML = pool.map((p,i)=>`
+    <button class="person-card shrink-0 w-40 text-center rounded-xl border p-4 glow-card enter" data-person="${p.name}"
+      style="border-color:var(--line);background:var(--bg-surface);animation-delay:${0.03*i}s;">
+      <div class="avatar w-14 h-14 mx-auto mb-3" style="background:${avatarColor(p.name)};">${initials(p.name)}</div>
+      <div class="text-sm font-semibold leading-tight">${p.name}</div>
+      <div class="text-[11px] mt-1" style="color:var(--text-low);">${p.role}</div>
+    </button>`).join("");
+}
+
+/* ============================================================================
+   RENDER: LETTERS
+   ============================================================================ */
+function renderLetters(){
+  document.getElementById("lettersRail").innerHTML = RESEARCH_LINKS.map((l,i)=>{
+    const logo = logoUrlByDomain(l.domain);
+    const fallback = `<div class="avatar w-8 h-8 text-xs" style="background:${avatarColor(l.firm)};">${initials(l.firm)}</div>`;
+    const logoHtml = logo ? `<img src="${logo}" alt="${l.firm} logo" class="w-8 h-8 rounded-lg object-contain bg-white/5" onerror="this.outerHTML='${fallback.replace(/'/g,"\\'")}'">` : fallback;
+    return `
+    <a href="${l.url}" target="_blank" rel="noopener" class="shrink-0 w-80 rounded-xl border p-4 glow-card enter block" style="border-color:var(--line);background:var(--bg-surface);animation-delay:${0.03*i}s;">
+      <div class="flex items-center gap-2 mb-2">
+        ${logoHtml}
+        <div class="text-sm font-semibold">${l.firm}</div>
+        <i data-lucide="external-link" class="w-3.5 h-3.5 ml-auto" style="color:var(--text-low);"></i>
+      </div>
+      <p class="text-xs leading-relaxed" style="color:var(--text-mid);">${l.desc}</p>
+    </a>`;
+  }).join("");
+  lucide.createIcons();
+}
+
+/* ============================================================================
+   RENDER: RECENT MOVES (unified feed cards)
+   ============================================================================ */
+/* ---------- Logo.dev — ticker-based company logos, free tier (500K req/mo) ----------
+   Sign up free at logo.dev/signup, no card required, then paste your publishable
+   key below. This key is meant to be public/client-side per Logo.dev's own docs
+   (it's embedded directly in their marketing site's example HTML) — it's not a
+   secret like the pipeline's server-side API keys, so it lives here in the app
+   itself rather than in a GitHub secret. Leave blank to fall back to the
+   existing initials-avatar everywhere a logo would otherwise show. */
+const LOGO_DEV_TOKEN = "";
+function logoUrl(ticker){
+  if(!LOGO_DEV_TOKEN || !ticker || ticker.startsWith("(") || ticker==="—") return null;
+  return `https://img.logo.dev/ticker/${encodeURIComponent(ticker)}?token=${LOGO_DEV_TOKEN}&size=64&format=webp`;
+}
+function companyBadge(ticker, company, size){
+  size = size || 8;
+  const url = logoUrl(ticker);
+  const fallback = `<div class="avatar" style="width:${size*4}px;height:${size*4}px;background:${avatarColor(company||ticker||"?")};font-size:${size*1.3}px;">${(ticker||"?").slice(0,2)}</div>`;
+  if(!url) return fallback;
+  return `<img src="${url}" alt="${company||ticker} logo" class="rounded-lg object-contain bg-white/5" style="width:${size*4}px;height:${size*4}px;flex-shrink:0;" onerror="this.outerHTML='${fallback.replace(/'/g,"\\'")}'">`;
+}
+
+/* ---------- Real research/insights links from major asset managers ----------
+   Hand-curated, verified-real URLs to each issuer's actual public research
+   hub — not scraped, not fabricated, just links out. Content on those pages
+   is copyrighted by each firm, so this never reproduces their commentary,
+   only points to it. Domains verified current as of this build. */
+const RESEARCH_LINKS = [
+  {firm:"BlackRock / iShares", domain:"ishares.com", url:"https://www.ishares.com/us/insights/inside-the-market", desc:"Market insights and fund positioning from BlackRock's iShares strategists."},
+  {firm:"Vanguard", domain:"vanguard.com", url:"https://corporate.vanguard.com/content/corporatesite/us/en/corp/what-we-think/investing-insights/perspectives-and-commentary.html", desc:"Vanguard's economic outlook, market perspectives, and investment commentary."},
+  {firm:"Fidelity", domain:"fidelity.com", url:"https://digital.fidelity.com/prgw/digital/research/market", desc:"Fidelity's market research hub — U.S. and global market news and analysis."},
+  {firm:"Charles Schwab", domain:"schwab.com", url:"https://www.schwab.com/investment-research", desc:"Schwab's equity ratings, market commentary, and third-party research."},
+  {firm:"State Street / SPDR", domain:"statestreet.com", url:"https://www.statestreet.com/us/en/solutions/research-and-insights", desc:"Institutional research on equities, fixed income, FX, and multi-asset strategy."},
+  {firm:"Invesco", domain:"invesco.com", url:"https://www.invesco.com/us/en/insights/topic/research-and-analysis.html", desc:"Invesco's insights on markets, the economy, and portfolio implications."},
+  {firm:"ARK Invest", domain:"ark-invest.com", url:"https://www.ark-invest.com/research-center", desc:"ARK's original research on disruptive innovation and breakthrough technology."},
+  {firm:"VanEck", domain:"vaneck.com", url:"https://www.vaneck.com/us/en/insights/", desc:"VanEck's views on gold, emerging markets, digital assets, and thematic ETFs."},
+  {firm:"WisdomTree", domain:"wisdomtree.com", url:"https://www.wisdomtree.com/us/insights", desc:"Articles, research, and CIO commentary from WisdomTree's strategy team."},
+  {firm:"Global X", domain:"globalxetfs.com", url:"https://www.globalxetfs.com/articles/our-approach-to-research", desc:"Global X's thematic and income research, and its approach to covering markets."},
+  {firm:"First Trust", domain:"ftportfolios.com", url:"https://www.ftportfolios.com/retail/Commentary/ResearchAndCommentaryMain.aspx", desc:"Weekly market commentary and investment insights from First Trust's strategists."},
+  {firm:"J.P. Morgan Asset Mgmt", domain:"jpmorgan.com", url:"https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/", desc:"J.P. Morgan's Guide to the Markets and timely perspectives on market events."},
+  {firm:"Morningstar", domain:"morningstar.com", url:"https://www.morningstar.com/business/insights/research/all", desc:"Independent equity and market research, not tied to any single issuer."},
+];
+function logoUrlByDomain(domain){
+  if(!LOGO_DEV_TOKEN || !domain) return null;
+  return `https://img.logo.dev/${domain}?token=${LOGO_DEV_TOKEN}&size=64&format=webp`;
+}
+
+
+function sourceColor(s){ return s==="Hedge Fund"?"var(--blue)":s==="Insider"?"var(--green)":"var(--cyan)"; }
+function confidenceBadge(conf, url){
+  const map = {
+    "vendor-api": {label:"VERIFIED API", color:"var(--green)"},
+    "scraped": {label:"SCRAPED", color:"var(--blue)"},
+    "index-only": {label:"FILING ONLY", color:"var(--amber)"},
+  };
+  const c = map[conf] || {label:"MOCK", color:"var(--text-low)"};
+  const badge = `<span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="border:1px solid ${c.color};color:${c.color};">${c.label}</span>`;
+  return url ? `<a href="${url}" target="_blank" rel="noopener" class="flex items-center gap-1.5">${badge}<span class="text-[10px] underline" style="color:var(--blue);">source</span></a>` : badge;
+}
+function moveCard(m){
+  return `<div class="move-card rounded-xl border p-4 glow-card cursor-pointer" data-person="${m.person}" style="border-color:var(--line);background:var(--bg-surface);">
+    <div class="flex items-start justify-between gap-2 mb-3">
+      <div class="flex items-center gap-2">
+        <div class="avatar w-9 h-9 text-xs" style="background:${avatarColor(m.person)};">${initials(m.person)}</div>
+        <div><div class="text-sm font-semibold">${m.person}</div><div class="text-[11px]" style="color:var(--text-low);">${m.meta||""}</div></div>
+      </div>
+      <span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="border:1px solid ${sourceColor(m.source)};color:${sourceColor(m.source)};">${m.source.toUpperCase()}</span>
+    </div>
+    <div class="flex items-center gap-3 p-2.5 rounded-lg mb-2" style="background:var(--bg-elevated);">
+      ${companyBadge(m.ticker, m.company, 8)}
+      <div class="min-w-0">
+        <div class="text-sm font-semibold truncate">${m.company||m.ticker||"—"}</div>
+        <div class="font-mono text-xs" style="color:var(--text-low);">${m.ticker||"—"}</div>
+      </div>
+      <span class="ml-auto text-xs font-semibold px-2 py-1 rounded-md" style="background:${(m.action||m.type||"").match(/Sell|Sold|Decreas/i)?'#f5455c22':'#22c55e22'};color:${(m.action||m.type||"").match(/Sell|Sold|Decreas/i)?'var(--red)':'var(--green)'};">${m.action||m.type||"Filed"}</span>
+    </div>
+    <div class="flex items-center justify-between text-[11px] font-mono" style="color:var(--text-low);">
+      <span>${fmtDate(m.date)} · ${fmtMoney(m.value||0)}</span>
+      ${m.sourceUrl ? `<a href="${m.sourceUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="underline" style="color:var(--blue);">source</a>` : `<span style="color:${changeColor(m.sinceTrade)};">${fmtPct(m.sinceTrade)} since trade</span>`}
+    </div>
+  </div>`;
+}
+function renderRecentMoves(){
+  document.getElementById("recentMoves").innerHTML = UNIFIED_MOVES.slice(0,12).map(moveCard).join("");
+  lucide.createIcons();
+}
+
+/* ============================================================================
+   RENDER: STATS
+   ============================================================================ */
+function renderStats(){
+  document.getElementById("statInvestors").textContent = INVESTORS.length;
+  document.getElementById("statInsiders").textContent = INSIDER_TRADES.length;
+  document.getElementById("statCongress").textContent = CONGRESS_TRADES.length;
+  document.getElementById("statTotal").textContent = UNIFIED_MOVES.length;
+}
+
+/* ============================================================================
+   RENDER: DISCOVER
+   ============================================================================ */
+function renderDiscover(){
+  // Most bought this quarter (stocks)
+  const buyCounts = {};
+  UNIFIED_MOVES.filter(m=>["New Position","Increased","Buy","Purchase"].includes(m.action||m.type)).forEach(m=>{
+    buyCounts[m.ticker] = (buyCounts[m.ticker]||0)+1;
+  });
+  const mostBought = Object.entries(buyCounts).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const firstTime = INVESTOR_MOVES.filter(m=>m.action==="New Position").reduce((acc,m)=>{acc[m.ticker]=(acc[m.ticker]||0)+1;return acc;},{});
+  const firstTimeSorted = Object.entries(firstTime).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const ownerCounts = {};
+  INVESTOR_MOVES.forEach(m=>{ (ownerCounts[m.ticker]=ownerCounts[m.ticker]||new Set()).add(m.person); });
+  const mostOwned = Object.entries(ownerCounts).map(([t,s])=>[t,s.size]).sort((a,b)=>b[1]-a[1]).slice(0,6);
+
+  const block = (title,icon,rows,label) => `
+    <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="text-sm font-semibold mb-3 flex items-center gap-2"><i data-lucide="${icon}" class="w-4 h-4" style="color:var(--blue);"></i>${title}</div>
+      <div class="flex flex-col gap-2">
+        ${rows.map(([ticker,count])=>{
+          const co = COMPANY_POOL.find(c=>c.ticker===ticker);
+          return `<div class="flex items-center justify-between text-sm py-1.5 border-b" style="border-color:var(--line-soft);">
+            <div><span class="font-mono font-semibold">${ticker}</span> <span style="color:var(--text-low);">· ${co?co.name:""}</span></div>
+            <span class="font-mono text-xs" style="color:var(--text-mid);">${count} ${label}</span>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+  document.getElementById("discoverStocks").innerHTML =
+    block("Most Bought This Quarter","trending-up",mostBought,"buys") +
+    block("Top First-Time Buys","sparkles",firstTimeSorted,"new positions") +
+    block("Most Owned","users",mostOwned,"owners");
+
+  // People discover: top by move count
+  const moveCounts = {};
+  UNIFIED_MOVES.forEach(m=>{ moveCounts[m.person]=(moveCounts[m.person]||0)+1; });
+  const topInvestors = INVESTORS.map(i=>[i.name,moveCounts[i.name]||0]).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const topPoliticians = POLITICIANS.map(p=>[p.name,moveCounts[p.name]||0]).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  const peopleBlock = (title,icon,rows) => `
+    <div class="rounded-xl border p-4" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="text-sm font-semibold mb-3 flex items-center gap-2"><i data-lucide="${icon}" class="w-4 h-4" style="color:var(--blue);"></i>${title}</div>
+      <div class="flex flex-col gap-2">
+        ${rows.map(([name,count])=>`
+          <button class="person-row w-full flex items-center justify-between text-sm py-1.5 border-b text-left" data-person="${name}" style="border-color:var(--line-soft);">
+            <div class="flex items-center gap-2"><div class="avatar w-6 h-6 text-[10px]" style="background:${avatarColor(name)};">${initials(name)}</div>${name}</div>
+            <span class="font-mono text-xs" style="color:var(--text-mid);">${count} moves</span>
+          </button>`).join("")}
+      </div>
+    </div>`;
+  document.getElementById("discoverPeople").innerHTML =
+    peopleBlock("Most Active Investors","briefcase",topInvestors) +
+    peopleBlock("Most Active in Congress","landmark",topPoliticians) +
+    `<div class="rounded-xl border p-4 flex flex-col items-center justify-center text-center gap-2" style="border-color:var(--line);background:var(--bg-surface);color:var(--text-low);">
+      <i data-lucide="badge-check" class="w-6 h-6"></i><span class="text-xs">Insider filings are tracked by role, not by name — see the Insiders tab for company-level detail.</span>
+    </div>`;
+  lucide.createIcons();
+  bindDiscoverEvents();
+}
+function bindDiscoverEvents(){
+  document.querySelectorAll(".person-row").forEach(el=>el.addEventListener("click",()=>openPersonModal(el.dataset.person)));
+}
+
+/* ============================================================================
+   RENDER: FEED (master table)
+   ============================================================================ */
+function applyFeedFilters(){
+  const f = state.feed;
+  return UNIFIED_MOVES.filter(m=>{
+    if(f.search){ const s=f.search.toLowerCase(); if(!(m.person.toLowerCase().includes(s)||m.ticker.toLowerCase().includes(s))) return false; }
+    if(f.sources.size && !f.sources.has(m.source)) return false;
+    if(f.actions.size){ const act = m.action||m.type; if(!f.actions.has(act)) return false; }
+    return true;
+  });
+}
+function renderFeedFilters(){
+  const sources = ["Hedge Fund","Insider","Congress"];
+  document.getElementById("sourceFilters").innerHTML = sources.map(s=>`<button class="source-chip pill text-[11px] px-2.5 py-1.5 rounded-full" data-val="${s}">${s}</button>`).join("");
+  const actions = ["Increased","Decreased","New Position","Sold Out","Buy","Sell","Purchase","Sale (Full)","Sale (Partial)"];
+  document.getElementById("actionFilters").innerHTML = [...new Set(actions)].map(a=>`<button class="action-chip pill text-[11px] px-2.5 py-1.5 rounded-full" data-val="${a}">${a}</button>`).join("");
+}
+function renderFeedTable(){
+  const rows = applyFeedFilters();
+  const start = (state.feed.page-1)*state.feed.perPage;
+  const page = rows.slice(start,start+state.feed.perPage);
+  document.getElementById("feedBody").innerHTML = page.map(m=>`
+    <tr class="border-b" style="border-color:var(--line-soft);">
+      <td class="px-3 py-3"><span class="text-[10px] font-mono px-2 py-0.5 rounded-full" style="border:1px solid ${sourceColor(m.source)};color:${sourceColor(m.source)};">${m.source}</span></td>
+      <td class="px-3 py-3 person-open cursor-pointer font-medium" data-person="${m.person}">${m.person}</td>
+      <td class="px-3 py-3">
+        <div class="flex items-center gap-2">${companyBadge(m.ticker, m.company, 6)}
+          <div class="min-w-0"><div class="text-xs font-semibold truncate max-w-[160px]">${m.company||m.ticker||"—"}</div><div class="font-mono text-[11px]" style="color:var(--text-low);">${m.ticker||"—"}</div></div>
+        </div>
+      </td>
+      <td class="px-3 py-3" style="color:var(--text-mid);">${m.action||m.type||"Filed"}</td>
+      <td class="px-3 py-3 font-mono">${fmtMoney(m.value||0)}</td>
+      <td class="px-3 py-3 font-mono text-xs" style="color:var(--text-mid);">${fmtDate(m.date)}</td>
+      <td class="px-3 py-3">${m.sourceUrl?`<a href="${m.sourceUrl}" target="_blank" rel="noopener" class="text-xs underline" style="color:var(--blue);">view</a>`:`<span class="text-xs" style="color:var(--text-low);">mock</span>`}</td>
+    </tr>`).join("");
+  const totalPages = Math.max(1,Math.ceil(rows.length/state.feed.perPage));
+  document.getElementById("feedPagination").innerHTML = `<span>Page ${state.feed.page} of ${totalPages} · ${rows.length} moves</span>
+    <div class="flex gap-2"><button id="feedPrev" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.feed.page<=1?'disabled':''}>Prev</button>
+    <button id="feedNext" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.feed.page>=totalPages?'disabled':''}>Next</button></div>`;
+  lucide.createIcons();
+  document.querySelectorAll(".person-open").forEach(el=>el.addEventListener("click",()=>openPersonModal(el.dataset.person)));
+  const prev=document.getElementById("feedPrev"), next=document.getElementById("feedNext");
+  if(prev) prev.addEventListener("click",()=>{ if(state.feed.page>1){state.feed.page--; renderFeedTable();} });
+  if(next) next.addEventListener("click",()=>{ state.feed.page++; renderFeedTable(); });
+}
+
+/* ============================================================================
+   RENDER: CONGRESS
+   ============================================================================ */
+function applyCongressFilters(){
+  const f = state.congress;
+  return CONGRESS_TRADES.filter(t=>{
+    if(f.chambers.size && !f.chambers.has(t.chamber)) return false;
+    if(f.parties.size && !f.parties.has(t.party)) return false;
+    return true;
+  });
+}
+function renderCongressFilters(){
+  document.getElementById("chamberFilters").innerHTML = ["House","Senate"].map(c=>`<button class="chamber-chip pill text-[11px] px-2.5 py-1.5 rounded-full" data-val="${c}">${c}</button>`).join("");
+  document.getElementById("partyFilters").innerHTML = ["D","R"].map(p=>`<button class="party-chip pill text-[11px] px-2.5 py-1.5 rounded-full" data-val="${p}">${p==="D"?"Democrat":"Republican"}</button>`).join("");
+}
+function renderClusterBanner(){
+  const clusters = detectClusters();
+  const banner = document.getElementById("clusterBanner");
+  if(!clusters.length){ banner.classList.add("hidden"); return; }
+  banner.classList.remove("hidden");
+  banner.innerHTML = clusters.slice(0,3).map(c=>`
+    <div class="rounded-xl border p-4 mb-2 flex items-center gap-3" style="border-color:var(--amber);background:color-mix(in srgb, var(--amber) 8%, var(--bg-surface));">
+      <i data-lucide="zap" class="w-5 h-5 shrink-0" style="color:var(--amber);"></i>
+      <div class="text-sm"><span class="font-semibold">Cluster buy detected:</span> ${c.members.length} members bought <span class="font-mono font-semibold">${c.ticker}</span> (${c.company}) within a 3-week window — ${c.members.join(", ")}</div>
+    </div>`).join("");
+  lucide.createIcons();
+}
+
+function renderInsiderClusterBanner(){
+  const clusters = detectInsiderClusters();
+  const banner = document.getElementById("insiderClusterBanner");
+  if(!banner) return;
+  if(!clusters.length){ banner.classList.add("hidden"); return; }
+  banner.classList.remove("hidden");
+  banner.innerHTML = clusters.slice(0,3).map(c=>`
+    <div class="rounded-xl border p-4 mb-2 flex items-center gap-3" style="border-color:var(--green);background:color-mix(in srgb, var(--green) 8%, var(--bg-surface));">
+      <i data-lucide="users" class="w-5 h-5 shrink-0" style="color:var(--green);"></i>
+      <div class="text-sm"><span class="font-semibold">Insider cluster:</span> ${c.people.length} different insiders at <span class="font-mono font-semibold">${c.ticker}</span> (${c.company}) bought within a 3-week window — ${c.people.join(", ")}</div>
+    </div>`).join("");
+  lucide.createIcons();
+}
+
+function renderOverlapBanner(){
+  const overlaps = detectCrossSourceOverlap();
+  const container = document.getElementById("overlapBanner");
+  if(!container) return;
+  if(!overlaps.length){ container.innerHTML = ""; return; }
+  const sourceLabel = s => s==="Hedge Fund"?"a hedge fund manager":s==="Insider"?"a company insider":"a member of Congress";
+  container.innerHTML = `
+    <h2 class="font-display text-xl font-semibold flex items-center gap-2 mb-4"><i data-lucide="crosshair" class="w-5 h-5" style="color:var(--amber);"></i>Cross-Source Signals</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      ${overlaps.slice(0,6).map(o=>`
+        <div class="rounded-xl border p-4" style="border-color:var(--amber);background:color-mix(in srgb, var(--amber) 6%, var(--bg-surface));">
+          <div class="flex items-center gap-2 mb-2">
+            ${companyBadge(o.ticker, o.company, 7)}
+            <div><div class="text-sm font-semibold">${o.ticker}</div><div class="text-[11px]" style="color:var(--text-low);">${o.company}</div></div>
+          </div>
+          <div class="text-xs" style="color:var(--text-mid);">Bought by ${o.sources.map(sourceLabel).join(" and ")} within a 3-week window — ${o.moves.length} moves total.</div>
+        </div>`).join("")}
+    </div>`;
+  lucide.createIcons();
+  document.querySelectorAll("#overlapBanner .rounded-xl").forEach((el,i)=>{
+    el.style.cursor="pointer";
+    el.addEventListener("click",()=>{ const o=overlaps[i]; if(o && o.moves[0]) openPersonModal(o.moves[0].person); });
+  });
+}
+function renderCongressTable(){
+  const rows = applyCongressFilters();
+  const start = (state.congress.page-1)*state.congress.perPage;
+  const page = rows.slice(start,start+state.congress.perPage);
+  document.getElementById("congressBody").innerHTML = page.map(t=>`
+    <tr class="border-b" style="border-color:var(--line-soft);">
+      <td class="px-3 py-3 person-open cursor-pointer font-medium" data-person="${t.person}">${t.person}</td>
+      <td class="px-3 py-3" style="color:var(--text-mid);">${t.chamber} · ${t.party}-${t.state||''}</td>
+      <td class="px-3 py-3">
+        <div class="flex items-center gap-2">${companyBadge(t.ticker, t.company, 6)}<span class="font-mono text-xs font-semibold">${t.ticker}</span></div>
+      </td>
+      <td class="px-3 py-3" style="color:${t.type==='Purchase'?'var(--green)':'var(--red)'};">${t.type}</td>
+      <td class="px-3 py-3 font-mono text-xs">${t.amount}</td>
+      <td class="px-3 py-3 font-mono text-xs" style="color:var(--text-mid);">${fmtDate(t.date)}</td>
+      <td class="px-3 py-3 font-mono text-xs" style="color:var(--text-mid);">${fmtDate(t.discloseDate)}</td>
+      <td class="px-3 py-3 font-mono text-xs">${t.delay!=null?t.delay+'d':'—'}</td>
+      <td class="px-3 py-3">${confidenceBadge(t.confidence, t.sourceUrl)}</td>
+    </tr>`).join("");
+  const totalPages = Math.max(1,Math.ceil(rows.length/state.congress.perPage));
+  document.getElementById("congressPagination").innerHTML = `<span>Page ${state.congress.page} of ${totalPages} · ${rows.length} trades</span>
+    <div class="flex gap-2"><button id="congPrev" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.congress.page<=1?'disabled':''}>Prev</button>
+    <button id="congNext" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.congress.page>=totalPages?'disabled':''}>Next</button></div>`;
+  document.querySelectorAll("#congressBody .person-open").forEach(el=>el.addEventListener("click",()=>openPersonModal(el.dataset.person)));
+  const prev=document.getElementById("congPrev"), next=document.getElementById("congNext");
+  if(prev) prev.addEventListener("click",()=>{ if(state.congress.page>1){state.congress.page--; renderCongressTable();} });
+  if(next) next.addEventListener("click",()=>{ state.congress.page++; renderCongressTable(); });
+}
+
+/* ============================================================================
+   RENDER: INSIDERS
+   ============================================================================ */
+function applyInsiderFilters(){
+  const f = state.insiders;
+  return INSIDER_TRADES.filter(t=> !f.roles.size || f.roles.has(t.role));
+}
+function renderInsiderFilters(){
+  document.getElementById("roleFilters").innerHTML = ROLES.map(r=>`<button class="role-chip pill text-[11px] px-2.5 py-1.5 rounded-full" data-val="${r}">${r}</button>`).join("");
+}
+function renderInsiderTable(){
+  const rows = applyInsiderFilters();
+  const start = (state.insiders.page-1)*state.insiders.perPage;
+  const page = rows.slice(start,start+state.insiders.perPage);
+  document.getElementById("insidersBody").innerHTML = page.map(t=>`
+    <tr class="border-b" style="border-color:var(--line-soft);">
+      <td class="px-3 py-3" style="color:var(--text-mid);">${t.role}</td>
+      <td class="px-3 py-3"><div class="flex items-center gap-2">${companyBadge(t.ticker, t.company, 6)}<div class="min-w-0"><div class="text-xs font-semibold truncate max-w-[160px]">${t.company}</div><div class="font-mono text-[11px]" style="color:var(--text-low);">${t.ticker}</div></div></div></td>
+      <td class="px-3 py-3" style="color:${t.type==='Buy'?'var(--green)':'var(--red)'};">${t.type}</td>
+      <td class="px-3 py-3 font-mono">${(t.shares||0).toLocaleString()}</td>
+      <td class="px-3 py-3 font-mono">${fmtMoney(t.value)}</td>
+      <td class="px-3 py-3 font-mono text-xs" style="color:var(--text-mid);">${fmtDate(t.date)}</td>
+      <td class="px-3 py-3 font-mono text-xs" style="color:var(--text-mid);">${t.filingLagDays!=null?t.filingLagDays+'d':'—'}</td>
+      <td class="px-3 py-3">${t.sourceUrl?`<a href="${t.sourceUrl}" target="_blank" rel="noopener" class="text-xs underline" style="color:var(--blue);">EDGAR</a>`:'<span class="text-xs" style="color:var(--text-low);">mock</span>'}</td>
+    </tr>`).join("");
+  const totalPages = Math.max(1,Math.ceil(rows.length/state.insiders.perPage));
+  document.getElementById("insidersPagination").innerHTML = `<span>Page ${state.insiders.page} of ${totalPages} · ${rows.length} filings</span>
+    <div class="flex gap-2"><button id="insPrev" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.insiders.page<=1?'disabled':''}>Prev</button>
+    <button id="insNext" class="px-2 py-1 rounded border" style="border-color:var(--line);" ${state.insiders.page>=totalPages?'disabled':''}>Next</button></div>`;
+  const prev=document.getElementById("insPrev"), next=document.getElementById("insNext");
+  if(prev) prev.addEventListener("click",()=>{ if(state.insiders.page>1){state.insiders.page--; renderInsiderTable();} });
+  if(next) next.addEventListener("click",()=>{ state.insiders.page++; renderInsiderTable(); });
+}
+
+/* ============================================================================
+   PERSON MODAL + WATCHLIST
+   ============================================================================ */
+function openPersonModal(name){
+  const moves = UNIFIED_MOVES.filter(m=>m.person===name).slice(0,10);
+  const person = ALL_PEOPLE.find(p=>p.name===name) || {name, role:""};
+  state.activeModalPerson = name;
+  document.getElementById("modalAvatar").style.background = avatarColor(name);
+  document.getElementById("modalAvatar").textContent = initials(name);
+  document.getElementById("modalName").textContent = name;
+  document.getElementById("modalRole").textContent = person.role || (moves[0]?moves[0].meta:"");
+  updateModalWatchBtn();
+  document.getElementById("modalMoves").innerHTML = moves.length ? moves.map(m=>`
+    <div class="flex items-center gap-3 py-2 border-b" style="border-color:var(--line-soft);">
+      ${companyBadge(m.ticker, m.company, 7)}
+      <div class="flex-1 min-w-0">
+        <div class="text-sm truncate">${m.label} <span class="font-mono font-semibold">${m.ticker}</span></div>
+        <div class="text-[11px]" style="color:var(--text-low);">${fmtDate(m.date)}${m.sourceUrl?` · <a href="${m.sourceUrl}" target="_blank" rel="noopener" class="underline" style="color:var(--blue);">source</a>`:''}</div>
+      </div>
+      <span class="font-mono text-xs shrink-0" style="color:${changeColor(m.sinceTrade)};">${fmtPct(m.sinceTrade)}</span>
+    </div>`).join("") : `<span class="text-sm" style="color:var(--text-mid);">No tracked moves for this person.</span>`;
+  document.getElementById("personModal").classList.remove("hidden");
+  document.body.style.overflow="hidden";
+  document.getElementById("modalClose").focus();
+  lucide.createIcons();
+}
+function closePersonModal(){ document.getElementById("personModal").classList.add("hidden"); document.body.style.overflow=""; }
+function updateModalWatchBtn(){
+  const on = state.watchlist.has(state.activeModalPerson);
+  document.getElementById("modalWatchBtn").innerHTML = `<i data-lucide="star" class="w-4 h-4" style="color:${on?'var(--amber)':'currentColor'};fill:${on?'var(--amber)':'none'};"></i>`;
+  lucide.createIcons();
+}
+function toggleWatch(name){
+  state.watchlist.has(name) ? state.watchlist.delete(name) : state.watchlist.add(name);
+  saveWatchlist(); renderWatchlist(); renderFeedTable();
+  if(state.activeModalPerson===name) updateModalWatchBtn();
+  showToast(state.watchlist.has(name) ? `Following ${name}` : `Unfollowed ${name}`);
+}
+function renderWatchlist(){
+  const grid = document.getElementById("watchlistGrid"), empty = document.getElementById("watchlistEmpty");
+  const names = [...state.watchlist];
+  empty.style.display = names.length ? "none" : "block";
+  grid.innerHTML = names.map(name=>{
+    const latest = UNIFIED_MOVES.find(m=>m.person===name);
+    return `<button class="person-card text-left rounded-xl border p-4 glow-card" data-person="${name}" style="border-color:var(--line);background:var(--bg-surface);">
+      <div class="flex items-center gap-2 mb-2"><div class="avatar w-9 h-9 text-xs" style="background:${avatarColor(name)};">${initials(name)}</div><div class="text-sm font-semibold">${name}</div></div>
+      ${latest ? `<div class="text-xs" style="color:var(--text-mid);">${latest.label} <span class="font-mono font-semibold">${latest.ticker}</span></div>` : `<div class="text-xs" style="color:var(--text-low);">No recent moves</div>`}
+    </button>`;
+  }).join("");
+  lucide.createIcons();
+}
+
+/* ============================================================================
+   EVENTS
+   ============================================================================ */
+function bindGlobalPersonCardClicks(){
+  document.body.addEventListener("click",(e)=>{
+    const card = e.target.closest(".person-card, .move-card");
+    if(card && card.dataset.person) openPersonModal(card.dataset.person);
+  });
+}
+const FONTS = [
+  {id:"auto", name:"Match theme", family:null, sample:"Aa"},
+  {id:"space-grotesk", name:"Space Grotesk", family:"'Space Grotesk',sans-serif", sample:"Aa"},
+  {id:"space-mono", name:"Space Mono", family:"'Space Mono',monospace", sample:"Aa"},
+  {id:"source-serif", name:"Source Serif 4", family:"'Source Serif 4',serif", sample:"Aa"},
+  {id:"sora", name:"Sora", family:"'Sora',sans-serif", sample:"Aa"},
+  {id:"fraunces", name:"Fraunces", family:"'Fraunces',serif", sample:"Aa"},
+  {id:"barlow", name:"Barlow Condensed", family:"'Barlow Condensed',sans-serif", sample:"Aa"},
+  {id:"playfair", name:"Playfair Display", family:"'Playfair Display',serif", sample:"Aa"},
+];
+function applyFont(id){
+  const f = FONTS.find(x=>x.id===id) || FONTS[0];
+  if(f.family) document.documentElement.style.setProperty("--font-display", f.family);
+  else document.documentElement.style.removeProperty("--font-display");
+  localStorage.setItem("trace_font", id);
+  renderFontMenu();
+}
+function renderFontMenu(){
+  const current = localStorage.getItem("trace_font") || "auto";
+  document.getElementById("fontMenu").innerHTML = FONTS.map(f=>`
+    <button class="theme-option ${f.id===current?'active':''}" data-font="${f.id}" role="menuitem">
+      <span class="w-8 text-center font-bold text-base" style="font-family:${f.family||'var(--font-display)'};flex-shrink:0;">${f.sample}</span>
+      <span class="flex-1 text-left text-xs font-medium" style="color:var(--text-hi);">${f.name}</span>
+      ${f.id===current?'<i data-lucide="check" class="w-3.5 h-3.5" style="color:var(--blue);"></i>':''}
+    </button>`).join("");
+  lucide.createIcons();
+  document.querySelectorAll("#fontMenu .theme-option").forEach(btn=>btn.addEventListener("click",()=>applyFont(btn.dataset.font)));
+}
+function initFont(){
+  const saved = localStorage.getItem("trace_font");
+  if(saved && saved!=="auto"){ const f=FONTS.find(x=>x.id===saved); if(f&&f.family) document.documentElement.style.setProperty("--font-display", f.family); }
+  renderFontMenu();
+}
+
+const THEMES = [
+  {id:"terminal", name:"Terminal", desc:"Dark navy trading desk", swatch:"#0a0e1a", accent:"#3b7bff"},
+  {id:"amber", name:"Bloomberg Amber", desc:"Monochrome CRT terminal", swatch:"#0c0904", accent:"#ffb020"},
+  {id:"ledger", name:"Ledger", desc:"Aged paper, forest ink", swatch:"#efe9d8", accent:"#2f5233"},
+  {id:"quartz", name:"Quartz", desc:"Crisp daytime research", swatch:"#eef1f7", accent:"#5b3df5"},
+  {id:"verdant", name:"Verdant", desc:"Money-green, gold highlight", swatch:"#081a10", accent:"#34d399"},
+  {id:"crimson", name:"Crimson Desk", desc:"High-alert red terminal", swatch:"#140505", accent:"#ff3b3b"},
+  {id:"slate", name:"Slate & Gold", desc:"Private-bank charcoal & brass", swatch:"#12151b", accent:"#c9a44c"},
+];
+function applyTheme(id){
+  document.documentElement.className = `theme-${id}`;
+  localStorage.setItem("trace_theme", id);
+  renderThemeMenu();
+}
+function renderThemeMenu(){
+  const current = document.documentElement.className.replace("theme-","");
+  document.getElementById("themeMenu").innerHTML = THEMES.map(t=>`
+    <button class="theme-option ${t.id===current?'active':''}" data-theme="${t.id}" role="menuitem">
+      <span class="theme-swatch" style="background:${t.swatch};box-shadow:inset 0 0 0 3px ${t.accent}44;"></span>
+      <span class="flex-1 text-left">
+        <div class="text-xs font-semibold" style="color:var(--text-hi);">${t.name}</div>
+        <div class="text-[10px]" style="color:var(--text-low);">${t.desc}</div>
+      </span>
+      ${t.id===current?'<i data-lucide="check" class="w-3.5 h-3.5" style="color:var(--blue);"></i>':''}
+    </button>`).join("");
+  lucide.createIcons();
+  document.querySelectorAll(".theme-option").forEach(btn=>btn.addEventListener("click",()=>{
+    applyTheme(btn.dataset.theme);
+  }));
+}
+function initTheme(){
+  const saved = localStorage.getItem("trace_theme");
+  if(saved && THEMES.some(t=>t.id===saved)) document.documentElement.className = `theme-${saved}`;
+  renderThemeMenu();
+}
+
+function initEvents(){
+  const themeBtn = document.getElementById("themeToggle");
+  const themeMenu = document.getElementById("themeMenu");
+  themeBtn.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    document.getElementById("fontMenu").classList.add("hidden");
+    const isHidden = themeMenu.classList.contains("hidden");
+    themeMenu.classList.toggle("hidden");
+    themeBtn.setAttribute("aria-expanded", isHidden);
+  });
+  const fontBtn = document.getElementById("fontToggle");
+  const fontMenu = document.getElementById("fontMenu");
+  fontBtn.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    themeMenu.classList.add("hidden");
+    const isHidden = fontMenu.classList.contains("hidden");
+    fontMenu.classList.toggle("hidden");
+    fontBtn.setAttribute("aria-expanded", isHidden);
+  });
+  document.addEventListener("click",(e)=>{
+    if(!themeMenu.classList.contains("hidden") && !themeMenu.contains(e.target) && e.target!==themeBtn){
+      themeMenu.classList.add("hidden"); themeBtn.setAttribute("aria-expanded","false");
+    }
+    if(!fontMenu.classList.contains("hidden") && !fontMenu.contains(e.target) && e.target!==fontBtn){
+      fontMenu.classList.add("hidden"); fontBtn.setAttribute("aria-expanded","false");
+    }
+  });
+
+  const densityBtn = document.getElementById("densityToggle");
+  const densityLabel = document.getElementById("densityLabel");
+  const savedDensity = localStorage.getItem("trace_density");
+  if(savedDensity==="compact"){ document.body.classList.add("compact"); densityLabel.textContent="Compact"; densityBtn.setAttribute("aria-pressed","true"); }
+  densityBtn.addEventListener("click",()=>{
+    const compact = document.body.classList.toggle("compact");
+    densityLabel.textContent = compact ? "Compact" : "Comfortable";
+    densityBtn.setAttribute("aria-pressed", compact);
+    localStorage.setItem("trace_density", compact ? "compact" : "comfortable");
+  });
+
+  const scrollBtn = document.getElementById("scrollTopBtn");
+  window.addEventListener("scroll",()=>{ scrollBtn.classList.toggle("visible", window.scrollY>500); }, {passive:true});
+  scrollBtn.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+
+  document.addEventListener("keydown",(e)=>{
+    if(e.key==="/" && document.activeElement.tagName!=="INPUT" && document.activeElement.tagName!=="TEXTAREA"){
+      e.preventDefault();
+      document.getElementById("feed").scrollIntoView({behavior:"smooth", block:"start"});
+      setTimeout(()=>document.getElementById("feedSearch").focus(), 300);
+    }
+  });
+
+  document.querySelectorAll(".discover-tab").forEach(tab=>tab.addEventListener("click",()=>{
+    document.querySelectorAll(".discover-tab").forEach(t=>t.classList.remove("active"));
+    tab.classList.add("active");
+    state.discoverTab = tab.dataset.tab;
+    document.getElementById("discoverStocks").classList.toggle("hidden", state.discoverTab!=="stocks");
+    document.getElementById("discoverPeople").classList.toggle("hidden", state.discoverTab!=="people");
+  }));
+
+  document.getElementById("feedSearch").addEventListener("input",(e)=>{ state.feed.search=e.target.value; state.feed.page=1; renderFeedTable(); });
+  document.getElementById("sourceFilters").addEventListener("click",(e)=>{
+    const btn=e.target.closest(".source-chip"); if(!btn) return;
+    btn.classList.toggle("active");
+    btn.classList.contains("active") ? state.feed.sources.add(btn.dataset.val) : state.feed.sources.delete(btn.dataset.val);
+    state.feed.page=1; renderFeedTable();
+  });
+  document.getElementById("actionFilters").addEventListener("click",(e)=>{
+    const btn=e.target.closest(".action-chip"); if(!btn) return;
+    btn.classList.toggle("active");
+    btn.classList.contains("active") ? state.feed.actions.add(btn.dataset.val) : state.feed.actions.delete(btn.dataset.val);
+    state.feed.page=1; renderFeedTable();
+  });
+
+  document.getElementById("chamberFilters").addEventListener("click",(e)=>{
+    const btn=e.target.closest(".chamber-chip"); if(!btn) return;
+    btn.classList.toggle("active");
+    btn.classList.contains("active") ? state.congress.chambers.add(btn.dataset.val) : state.congress.chambers.delete(btn.dataset.val);
+    state.congress.page=1; renderCongressTable();
+  });
+  document.getElementById("partyFilters").addEventListener("click",(e)=>{
+    const btn=e.target.closest(".party-chip"); if(!btn) return;
+    btn.classList.toggle("active");
+    btn.classList.contains("active") ? state.congress.parties.add(btn.dataset.val) : state.congress.parties.delete(btn.dataset.val);
+    state.congress.page=1; renderCongressTable();
+  });
+  document.getElementById("roleFilters").addEventListener("click",(e)=>{
+    const btn=e.target.closest(".role-chip"); if(!btn) return;
+    btn.classList.toggle("active");
+    btn.classList.contains("active") ? state.insiders.roles.add(btn.dataset.val) : state.insiders.roles.delete(btn.dataset.val);
+    state.insiders.page=1; renderInsiderTable();
+  });
+
+  document.getElementById("modalClose").addEventListener("click",closePersonModal);
+  document.getElementById("personModal").addEventListener("click",(e)=>{ if(e.target.id==="personModal") closePersonModal(); });
+  document.addEventListener("keydown",(e)=>{ if(e.key==="Escape" && !document.getElementById("personModal").classList.contains("hidden")) closePersonModal(); });
+  document.getElementById("modalWatchBtn").addEventListener("click",()=> state.activeModalPerson && toggleWatch(state.activeModalPerson));
+
+  document.querySelectorAll(".bottom-nav a").forEach(a=>a.addEventListener("click",()=>{
+    document.querySelectorAll(".bottom-nav a").forEach(x=>x.classList.remove("active"));
+    a.classList.add("active");
+  }));
+
+  bindGlobalPersonCardClicks();
+}
+
+function setUpdatedTimestamp(){
+  const now = new Date();
+  document.getElementById("lastUpdated").textContent = "LIVE · "+now.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit"});
+}
+
+async function init(){
+  initTheme();
+  initFont();
+  lucide.createIcons();
+  try{ await loadLiveData(); }catch(e){ console.warn("Live data load failed, using simulated data:", e); }
+  renderDataStatusBanner();
+  renderStats();
+  renderSpotlight();
+  renderLetters();
+  renderRecentMoves();
+  renderDiscover();
+  renderFeedFilters();
+  renderFeedTable();
+  renderCongressFilters();
+  renderClusterBanner();
+  renderInsiderClusterBanner();
+  renderOverlapBanner();
+  renderCongressTable();
+  renderInsiderFilters();
+  renderInsiderTable();
+  renderWatchlist();
+  setUpdatedTimestamp();
+  initEvents();
+}
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>
