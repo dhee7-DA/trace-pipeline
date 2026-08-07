@@ -1,0 +1,27 @@
+name: Resolve manager CIK
+
+on:
+  workflow_dispatch:
+    inputs:
+      manager_name:
+        description: 'Fund manager name to look up (e.g. "Berkshire Hathaway")'
+        required: true
+        type: string
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Look up CIK
+        env:
+          EDGAR_CONTACT_EMAIL: ${{ secrets.EDGAR_CONTACT_EMAIL }}
+        run: python scripts/resolve_cik.py "${{ inputs.manager_name }}"
