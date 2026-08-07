@@ -7,13 +7,20 @@ Usage:
     python resolve_cik.py "Scion Asset Management"
 
 Prints candidate CIKs with their registered name so you can confirm the right
-one and paste it into config/managers.json. Run this once per manager when you
-set up the pipeline, and again any time a manager's filings look wrong — CIKs
-occasionally get reassigned when an entity restructures.
+one and paste it into config/managers.json.
+
+Implementation note: the CIK is pulled from each atom <entry>'s <link href>,
+not from the <title> text. An earlier version of this script assumed the
+title always looked like "CIK#0001234567: COMPANY NAME" — that format only
+appears on EDGAR's single-company lookup page, not on a multi-result name
+search like this one, so it silently matched nothing. The href always
+contains CIK=########## regardless of which search produced it, so parsing
+that instead is the reliable approach.
 """
+import re
 import sys
 import xml.etree.ElementTree as ET
-from edgar_client import get_text, HEADERS
+from edgar_client import get_text
 import requests
 
 
@@ -27,13 +34,20 @@ def search_company(name):
     root = ET.fromstring(xml_text)
     ns = {"a": "http://www.w3.org/2005/Atom"}
     results = []
+    seen_ciks = set()
     for entry in root.findall("a:entry", ns):
-        title = entry.find("a:title", ns).text
-        # title looks like "CIK#0001067983: BERKSHIRE HATHAWAY INC"
-        if "CIK#" in title:
-            cik_part, name_part = title.split(":", 1)
-            cik = cik_part.replace("CIK#", "").strip().lstrip("0").zfill(10)
-            results.append((cik, name_part.strip()))
+        title_el = entry.find("a:title", ns)
+        title = title_el.text.strip() if title_el is not None and title_el.text else "(no name given)"
+        link_el = entry.find("a:link", ns)
+        href = link_el.get("href") if link_el is not None else ""
+        m = re.search(r"CIK=(\d{10})", href)
+        if not m:
+            continue
+        cik = m.group(1).lstrip("0").zfill(10)
+        if cik in seen_ciks:
+            continue
+        seen_ciks.add(cik)
+        results.append((cik, title))
     return results
 
 
