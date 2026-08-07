@@ -25,10 +25,17 @@ import requests
 
 
 def search_company(name):
+    # No &type=13F-HR filter here on purpose: combining that filter with a
+    # free-text company-name search silently returned zero matches even for
+    # major 13F filers like Berkshire Hathaway — a real EDGAR quirk, not a
+    # parsing bug. Searching by name alone (proven to work) returns a few
+    # more entity types than strictly needed, but since you're already
+    # confirming the right entity by eye from the printed list, that's a
+    # minor inconvenience rather than a correctness problem.
     url = (
         "https://www.sec.gov/cgi-bin/browse-edgar"
         f"?action=getcompany&company={requests.utils.quote(name)}"
-        "&type=13F-HR&dateb=&owner=include&count=20&output=atom"
+        "&dateb=&owner=include&count=40&output=atom"
     )
     xml_text = get_text(url)
     root = ET.fromstring(xml_text)
