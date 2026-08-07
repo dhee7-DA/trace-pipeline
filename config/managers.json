@@ -1,7 +1,7 @@
 {
   "_readme": "Run `python scripts/resolve_cik.py \"Manager Name\"` for each entry below, confirm the CIK against the printed entity name, then set verified:true. The fetch_13f.py script SKIPS any manager with verified:false and prints a warning — it will not silently pull data against a guessed CIK. This file is the single point where accuracy is enforced for the 13F side of the pipeline.",
   "managers": [
-    {"display_name": "Warren Buffett", "firm": "Berkshire Hathaway", "search_hint": "Berkshire Hathaway", "cik": null, "verified": false},
+    {"display_name": "Warren Buffett", "firm": "Berkshire Hathaway", "search_hint": "Berkshire Hathaway", "cik": "0001067983", "verified": true},
     {"display_name": "Michael Burry", "firm": "Scion Asset Management", "search_hint": "Scion Asset Management", "cik": null, "verified": false},
     {"display_name": "Carl Icahn", "firm": "Icahn Enterprises", "search_hint": "Icahn Enterprises", "cik": null, "verified": false},
     {"display_name": "Stanley Druckenmiller", "firm": "Duquesne Family Office", "search_hint": "Duquesne Family Office", "cik": null, "verified": false},
