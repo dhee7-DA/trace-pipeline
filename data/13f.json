@@ -1,6 +1,828 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-07T02:00:05.920903Z",
+  "generated_at_utc": "2026-08-08T00:12:54.279009Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
-  "managers": []
+  "managers": [
+    {
+      "display_name": "Warren Buffett",
+      "firm": "Berkshire Hathaway",
+      "cik": "0001067983",
+      "accessionNumber": "0001193125-26-226661",
+      "filedDate": "2026-05-15",
+      "periodOfReport": "2026-03-31",
+      "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F-HR",
+      "holdings": [
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 498992850,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 109996016,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 165872286,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 123064510,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 189726088,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALLY FINL INC",
+          "cusip": "02005N100",
+          "value_thousands_usd": 50018250,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALPHABET INC",
+          "cusip": "02079K107",
+          "value_thousands_usd": 1028454775,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALPHABET INC",
+          "cusip": "02079K305",
+          "value_thousands_usd": 4802252,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALPHABET INC",
+          "cusip": "02079K305",
+          "value_thousands_usd": 1926652000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALPHABET INC",
+          "cusip": "02079K305",
+          "value_thousands_usd": 1797250000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "ALPHABET INC",
+          "cusip": "02079K305",
+          "value_thousands_usd": 11871367661,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "AMERICAN EXPRESS CO",
+          "cusip": "025816109",
+          "value_thousands_usd": 347834456,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AXP",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "AMERICAN EXPRESS CO",
+          "cusip": "025816109",
+          "value_thousands_usd": 45087984892,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AXP",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "AMERICAN EXPRESS CO",
+          "cusip": "025816109",
+          "value_thousands_usd": 423385188,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AXP",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 175622680,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 974553600,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 8628860,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 8812603960,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 691323960,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 3941866280,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 15618994925,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 1828303160,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 3672848880,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 20471924668,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 688278480,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "APPLE INC",
+          "cusip": "037833100",
+          "value_thousands_usd": 958311040,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "AAPL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 191100000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 580125000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 7093125,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 1376634919,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 102375000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 1023750000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 15151500000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 6128850000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "BANK AMERICA CORP",
+          "cusip": "060505104",
+          "value_thousands_usd": 477750000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CAPITAL ONE FINL CORP",
+          "cusip": "14040H105",
+          "value_thousands_usd": 353770628,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CAPITAL ONE FINL CORP",
+          "cusip": "14040H105",
+          "value_thousands_usd": 560750962,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CAPITAL ONE FINL CORP",
+          "cusip": "14040H105",
+          "value_thousands_usd": 389852910,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CHEVRON CORPORATION",
+          "cusip": "166764100",
+          "value_thousands_usd": 714685980,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CHEVRON CORPORATION",
+          "cusip": "166764100",
+          "value_thousands_usd": 1901860180,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CHEVRON CORPORATION",
+          "cusip": "166764100",
+          "value_thousands_usd": 2788531578,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CHEVRON CORPORATION",
+          "cusip": "166764100",
+          "value_thousands_usd": 12052286868,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 60840000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 28250370,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 6464250,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 6105537360,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 138715200,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 1095971760,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 1140019920,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 21501063540,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 270129600,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "COCA COLA CO",
+          "cusip": "191216100",
+          "value_thousands_usd": 73008000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KO",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "CONSTELLATION BRANDS INC",
+          "cusip": "21036P108",
+          "value_thousands_usd": 94933500,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "STZ",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "DAVITA INC",
+          "cusip": "23918K108",
+          "value_thousands_usd": 2301293814,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "DVA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "DAVITA INC",
+          "cusip": "23918K108",
+          "value_thousands_usd": 2324865095,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "DVA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "DELTA AIR LINES INC",
+          "cusip": "247361702",
+          "value_thousands_usd": 2646532635,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "DAL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "JEFFERIES FINANCIAL GROUP IN",
+          "cusip": "47233W109",
+          "value_thousands_usd": 17892939,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "KRAFT HEINZ CO",
+          "cusip": "500754106",
+          "value_thousands_usd": 7323527057,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KHC",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "KROGER CO",
+          "cusip": "501044101",
+          "value_thousands_usd": 1165509032,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "KROGER CO",
+          "cusip": "501044101",
+          "value_thousands_usd": 55610903,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "KROGER CO",
+          "cusip": "501044101",
+          "value_thousands_usd": 388364731,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "KROGER CO",
+          "cusip": "501044101",
+          "value_thousands_usd": 36180000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "KROGER CO",
+          "cusip": "501044101",
+          "value_thousands_usd": 1972335334,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "KR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "LENNAR CORP",
+          "cusip": "526057104",
+          "value_thousands_usd": 877052911,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LENNAR CORP",
+          "cusip": "526057302",
+          "value_thousands_usd": 19995576,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909100",
+          "value_thousands_usd": 92712005,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909100",
+          "value_thousands_usd": 301016781,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909100",
+          "value_thousands_usd": 21383919,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909100",
+          "value_thousands_usd": 41858220,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909308",
+          "value_thousands_usd": 327469956,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909308",
+          "value_thousands_usd": 518318636,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909308",
+          "value_thousands_usd": 15304168,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LIBERTY LIVE HOLDINGS INC",
+          "cusip": "530909308",
+          "value_thousands_usd": 135263268,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LOUISIANA PAC CORP",
+          "cusip": "546347105",
+          "value_thousands_usd": 96021561,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "LOUISIANA PAC CORP",
+          "cusip": "546347105",
+          "value_thousands_usd": 316092130,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "MACYS INC",
+          "cusip": "55616P104",
+          "value_thousands_usd": 24895928,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "M",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "MACYS INC",
+          "cusip": "55616P104",
+          "value_thousands_usd": 30067914,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "M",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "MOODYS CORP",
+          "cusip": "615369105",
+          "value_thousands_usd": 31453625,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "MOODYS CORP",
+          "cusip": "615369105",
+          "value_thousands_usd": 5223626090,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "MOODYS CORP",
+          "cusip": "615369105",
+          "value_thousands_usd": 5507110938,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "NVR INC",
+          "cusip": "62944T105",
+          "value_thousands_usd": 73226191,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "NVR",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "NEW YORK TIMES CO MTN BE",
+          "cusip": "650111107",
+          "value_thousands_usd": 117222000,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "NEW YORK TIMES CO MTN BE",
+          "cusip": "650111107",
+          "value_thousands_usd": 1150997376,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "NUCOR CORP",
+          "cusip": "670346105",
+          "value_thousands_usd": 660686383,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "NUE",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "OCCIDENTAL PETE CORP",
+          "cusip": "674599105",
+          "value_thousands_usd": 17221193015,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "SIRIUSXM HOLDINGS INC",
+          "cusip": "829933100",
+          "value_thousands_usd": 368931261,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "SIRIUSXM HOLDINGS INC",
+          "cusip": "829933100",
+          "value_thousands_usd": 2511616999,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "VERISIGN INC",
+          "cusip": "92343E102",
+          "value_thousands_usd": 241641117,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "VERISIGN INC",
+          "cusip": "92343E102",
+          "value_thousands_usd": 1991085480,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CHUBB LTD SWITZ",
+          "cusip": "H1467J104",
+          "value_thousands_usd": 11162836215,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        }
+      ]
+    }
+  ]
 }
