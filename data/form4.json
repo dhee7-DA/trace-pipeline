@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-08T00:12:52.493592Z",
+  "generated_at_utc": "2026-08-08T05:54:44.389773Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -9645,6 +9645,26 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Stat Lauren Elaina Friedman",
+      "role": "Director",
+      "periodOfReport": "2026-08-05",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000015/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-05",
+          "shares": 3032.0,
+          "pricePerShare": 165.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-07",
+      "accessionNumber": "0001840244-26-000015",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Buckley Jeffrey",
       "role": "See Remarks",
       "periodOfReport": "2026-07-22",
@@ -10107,61 +10127,6 @@
       ],
       "filedDate": "2026-05-22",
       "accessionNumber": "0001823951-26-000007",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Sankar Shyam",
-      "role": "See Remarks",
-      "periodOfReport": "2026-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000007/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-05-20",
-          "shares": 165514.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 2761.0,
-          "pricePerShare": 132.9528,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 7203.0,
-          "pricePerShare": 134.2027,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 11483.0,
-          "pricePerShare": 135.0886,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 93218.0,
-          "pricePerShare": 136.0811,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 50849.0,
-          "pricePerShare": 136.6143,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-22",
-      "accessionNumber": "0001824159-26-000007",
       "filingLagDays": 2
     },
     {
