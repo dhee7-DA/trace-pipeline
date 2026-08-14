@@ -1,8 +1,28 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-13T00:51:04.651760Z",
+  "generated_at_utc": "2026-08-14T00:50:24.213952Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126032884/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-11",
+          "shares": 1439.0,
+          "pricePerShare": 307.75,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0001140361-26-032884",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -404,17 +424,6 @@
       "transactions": [],
       "filedDate": "2026-02-26",
       "accessionNumber": "0001216519-26-000004"
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "LOZANO MONICA C",
-      "role": "Director",
-      "periodOfReport": "2026-02-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000117986426000004/",
-      "transactions": [],
-      "filedDate": "2026-02-26",
-      "accessionNumber": "0001179864-26-000004"
     },
     {
       "issuerTicker": "MSFT",
@@ -4014,6 +4023,26 @@
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Stankiewicz Dennis Andrew",
+      "role": "Chief Accounting Officer",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000199/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 233.402,
+          "pricePerShare": 402.19,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0000731766-26-000199",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
       "ownerName": "Conway Patrick Hugh",
       "role": "Chief Executive Officer, Optum",
       "periodOfReport": "2026-08-05",
@@ -4296,26 +4325,6 @@
       ],
       "filedDate": "2026-06-25",
       "accessionNumber": "0000731766-26-000169",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Gottlieb Scott",
-      "role": "Director",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000168/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-23",
-          "shares": 3.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000731766-26-000168",
       "filingLagDays": 2
     },
     {
@@ -4973,6 +4982,47 @@
     {
       "issuerTicker": "CVX",
       "issuerName": "CHEVRON CORP",
+      "ownerName": "GUSTAVSON JEFF B",
+      "role": "President, New Energies",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000171/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-11",
+          "shares": 4850.0,
+          "pricePerShare": 117.24,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-11",
+          "shares": 4633.0,
+          "pricePerShare": 125.35,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-11",
+          "shares": 4561.0,
+          "pricePerShare": 113.01,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-11",
+          "shares": 14044.0,
+          "pricePerShare": 194.9492,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0000093410-26-000171",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CVX",
+      "issuerName": "CHEVRON CORP",
       "ownerName": "Wirth Michael K",
       "role": "Director, Chairman and CEO",
       "periodOfReport": "2026-08-05",
@@ -5342,26 +5392,6 @@
       ],
       "filedDate": "2026-05-29",
       "accessionNumber": "0000093410-26-000129",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "CVX",
-      "issuerName": "CHEVRON CORP",
-      "ownerName": "Austin Wanda M",
-      "role": "Director",
-      "periodOfReport": "2026-05-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000127/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-05-27",
-          "shares": 1272.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-29",
-      "accessionNumber": "0000093410-26-000127",
       "filingLagDays": 2
     },
     {
@@ -7668,6 +7698,26 @@
       "issuerName": "ADVANCED MICRO DEVICES INC",
       "ownerName": "Hahn Ava",
       "role": "SVP, GC & Corporate Secretary",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000141/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-11",
+          "shares": 143.0,
+          "pricePerShare": 474.75,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0000002488-26-000141",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "AMD",
+      "issuerName": "ADVANCED MICRO DEVICES INC",
+      "ownerName": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
       "periodOfReport": "2026-08-09",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000139/",
       "transactions": [
@@ -8208,86 +8258,83 @@
       "filingLagDays": 4
     },
     {
-      "issuerTicker": "AMD",
-      "issuerName": "ADVANCED MICRO DEVICES INC",
-      "ownerName": "Norrod Forrest Eugene",
-      "role": "EVP & GM DESG",
-      "periodOfReport": "2026-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/",
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Milum Dwayne M",
+      "role": "SVP & Controller",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000211064326000016/",
       "transactions": [
         {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-20",
-          "shares": 8237.0,
-          "pricePerShare": 34.19,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 516.0,
-          "pricePerShare": 427.8,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 1975.0,
-          "pricePerShare": 428.45,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 2667.0,
-          "pricePerShare": 429.45,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 5032.0,
-          "pricePerShare": 430.68,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 3287.0,
-          "pricePerShare": 431.56,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 2274.0,
-          "pricePerShare": 432.78,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 1284.0,
-          "pricePerShare": 433.75,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 1562.0,
-          "pricePerShare": 435.18,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 890.0,
-          "pricePerShare": 435.91,
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 121.179,
+          "pricePerShare": 112.66,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-05-22",
-      "accessionNumber": "0000002488-26-000100",
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0002110643-26-000016",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Guggina David W",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000211030426000019/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 117.725,
+          "pricePerShare": 112.66,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0002110304-26-000019",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Dallaire Seth",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000205830926000016/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 386.619,
+          "pricePerShare": 112.66,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0002058309-26-000016",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Watkins Latriece",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000188636726000023/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 227.113,
+          "pricePerShare": 112.66,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0001886367-26-000023",
       "filingLagDays": 2
     },
     {
@@ -8515,86 +8562,6 @@
       ],
       "filedDate": "2026-07-02",
       "accessionNumber": "0001570658-26-000007",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Moritz Robert Edward Jr.",
-      "role": "Director",
-      "periodOfReport": "2026-06-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000203383426000017/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-30",
-          "shares": 276.0,
-          "pricePerShare": 113.26,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-02",
-      "accessionNumber": "0002033834-26-000017",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Conde Cesar",
-      "role": "Director",
-      "periodOfReport": "2026-06-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000161617226000007/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-30",
-          "shares": 254.0,
-          "pricePerShare": 113.26,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-02",
-      "accessionNumber": "0001616172-26-000007",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Harris Carla A",
-      "role": "Director",
-      "periodOfReport": "2026-06-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000170735126000018/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-30",
-          "shares": 155.0,
-          "pricePerShare": 113.26,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-02",
-      "accessionNumber": "0001707351-26-000018",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "MAYER MARISSA A",
-      "role": "Director",
-      "periodOfReport": "2026-06-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000155060826000018/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-30",
-          "shares": 254.0,
-          "pricePerShare": 113.26,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-02",
-      "accessionNumber": "0001550608-26-000018",
       "filingLagDays": 2
     },
     {

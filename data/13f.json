@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-13T00:51:21.782441Z",
+  "generated_at_utc": "2026-08-14T00:50:41.599014Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -12722,206 +12722,233 @@
       "display_name": "Seth Klarman",
       "firm": "Baupost Group",
       "cik": "0001061768",
-      "accessionNumber": "0001061768-26-000007",
-      "filedDate": "2026-05-14",
-      "periodOfReport": "2026-03-31",
+      "accessionNumber": "0001061768-26-000010",
+      "filedDate": "2026-08-13",
+      "periodOfReport": "2026-06-30",
       "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061768&type=13F-HR",
       "holdings": [
         {
           "issuer": "ALPHABET INC",
           "cusip": "02079K107",
-          "value_thousands_usd": 338819,
+          "value_thousands_usd": 484744,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "AMAZON COM INC",
           "cusip": "023135106",
-          "value_thousands_usd": 649543,
+          "value_thousands_usd": 892310,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "AMZN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AMERICOLD REALTY TRUST INC",
           "cusip": "03064D108",
-          "value_thousands_usd": 89168,
+          "value_thousands_usd": 107371,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "COLD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AON PLC",
           "cusip": "G0403H108",
-          "value_thousands_usd": 248218,
+          "value_thousands_usd": 227871,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "AON",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "AXALTA COATING SYS LTD",
+          "cusip": "G0750C108",
+          "value_thousands_usd": 43608,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "CME GROUP INC",
+          "cusip": "12572Q105",
+          "value_thousands_usd": 136694,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "CME",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "DNOW INC",
           "cusip": "67011P100",
-          "value_thousands_usd": 43174,
+          "value_thousands_usd": 36160,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "DNOW",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "EAGLE MATLS INC",
           "cusip": "26969P108",
-          "value_thousands_usd": 169134,
+          "value_thousands_usd": 119422,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "ELEVANCE HEALTH INC FORMERLY",
           "cusip": "036752103",
-          "value_thousands_usd": 373301,
+          "value_thousands_usd": 493140,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "FERGUSON ENTERPRISES INC",
           "cusip": "31488V107",
-          "value_thousands_usd": 336457,
+          "value_thousands_usd": 344269,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "GDS HLDGS LTD",
           "cusip": "36165L108",
-          "value_thousands_usd": 122676,
+          "value_thousands_usd": 113208,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "GENUINE PARTS CO",
           "cusip": "372460105",
-          "value_thousands_usd": 157604,
+          "value_thousands_usd": 332253,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GPC",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "GRUPO AEROMEXICO SAB DE CV",
           "cusip": "40054J109",
-          "value_thousands_usd": 68371,
+          "value_thousands_usd": 87843,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "AERO",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "HERBALIFE LTD",
           "cusip": "G4412G101",
-          "value_thousands_usd": 136305,
+          "value_thousands_usd": 121767,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "HLF",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "LIBERTY GLOBAL LTD",
           "cusip": "G61188127",
-          "value_thousands_usd": 157150,
+          "value_thousands_usd": 93975,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "MOLINA HEALTHCARE INC",
           "cusip": "60855R100",
-          "value_thousands_usd": 84460,
+          "value_thousands_usd": 144906,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MOH",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "NORWEGIAN CRUISE LINE HLDGS",
           "cusip": "G66721104",
-          "value_thousands_usd": 67881,
+          "value_thousands_usd": 163180,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
+          "issuer": "PERSHING SQUARE INC",
+          "cusip": "71531U102",
+          "value_thousands_usd": 12881,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "PS",
+          "tickerConfidence": "exact"
+        },
+        {
           "issuer": "RESTAURANT BRANDS INTL INC",
           "cusip": "76131D103",
-          "value_thousands_usd": 597208,
+          "value_thousands_usd": 489612,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "TELEFLEX INCORPORATED",
           "cusip": "879369106",
-          "value_thousands_usd": 190778,
+          "value_thousands_usd": 178605,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "UNION PAC CORP",
           "cusip": "907818108",
-          "value_thousands_usd": 373876,
+          "value_thousands_usd": 322427,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
-          "issuer": "VAXCYTE INC",
-          "cusip": "92243G108",
-          "value_thousands_usd": 46488,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "PCVX",
-          "tickerConfidence": "exact"
-        },
-        {
           "issuer": "VISA INC",
           "cusip": "92826C839",
-          "value_thousands_usd": 211978,
+          "value_thousands_usd": 240628,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "V",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "WESCO INTL INC",
           "cusip": "95082P105",
-          "value_thousands_usd": 393159,
+          "value_thousands_usd": 228979,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
+          "issuer": "VAXCYTE INC",
+          "cusip": "92243G108",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "PCVX",
+          "tickerConfidence": "exact"
+        },
+        {
           "issuer": "WILLIS TOWERS WATSON PLC LTD",
           "cusip": "G96629103",
-          "value_thousands_usd": 259632,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": "WTW",
           "tickerConfidence": "exact"
         }
