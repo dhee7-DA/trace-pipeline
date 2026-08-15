@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-14T00:50:24.213952Z",
+  "generated_at_utc": "2026-08-15T00:06:42.775126Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -4332,6 +4332,40 @@
       "issuerName": "JOHNSON & JOHNSON",
       "ownerName": "Duato Joaquin",
       "role": "Director, CEO and Chairman of the Board",
+      "periodOfReport": "2026-08-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000173/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-13",
+          "shares": 123291.0,
+          "pricePerShare": 115.67,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-13",
+          "shares": 20976.0,
+          "pricePerShare": 262.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-13",
+          "shares": 102315.0,
+          "pricePerShare": 261.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-14",
+      "accessionNumber": "0000200406-26-000173",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "JNJ",
+      "issuerName": "JOHNSON & JOHNSON",
+      "ownerName": "Duato Joaquin",
+      "role": "Director, CEO and Chairman of the Board",
       "periodOfReport": "2026-08-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000171/",
       "transactions": [
@@ -4574,17 +4608,6 @@
       "transactions": [],
       "filedDate": "2026-04-27",
       "accessionNumber": "0000200406-26-000102"
-    },
-    {
-      "issuerTicker": "JNJ",
-      "issuerName": "JOHNSON & JOHNSON",
-      "ownerName": "Joly Hubert",
-      "role": "Director",
-      "periodOfReport": "2026-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000100/",
-      "transactions": [],
-      "filedDate": "2026-04-27",
-      "accessionNumber": "0000200406-26-000100"
     },
     {
       "issuerTicker": "PG",
@@ -8260,6 +8283,26 @@
     {
       "issuerTicker": "WMT",
       "issuerName": "Walmart Inc.",
+      "ownerName": "Dallaire Seth",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-08-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000205830926000016/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-11",
+          "shares": 386.619,
+          "pricePerShare": 112.66,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-13",
+      "accessionNumber": "0002058309-26-000016",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
       "ownerName": "Milum Dwayne M",
       "role": "SVP & Controller",
       "periodOfReport": "2026-08-11",
@@ -8295,26 +8338,6 @@
       ],
       "filedDate": "2026-08-13",
       "accessionNumber": "0002110304-26-000019",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Dallaire Seth",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-08-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000205830926000016/",
-      "transactions": [
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-11",
-          "shares": 386.619,
-          "pricePerShare": 112.66,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-13",
-      "accessionNumber": "0002058309-26-000016",
       "filingLagDays": 2
     },
     {
