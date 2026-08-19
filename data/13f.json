@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-18T00:05:34.803730Z",
+  "generated_at_utc": "2026-08-19T00:05:31.640818Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -3061,8 +3061,8 @@
           "value_thousands_usd": 59713254,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GE Aerospace",
@@ -17273,8 +17273,8 @@
           "value_thousands_usd": 113904,
           "shares": null,
           "action": "Increased",
-          "ticker": "ABVC",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ABVC BIOPHARMA INC",
@@ -17282,8 +17282,8 @@
           "value_thousands_usd": 18328,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ABVC",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AC IMMUNE SA",
@@ -31106,8 +31106,8 @@
           "value_thousands_usd": 1704,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PARA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BAOZUN INC",
@@ -35867,8 +35867,8 @@
           "value_thousands_usd": 11037,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BNRG",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BRERA HOLDINGS PLC",
@@ -56378,8 +56378,8 @@
           "value_thousands_usd": 1189462055,
           "shares": null,
           "action": "Increased",
-          "ticker": "EA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELECTRONIC ARTS INC",
@@ -56387,8 +56387,8 @@
           "value_thousands_usd": 21672728,
           "shares": null,
           "action": "Increased",
-          "ticker": "EA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELECTRONIC ARTS INC",
@@ -56396,8 +56396,8 @@
           "value_thousands_usd": 21685440,
           "shares": null,
           "action": "Increased",
-          "ticker": "EA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELECTRONIC ARTS INC",
@@ -56405,8 +56405,8 @@
           "value_thousands_usd": 16587736,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "EA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELECTROVAYA INC",
@@ -58655,8 +58655,8 @@
           "value_thousands_usd": 66443556,
           "shares": null,
           "action": "Increased",
-          "ticker": "EQR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EQUITY RESIDENTIAL",
@@ -58664,8 +58664,8 @@
           "value_thousands_usd": 4870581,
           "shares": null,
           "action": "Increased",
-          "ticker": "EQR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EQUITY RESIDENTIAL",
@@ -58673,8 +58673,8 @@
           "value_thousands_usd": 1122204,
           "shares": null,
           "action": "Decreased",
-          "ticker": "EQR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EQUITY RESIDENTIAL",
@@ -58682,8 +58682,8 @@
           "value_thousands_usd": 4530931,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "EQR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EQUUS TOTAL RETURN INC",
@@ -92243,8 +92243,8 @@
           "value_thousands_usd": 13680203,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JOBY AVIATION INC",
@@ -92252,8 +92252,8 @@
           "value_thousands_usd": 1941830,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JOBY AVIATION INC",
@@ -92261,8 +92261,8 @@
           "value_thousands_usd": 19373348,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JOBY AVIATION INC",
@@ -92270,8 +92270,8 @@
           "value_thousands_usd": 4743647,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JOBY AVIATION INC",
@@ -92279,8 +92279,8 @@
           "value_thousands_usd": 17691036,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JOBY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JOHN HANCOCK EXCHANGE TRADED",
@@ -110621,8 +110621,8 @@
           "value_thousands_usd": 135,
           "shares": null,
           "action": "Decreased",
-          "ticker": "NUTR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NUSATRIP INC",
@@ -110630,8 +110630,8 @@
           "value_thousands_usd": 1007438,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "NUTR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NUSCALE PWR CORP",
@@ -112997,8 +112997,8 @@
           "value_thousands_usd": 47583,
           "shares": null,
           "action": "Decreased",
-          "ticker": "LPRO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OPEN LENDING CORP",
@@ -113006,8 +113006,8 @@
           "value_thousands_usd": 894884,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "LPRO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OPEN TEXT CORP",
@@ -132995,8 +132995,8 @@
           "value_thousands_usd": 7152028,
           "shares": null,
           "action": "Increased",
-          "ticker": "SKYT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SKYWATER TECHNOLOGY INC",
@@ -133004,8 +133004,8 @@
           "value_thousands_usd": 909638,
           "shares": null,
           "action": "Decreased",
-          "ticker": "SKYT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SKYWATER TECHNOLOGY INC",
@@ -133013,8 +133013,8 @@
           "value_thousands_usd": 3666546,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SKYT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SKYWEST INC",
@@ -155054,8 +155054,8 @@
           "value_thousands_usd": 10415,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GVHGF",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VISIONSYS AI INC",
