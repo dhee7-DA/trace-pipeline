@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-08-21T00:07:22.565479Z",
+  "generated_at_utc": "2026-08-22T00:06:47.401337Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -3089,6 +3089,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Tim Moore",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "8/20/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035291.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Kelly Louise Morrison",
       "chamber": "House",
       "party": null,
@@ -4058,6 +4070,18 @@
       "tradeDate": null,
       "disclosedDate": "8/6/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "David J. Taylor",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "8/20/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf"
     },
     {
       "confidence": "index-only",

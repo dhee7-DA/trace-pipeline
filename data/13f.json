@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-21T00:07:21.124668Z",
+  "generated_at_utc": "2026-08-22T00:06:46.533231Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -31106,8 +31106,8 @@
           "value_thousands_usd": 1704,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "PARA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BAOZUN INC",
@@ -61967,8 +61967,8 @@
           "value_thousands_usd": 13548,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "FTRK",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "FASTENAL CO",
@@ -70913,8 +70913,8 @@
           "value_thousands_usd": 16630,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "GGRP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
@@ -122933,8 +122933,8 @@
           "value_thousands_usd": 1537247,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "QTTB",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "QCR HLDGS INC",
