@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-25T00:05:35.516684Z",
+  "generated_at_utc": "2026-08-26T00:06:41.065355Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -961,6 +961,322 @@
     {
       "issuerTicker": "AMZN",
       "issuerName": "AMAZON COM INC",
+      "ownerName": "Garman Matthew S",
+      "role": "CEO Amazon Web Services",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 4860.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 1480.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 4000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 7836.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 2159.0,
+          "pricePerShare": 257.5954,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 5191.0,
+          "pricePerShare": 258.6595,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 5240.0,
+          "pricePerShare": 259.5702,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1951.0,
+          "pricePerShare": 260.3396,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0002024813-26-000010",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 7500.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 2840.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 5565.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1825.0,
+          "pricePerShare": 257.7656,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 2125.0,
+          "pricePerShare": 258.5805,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 2412.0,
+          "pricePerShare": 260.3251,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001936006-26-000022",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Zapolsky David",
+      "role": "Senior Vice President",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 9900.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 5530.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1138.0,
+          "pricePerShare": 257.7019,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1782.0,
+          "pricePerShare": 258.6357,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 2133.0,
+          "pricePerShare": 259.6335,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1119.0,
+          "pricePerShare": 260.449,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 9258.0,
+          "pricePerShare": 259.77,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001557979-26-000008",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Olsavsky Brian T",
+      "role": "Senior Vice President and CFO",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000008/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 9900.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 5530.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 6172.0,
+          "pricePerShare": 260.31,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001639902-26-000008",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Reynolds Shelley",
+      "role": "Vice President",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 1800.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 543.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 675.0,
+          "pricePerShare": 257.7656,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 780.0,
+          "pricePerShare": 258.5812,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 888.0,
+          "pricePerShare": 260.3252,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001397333-26-000006",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Jassy Andrew R",
+      "role": "Director, President and CEO",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 50000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 3197.0,
+          "pricePerShare": 257.6343,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 7478.0,
+          "pricePerShare": 258.6654,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 7514.0,
+          "pricePerShare": 259.6068,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1811.0,
+          "pricePerShare": 260.3925,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001374545-26-000010",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
       "ownerName": "Herrington Douglas J",
       "role": "CEO Worldwide Amazon Stores",
       "periodOfReport": "2026-08-15",
@@ -1284,252 +1600,6 @@
       "filedDate": "2026-05-26",
       "accessionNumber": "0001018724-26-000020",
       "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Zapolsky David",
-      "role": "Senior Vice President",
-      "periodOfReport": "2026-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000006/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 9920.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 5530.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1600.0,
-          "pricePerShare": 261.9554,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1921.0,
-          "pricePerShare": 263.1658,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1644.0,
-          "pricePerShare": 264.1187,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1014.0,
-          "pricePerShare": 265.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1.0,
-          "pricePerShare": 265.72,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-22",
-          "shares": 9270.0,
-          "pricePerShare": 268.53,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-26",
-      "accessionNumber": "0001557979-26-000006",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Olsavsky Brian T",
-      "role": "Senior Vice President and CFO",
-      "periodOfReport": "2026-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000006/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 9920.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 5530.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-26",
-      "accessionNumber": "0001639902-26-000006",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Reynolds Shelley",
-      "role": "Vice President",
-      "periodOfReport": "2026-05-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000018/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 1820.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-21",
-          "shares": 543.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 1600.0,
-          "pricePerShare": 261.8269,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 463.0,
-          "pricePerShare": 263.2466,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-21",
-          "shares": 300.0,
-          "pricePerShare": 263.99,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-26",
-      "accessionNumber": "0001018724-26-000018",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Garman Matthew S",
-      "role": "CEO Amazon Web Services",
-      "periodOfReport": "2026-05-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000006/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-15",
-          "shares": 13500.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 3389.0,
-          "pricePerShare": 261.7887,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 6151.0,
-          "pricePerShare": 262.8454,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 1935.0,
-          "pricePerShare": 263.5705,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-19",
-      "accessionNumber": "0002024813-26-000006",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "periodOfReport": "2026-05-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000016/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-15",
-          "shares": 9353.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 1044.0,
-          "pricePerShare": 261.7441,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 2098.0,
-          "pricePerShare": 262.725,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-15",
-          "shares": 600.0,
-          "pricePerShare": 263.5733,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-19",
-      "accessionNumber": "0001936006-26-000016",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Ng Andrew Y.",
-      "role": "Director",
-      "periodOfReport": "2026-05-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000185110126000002/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-15",
-          "shares": 1984.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-19",
-      "accessionNumber": "0001851101-26-000002",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "GOOGL",
@@ -4170,6 +4240,26 @@
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Conway Patrick Hugh",
+      "role": "Chief Executive Officer, Optum",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000201/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1169.0,
+          "pricePerShare": 390.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0000731766-26-000201",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
       "ownerName": "Stankiewicz Dennis Andrew",
       "role": "Chief Accounting Officer",
       "periodOfReport": "2026-08-11",
@@ -4452,26 +4542,6 @@
       ],
       "filedDate": "2026-06-25",
       "accessionNumber": "0000731766-26-000170",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Gil Kristen",
-      "role": "Director",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000169/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-23",
-          "shares": 8.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000731766-26-000169",
       "filingLagDays": 2
     },
     {
@@ -7689,6 +7759,127 @@
     {
       "issuerTicker": "CRM",
       "issuerName": "Salesforce, Inc.",
+      "ownerName": "Milano Miguel",
+      "role": "President and COO",
+      "periodOfReport": "2026-08-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000182/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-22",
+          "shares": 1662.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-22",
+          "shares": 678.0,
+          "pricePerShare": 209.17,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001108524-26-000182",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
+      "ownerName": "Niles Sabastian",
+      "role": "President and CLO",
+      "periodOfReport": "2026-08-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000180/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-22",
+          "shares": 1662.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-22",
+          "shares": 920.0,
+          "pricePerShare": 209.17,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001108524-26-000180",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
+      "ownerName": "SACHIN J. MEHRA",
+      "role": "Director",
+      "periodOfReport": "2026-08-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000178/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-22",
+          "shares": 441.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001108524-26-000178",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
+      "ownerName": "MUNOZ OSCAR",
+      "role": "Director",
+      "periodOfReport": "2026-08-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000176/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-22",
+          "shares": 441.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001108524-26-000176",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
+      "ownerName": "KROES NEELIE",
+      "role": "Director",
+      "periodOfReport": "2026-08-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000174/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-22",
+          "shares": 441.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-08-22",
+          "shares": 67.0,
+          "pricePerShare": 209.17,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001108524-26-000174",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
       "ownerName": "ALBER LAURA",
       "role": "Director",
       "periodOfReport": "2026-08-22",
@@ -7941,146 +8132,6 @@
       "filedDate": "2026-06-23",
       "accessionNumber": "0001108524-26-000150",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "Washington Robin L",
-      "role": "Director, President and COFO",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000148/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1831.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 908.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-23",
-      "accessionNumber": "0001108524-26-000148",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "Harris Parker",
-      "role": "Director, Co-Founder and CTO, Slack",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000146/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1269.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 630.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1271.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 631.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-23",
-      "accessionNumber": "0001108524-26-000146",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "Milano Miguel",
-      "role": "President and CRO",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000144/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1016.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 400.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1525.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 601.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-23",
-      "accessionNumber": "0001108524-26-000144",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "Wanger Guy",
-      "role": "EVP & Chief Accounting Officer",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000142/",
-      "transactions": [],
-      "filedDate": "2026-06-23",
-      "accessionNumber": "0001108524-26-000142"
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "ALBER LAURA",
-      "role": "Director",
-      "periodOfReport": "2026-05-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000121/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-05-22",
-          "shares": 442.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-26",
-      "accessionNumber": "0001108524-26-000121",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "AMD",
@@ -9798,6 +9849,61 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Buckley Jeffrey",
+      "role": "See Remarks",
+      "periodOfReport": "2026-08-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000015/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-20",
+          "shares": 58.0,
+          "pricePerShare": 172.6542,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-20",
+          "shares": 100.0,
+          "pricePerShare": 173.7864,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-20",
+          "shares": 1565.0,
+          "pricePerShare": 174.8455,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-20",
+          "shares": 325.0,
+          "pricePerShare": 175.4185,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-20",
+          "shares": 7.0,
+          "pricePerShare": 176.3133,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1250.0,
+          "pricePerShare": 174.29,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-24",
+      "accessionNumber": "0001705189-26-000015",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Karp Alexander C.",
       "role": "Director, See Remarks",
       "periodOfReport": "2026-08-20",
@@ -10270,30 +10376,107 @@
       "filingLagDays": 4
     },
     {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "periodOfReport": "2026-05-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000010/",
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
+      "role": "Director, PRESIDENT AND CEO",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326012856/",
       "transactions": [
         {
           "transactionCode": "S",
-          "transactionDate": "2026-05-29",
-          "shares": 1667.0,
-          "pricePerShare": 150.0,
+          "transactionDate": "2026-08-21",
+          "shares": 440.0,
+          "pricePerShare": 187.45,
           "acquiredOrDisposed": "Disposed"
         },
         {
           "transactionCode": "S",
-          "transactionDate": "2026-06-01",
-          "shares": 1598.0,
-          "pricePerShare": 160.0,
+          "transactionDate": "2026-08-21",
+          "shares": 1200.0,
+          "pricePerShare": 188.8,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 3480.0,
+          "pricePerShare": 189.83,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 2160.0,
+          "pricePerShare": 190.51,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1960.0,
+          "pricePerShare": 191.78,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 760.0,
+          "pricePerShare": 192.38,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 800.0,
+          "pricePerShare": 189.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 2.978,
+          "pricePerShare": 190.25,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 4782.0,
+          "pricePerShare": 190.95,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1080.0,
+          "pricePerShare": 191.97,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 160.0,
+          "pricePerShare": 193.08,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 192.0,
+          "pricePerShare": 194.58,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 8.0,
+          "pricePerShare": 195.27,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-06-02",
-      "accessionNumber": "0001840244-26-000010",
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0000950103-26-012856",
       "filingLagDays": 4
     },
     {
@@ -11858,87 +12041,24 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-07-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000125/",
+      "issuerTicker": "AMT",
+      "issuerName": "AMERICAN TOWER CORP /MA/",
+      "ownerName": "Kalathur Rajesh",
+      "role": "Director",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000139/",
       "transactions": [
         {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 1608.0,
-          "pricePerShare": 190.54,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 3249.0,
-          "pricePerShare": 191.44,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 2775.0,
-          "pricePerShare": 192.46,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 472.0,
-          "pricePerShare": 193.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 524.0,
-          "pricePerShare": 194.49,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 276.0,
-          "pricePerShare": 195.72,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 152.0,
-          "pricePerShare": 196.41,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 384.0,
-          "pricePerShare": 197.59,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 492.0,
-          "pricePerShare": 198.77,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-21",
-          "shares": 68.0,
-          "pricePerShare": 199.93,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "P",
+          "transactionDate": "2026-08-21",
+          "shares": 2829.0,
+          "pricePerShare": 177.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-07-22",
-      "accessionNumber": "0001778564-26-000125",
-      "filingLagDays": 1
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001053507-26-000139",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "AMT",
@@ -12321,26 +12441,6 @@
       ],
       "filedDate": "2026-03-12",
       "accessionNumber": "0001053507-26-000068",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AMT",
-      "issuerName": "AMERICAN TOWER CORP /MA/",
-      "ownerName": "MACNAB CRAIG",
-      "role": "Director",
-      "periodOfReport": "2026-03-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000066/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-03-10",
-          "shares": 1209.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-03-12",
-      "accessionNumber": "0001053507-26-000066",
       "filingLagDays": 2
     },
     {
@@ -13875,33 +13975,6 @@
       "filedDate": "2026-08-04",
       "accessionNumber": "0000070858-26-000409",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-07-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000368/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-07-24",
-          "shares": 9.0,
-          "pricePerShare": 10.235,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-24",
-          "shares": 9.0,
-          "pricePerShare": 10.175,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-07-28",
-      "accessionNumber": "0000070858-26-000368",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "BJDX",

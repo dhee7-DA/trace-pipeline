@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-25T00:05:52.716614Z",
+  "generated_at_utc": "2026-08-26T00:06:58.341375Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -4332,8 +4332,8 @@
           "value_thousands_usd": 30534083,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "AEM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AIRBNB INC",
@@ -19154,8 +19154,8 @@
           "value_thousands_usd": 1394,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LIDR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "AEYE INC",
@@ -19163,8 +19163,8 @@
           "value_thousands_usd": 178212,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LIDR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "AFFILIATED MANAGERS GROUP",
@@ -19505,8 +19505,8 @@
           "value_thousands_usd": 25162396,
           "shares": null,
           "action": "Decreased",
-          "ticker": "AEM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AGNICO EAGLE MINES LTD",
@@ -19514,8 +19514,8 @@
           "value_thousands_usd": 118178034,
           "shares": null,
           "action": "Increased",
-          "ticker": "AEM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AGNICO EAGLE MINES LTD",
@@ -19523,8 +19523,8 @@
           "value_thousands_usd": 31010487,
           "shares": null,
           "action": "Decreased",
-          "ticker": "AEM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AGNICO EAGLE MINES LTD",
@@ -19532,8 +19532,8 @@
           "value_thousands_usd": 100089876,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "AEM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AGORA INC",
@@ -61967,8 +61967,8 @@
           "value_thousands_usd": 13548,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "FTRKF",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "FASTENAL CO",
@@ -104519,8 +104519,8 @@
           "value_thousands_usd": 1669020,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MNTS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MOMENTUS INC",
@@ -104528,8 +104528,8 @@
           "value_thousands_usd": 104160,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MNTS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MOMENTUS INC",
@@ -104537,8 +104537,8 @@
           "value_thousands_usd": 309113,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MNTS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MOMENTUS INC",
@@ -104546,8 +104546,8 @@
           "value_thousands_usd": 254688,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MNTS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MONARCH CASINO & RESORT INC",
