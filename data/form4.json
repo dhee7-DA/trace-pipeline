@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-26T00:06:41.065355Z",
+  "generated_at_utc": "2026-08-27T05:10:44.816183Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -814,26 +814,6 @@
     {
       "issuerTicker": "NVDA",
       "issuerName": "NVIDIA CORP",
-      "ownerName": "LORA MELISSA",
-      "role": "Director",
-      "periodOfReport": "2026-06-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000128411626000004/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-25",
-          "shares": 1211.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-29",
-      "accessionNumber": "0001284116-26-000004",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "NVDA",
-      "issuerName": "NVIDIA CORP",
       "ownerName": "JONES HARVEY C",
       "role": "Director",
       "periodOfReport": "2026-06-25",
@@ -957,6 +937,54 @@
       "filedDate": "2026-06-23",
       "accessionNumber": "0001696841-26-000008",
       "filingLagDays": 6
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "Jassy Andrew R",
+      "role": "Director, President and CEO",
+      "periodOfReport": "2026-08-21",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-21",
+          "shares": 50000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 3197.0,
+          "pricePerShare": 257.6343,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 7478.0,
+          "pricePerShare": 258.6654,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 7514.0,
+          "pricePerShare": 259.6068,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-21",
+          "shares": 1811.0,
+          "pricePerShare": 260.3925,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-25",
+      "accessionNumber": "0001374545-26-000010",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "AMZN",
@@ -1224,54 +1252,6 @@
       ],
       "filedDate": "2026-08-25",
       "accessionNumber": "0001397333-26-000006",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Jassy Andrew R",
-      "role": "Director, President and CEO",
-      "periodOfReport": "2026-08-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-21",
-          "shares": 50000.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-21",
-          "shares": 3197.0,
-          "pricePerShare": 257.6343,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-21",
-          "shares": 7478.0,
-          "pricePerShare": 258.6654,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-21",
-          "shares": 7514.0,
-          "pricePerShare": 259.6068,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-21",
-          "shares": 1811.0,
-          "pricePerShare": 260.3925,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-25",
-      "accessionNumber": "0001374545-26-000010",
       "filingLagDays": 4
     },
     {
@@ -4801,28 +4781,6 @@
     {
       "issuerTicker": "JNJ",
       "issuerName": "JOHNSON & JOHNSON",
-      "ownerName": "West Nadja",
-      "role": "Director",
-      "periodOfReport": "2026-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000111/",
-      "transactions": [],
-      "filedDate": "2026-04-27",
-      "accessionNumber": "0000200406-26-000111"
-    },
-    {
-      "issuerTicker": "JNJ",
-      "issuerName": "JOHNSON & JOHNSON",
-      "ownerName": "WEINBERGER MARK A",
-      "role": "Director",
-      "periodOfReport": "2026-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000108/",
-      "transactions": [],
-      "filedDate": "2026-04-27",
-      "accessionNumber": "0000200406-26-000108"
-    },
-    {
-      "issuerTicker": "JNJ",
-      "issuerName": "JOHNSON & JOHNSON",
       "ownerName": "Pinto Daniel E",
       "role": "Director",
       "periodOfReport": "2026-04-23",
@@ -8136,6 +8094,117 @@
     {
       "issuerTicker": "AMD",
       "issuerName": "ADVANCED MICRO DEVICES INC",
+      "ownerName": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "periodOfReport": "2026-08-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000176/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-08-24",
+          "shares": 7261.0,
+          "pricePerShare": 84.85,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 942.0,
+          "pricePerShare": 453.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1182.0,
+          "pricePerShare": 454.18,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 2125.0,
+          "pricePerShare": 455.62,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 2312.0,
+          "pricePerShare": 456.49,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1904.0,
+          "pricePerShare": 457.44,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 400.0,
+          "pricePerShare": 458.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1630.0,
+          "pricePerShare": 459.68,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1500.0,
+          "pricePerShare": 460.64,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 301.0,
+          "pricePerShare": 462.59,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 321.0,
+          "pricePerShare": 464.27,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 1455.0,
+          "pricePerShare": 465.43,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 600.0,
+          "pricePerShare": 466.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 2589.0,
+          "pricePerShare": 468.14,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-26",
+      "accessionNumber": "0000002488-26-000176",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "AMD",
+      "issuerName": "ADVANCED MICRO DEVICES INC",
       "ownerName": "Papermaster Mark D",
       "role": "Chief Technology Officer & EVP",
       "periodOfReport": "2026-08-19",
@@ -8667,26 +8736,6 @@
       "filedDate": "2026-08-17",
       "accessionNumber": "0000002488-26-000143",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AMD",
-      "issuerName": "ADVANCED MICRO DEVICES INC",
-      "ownerName": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "periodOfReport": "2026-08-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000141/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-11",
-          "shares": 143.0,
-          "pricePerShare": 474.75,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-13",
-      "accessionNumber": "0000002488-26-000141",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "WMT",
@@ -9321,6 +9370,26 @@
       "issuerName": "Coinbase Global, Inc.",
       "ownerName": "Jones Jennifer N.",
       "role": "Chief Accounting Officer",
+      "periodOfReport": "2026-08-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000099/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-24",
+          "shares": 2062.0,
+          "pricePerShare": 188.75,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-26",
+      "accessionNumber": "0001679788-26-000099",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "COIN",
+      "issuerName": "Coinbase Global, Inc.",
+      "ownerName": "Jones Jennifer N.",
+      "role": "Chief Accounting Officer",
       "periodOfReport": "2026-08-20",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000097/",
       "transactions": [
@@ -9824,26 +9893,6 @@
       ],
       "filedDate": "2026-06-18",
       "accessionNumber": "0001679788-26-000072",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "COIN",
-      "issuerName": "Coinbase Global, Inc.",
-      "ownerName": "Rajaram Gokul",
-      "role": "Director",
-      "periodOfReport": "2026-06-16",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000071/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-16",
-          "shares": 1234.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-18",
-      "accessionNumber": "0001679788-26-000071",
       "filingLagDays": 2
     },
     {
@@ -14174,67 +14223,6 @@
       "filedDate": "2026-06-02",
       "accessionNumber": "0000070858-26-000327",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PML",
-      "issuerName": "PIMCO MUNICIPAL INCOME FUND II",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000322/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-05-20",
-          "shares": 680.0,
-          "pricePerShare": 7.355,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 680.0,
-          "pricePerShare": 7.3313,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-22",
-      "accessionNumber": "0000070858-26-000322",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "NBH",
-      "issuerName": "NEUBERGER MUNICIPAL FUND INC.",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-05-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000321/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-05-20",
-          "shares": 3200.0,
-          "pricePerShare": 10.26,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 2000.0,
-          "pricePerShare": 10.1109,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-20",
-          "shares": 1200.0,
-          "pricePerShare": 10.1109,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-22",
-      "accessionNumber": "0000070858-26-000321",
-      "filingLagDays": 2
     }
   ]
 }
