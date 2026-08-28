@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-27T05:11:02.111435Z",
+  "generated_at_utc": "2026-08-28T07:12:18.996217Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -94241,8 +94241,8 @@
           "value_thousands_usd": 276295,
           "shares": null,
           "action": "Decreased",
-          "ticker": "KLXE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KLX ENERGY SERVICES HOLDINGS",
@@ -94250,8 +94250,8 @@
           "value_thousands_usd": 354492,
           "shares": null,
           "action": "Decreased",
-          "ticker": "KLXE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KLX ENERGY SERVICES HOLDINGS",
@@ -94259,8 +94259,8 @@
           "value_thousands_usd": 390336,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "KLXE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KNIFE RIVER CORP",
