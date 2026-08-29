@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-08-28T07:12:01.813704Z",
+  "generated_at_utc": "2026-08-29T04:27:08.917288Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -4849,6 +4849,17 @@
     {
       "issuerTicker": "JNJ",
       "issuerName": "JOHNSON & JOHNSON",
+      "ownerName": "Pinto Daniel E",
+      "role": "Director",
+      "periodOfReport": "2026-04-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000106/",
+      "transactions": [],
+      "filedDate": "2026-04-27",
+      "accessionNumber": "0000200406-26-000106"
+    },
+    {
+      "issuerTicker": "JNJ",
+      "issuerName": "JOHNSON & JOHNSON",
       "ownerName": "MORIKIS JOHN G",
       "role": "Director",
       "periodOfReport": "2026-04-23",
@@ -5694,26 +5705,6 @@
       "transactions": [],
       "filedDate": "2026-06-03",
       "accessionNumber": "0000093410-26-000150"
-    },
-    {
-      "issuerTicker": "CVX",
-      "issuerName": "CHEVRON CORP",
-      "ownerName": "Huntsman Jon M Jr",
-      "role": "Director",
-      "periodOfReport": "2026-05-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000148/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-05-27",
-          "shares": 1272.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-29",
-      "accessionNumber": "0000093410-26-000148",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "CVX",
@@ -7774,6 +7765,26 @@
     {
       "issuerTicker": "CRM",
       "issuerName": "Salesforce, Inc.",
+      "ownerName": "Harris Parker",
+      "role": "Director, Co-Founder and CTO, Slack",
+      "periodOfReport": "2026-08-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000192/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-08-28",
+          "shares": 16000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-28",
+      "accessionNumber": "0001108524-26-000192",
+      "filingLagDays": 0
+    },
+    {
+      "issuerTicker": "CRM",
+      "issuerName": "Salesforce, Inc.",
       "ownerName": "Milano Miguel",
       "role": "President and COO",
       "periodOfReport": "2026-08-22",
@@ -8105,47 +8116,6 @@
       ],
       "filedDate": "2026-06-23",
       "accessionNumber": "0001108524-26-000152",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRM",
-      "issuerName": "Salesforce, Inc.",
-      "ownerName": "Niles Sabastian",
-      "role": "President and CLO",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000150/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1016.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 562.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-22",
-          "shares": 1017.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-22",
-          "shares": 563.0,
-          "pricePerShare": 150.12,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-23",
-      "accessionNumber": "0001108524-26-000150",
       "filingLagDays": 1
     },
     {
@@ -12650,6 +12620,26 @@
     {
       "issuerTicker": "ADI",
       "issuerName": "ANALOG DEVICES INC",
+      "ownerName": "Golz Karen",
+      "role": "Director",
+      "periodOfReport": "2026-08-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6281/000174471226000007/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-08-27",
+          "shares": 1000.0,
+          "pricePerShare": 374.5,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-08-28",
+      "accessionNumber": "0001744712-26-000007",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "ADI",
+      "issuerName": "ANALOG DEVICES INC",
       "ownerName": "Puccio Richard C Jr",
       "role": "EVP and CFO",
       "periodOfReport": "2026-08-26",
@@ -13313,173 +13303,6 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "ADI",
-      "issuerName": "ANALOG DEVICES INC",
-      "ownerName": "STATA RAY",
-      "role": "Director",
-      "periodOfReport": "2026-06-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000062/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 24.0,
-          "pricePerShare": 384.31,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 36.0,
-          "pricePerShare": 386.7567,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 36.0,
-          "pricePerShare": 388.3608,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 24.0,
-          "pricePerShare": 389.5975,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 24.0,
-          "pricePerShare": 391.4881,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 24.0,
-          "pricePerShare": 392.3625,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 48.0,
-          "pricePerShare": 393.7088,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 36.0,
-          "pricePerShare": 395.0483,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 118.0,
-          "pricePerShare": 396.3042,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 73.0,
-          "pricePerShare": 397.535,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 85.0,
-          "pricePerShare": 398.3184,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 108.0,
-          "pricePerShare": 399.8751,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 108.0,
-          "pricePerShare": 400.9844,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 200.0,
-          "pricePerShare": 402.1632,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 129.0,
-          "pricePerShare": 403.3422,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 44.0,
-          "pricePerShare": 405.0714,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 44.0,
-          "pricePerShare": 406.7034,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 57.0,
-          "pricePerShare": 408.0797,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 60.0,
-          "pricePerShare": 409.4233,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 58.0,
-          "pricePerShare": 410.7021,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 48.0,
-          "pricePerShare": 411.75,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-09",
-          "shares": 48.0,
-          "pricePerShare": 413.4538,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-11",
-      "accessionNumber": "0000006281-26-000062",
-      "filingLagDays": 2
-    },
-    {
       "issuerTicker": "OXY",
       "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
       "ownerName": "POLLACK BRAD",
@@ -13603,28 +13426,28 @@
     {
       "issuerTicker": "OXY",
       "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
-      "ownerName": "Robinson Kenneth B.",
+      "ownerName": "BAILEY VICKY A",
       "role": "Director",
       "periodOfReport": "2026-05-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026031566/",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026031568/",
       "transactions": [
         {
           "transactionCode": "A",
           "transactionDate": "2026-05-04",
-          "shares": 4149.0,
+          "shares": 3734.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         },
         {
           "transactionCode": "F",
           "transactionDate": "2026-05-04",
-          "shares": 913.0,
+          "shares": 1223.0,
           "pricePerShare": 60.27,
           "acquiredOrDisposed": "Disposed"
         }
       ],
       "filedDate": "2026-05-06",
-      "accessionNumber": "0001628280-26-031566",
+      "accessionNumber": "0001628280-26-031568",
       "filingLagDays": 2
     },
     {
@@ -13759,6 +13582,61 @@
       ],
       "filedDate": "2026-05-06",
       "accessionNumber": "0001628280-26-031550",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "OXY",
+      "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "ownerName": "POLADIAN AVEDICK BARUYR",
+      "role": "Director",
+      "periodOfReport": "2026-04-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026025561/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-04-14",
+          "shares": 5000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-04-16",
+      "accessionNumber": "0001628280-26-025561",
       "filingLagDays": 2
     },
     {
@@ -14092,33 +13970,6 @@
       "filingLagDays": 1
     },
     {
-      "issuerTicker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-07-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000368/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-07-24",
-          "shares": 9.0,
-          "pricePerShare": 10.235,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-24",
-          "shares": 9.0,
-          "pricePerShare": 10.175,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-07-28",
-      "accessionNumber": "0000070858-26-000368",
-      "filingLagDays": 4
-    },
-    {
       "issuerTicker": "BJDX",
       "issuerName": "Bluejay Diagnostics, Inc.",
       "ownerName": "BANK OF AMERICA CORP /DE/",
@@ -14220,6 +14071,61 @@
       "filedDate": "2026-06-17",
       "accessionNumber": "0000070858-26-000343",
       "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "ADTX",
+      "issuerName": "Aditxt, Inc.",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-06-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000336/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-06-11",
+          "shares": 1.0,
+          "pricePerShare": 0.02,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-06-11",
+          "shares": 1.0,
+          "pricePerShare": 0.02,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-06-11",
+          "shares": 1.0,
+          "pricePerShare": 0.01,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-06-11",
+          "shares": 1.0,
+          "pricePerShare": 0.01,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-06-11",
+          "shares": 3.0,
+          "pricePerShare": 0.01,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-06-11",
+          "shares": 15.0,
+          "pricePerShare": 0.01,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-06-15",
+      "accessionNumber": "0000070858-26-000336",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "EFR",
