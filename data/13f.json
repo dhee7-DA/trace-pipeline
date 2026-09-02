@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-01T02:11:12.579822Z",
+  "generated_at_utc": "2026-09-02T01:33:17.266479Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -2998,8 +2998,8 @@
           "value_thousands_usd": 6343448,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "QSI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Xometry Inc",
@@ -16328,8 +16328,8 @@
           "value_thousands_usd": 120759,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "TETH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "36KR HOLDINGS INC",
@@ -33086,8 +33086,8 @@
           "value_thousands_usd": 55290,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BGI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BIT DIGITAL INC",
@@ -61346,8 +61346,8 @@
           "value_thousands_usd": 14876,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "XPON",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EXPONENT INC",
@@ -61967,8 +61967,8 @@
           "value_thousands_usd": 13548,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "FTRKF",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "FASTENAL CO",
@@ -70913,8 +70913,8 @@
           "value_thousands_usd": 16630,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BTLN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
@@ -130799,8 +130799,8 @@
           "value_thousands_usd": 45486,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "AIHS",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SENSATA TECHNOLOGIES HLDG PL",
@@ -140069,8 +140069,8 @@
           "value_thousands_usd": 59800,
           "shares": null,
           "action": "Decreased",
-          "ticker": "TALK",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "TALKSPACE INC",
@@ -140078,8 +140078,8 @@
           "value_thousands_usd": 1889144,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "TALK",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "TALOS ENERGY INC",
