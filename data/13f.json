@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-03T01:35:14.270071Z",
+  "generated_at_utc": "2026-09-04T01:29:40.574789Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -1770,8 +1770,8 @@
           "value_thousands_usd": 105404,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Seagate Technology Hldngs Pl",
@@ -2791,8 +2791,8 @@
           "value_thousands_usd": 15180586,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Synopsys Inc",
@@ -11181,8 +11181,8 @@
           "value_thousands_usd": 115433272,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
@@ -15840,8 +15840,8 @@
           "value_thousands_usd": 1203543536,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
@@ -129953,8 +129953,8 @@
           "value_thousands_usd": 7938366,
           "shares": null,
           "action": "Decreased",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEA LTD",
@@ -129962,8 +129962,8 @@
           "value_thousands_usd": 9583,
           "shares": null,
           "action": "Decreased",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEA LTD",
@@ -129971,8 +129971,8 @@
           "value_thousands_usd": 428896748,
           "shares": null,
           "action": "Increased",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEA LTD",
@@ -129980,8 +129980,8 @@
           "value_thousands_usd": 13978339,
           "shares": null,
           "action": "Decreased",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEA LTD",
@@ -129989,8 +129989,8 @@
           "value_thousands_usd": 266656558,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SEABOARD CORP DEL",
