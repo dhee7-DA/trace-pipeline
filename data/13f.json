@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-12T01:41:38.070165Z",
+  "generated_at_utc": "2026-09-15T02:02:13.972618Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -9759,8 +9759,8 @@
           "value_thousands_usd": 201371,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "NFE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NEW JERSEY RES CORP",
@@ -15107,8 +15107,8 @@
           "value_thousands_usd": 28303572,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MPLX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "NRG ENERGY INC",
@@ -25229,8 +25229,8 @@
           "value_thousands_usd": 929110,
           "shares": null,
           "action": "Decreased",
-          "ticker": "APGE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "APOGEE THERAPEUTICS INC",
@@ -25238,8 +25238,8 @@
           "value_thousands_usd": 5821140,
           "shares": null,
           "action": "Increased",
-          "ticker": "APGE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "APOGEE THERAPEUTICS INC",
@@ -25247,8 +25247,8 @@
           "value_thousands_usd": 1061840,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "APGE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "APOLLO COML REAL ESTATE FIN",
@@ -27056,8 +27056,8 @@
           "value_thousands_usd": 3325668,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ARQQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARQIT QUANTUM INC",
@@ -27065,8 +27065,8 @@
           "value_thousands_usd": 1572188,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ARQQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARRAY DIGITAL INFRASTRUCTURE",
@@ -28154,8 +28154,8 @@
           "value_thousands_usd": 2863539,
           "shares": null,
           "action": "Increased",
-          "ticker": "ATAI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATAIBECKLEY INC",
@@ -28163,8 +28163,8 @@
           "value_thousands_usd": 1180480,
           "shares": null,
           "action": "Increased",
-          "ticker": "ATAI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATAIBECKLEY INC",
@@ -28172,8 +28172,8 @@
           "value_thousands_usd": 8282026,
           "shares": null,
           "action": "Increased",
-          "ticker": "ATAI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATAIBECKLEY INC",
@@ -28181,8 +28181,8 @@
           "value_thousands_usd": 951762,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ATAI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATARA BIOTHERAPEUTICS INC",
@@ -33050,8 +33050,8 @@
           "value_thousands_usd": 210400,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BTAI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BIRCHTECH CORP",
@@ -33086,8 +33086,8 @@
           "value_thousands_usd": 55290,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BGICF",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BIT DIGITAL INC",
@@ -34058,8 +34058,8 @@
           "value_thousands_usd": 504207,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKSY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BLACKSKY TECHNOLOGY INC",
@@ -34067,8 +34067,8 @@
           "value_thousands_usd": 8325744,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKSY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BLACKSKY TECHNOLOGY INC",
@@ -34076,8 +34076,8 @@
           "value_thousands_usd": 12667220,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKSY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BLACKSKY TECHNOLOGY INC",
@@ -34085,8 +34085,8 @@
           "value_thousands_usd": 4989304,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKSY",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BLACKSTONE DIGITAL INFRASTRU",
@@ -43337,8 +43337,8 @@
           "value_thousands_usd": 1058,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ZONE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CLEANCORE SOLUTIONS INC",
@@ -43346,8 +43346,8 @@
           "value_thousands_usd": 176480,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ZONE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CLEANSPARK INC",
@@ -70913,8 +70913,8 @@
           "value_thousands_usd": 16630,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BTLN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
@@ -105338,8 +105338,8 @@
           "value_thousands_usd": 31043463,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MPLX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MPLX LP",
@@ -105347,8 +105347,8 @@
           "value_thousands_usd": 11781251,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MPLX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MPLX LP",
@@ -105356,8 +105356,8 @@
           "value_thousands_usd": 5035902,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MPLX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MSA SAFETY INC",
@@ -107705,8 +107705,8 @@
           "value_thousands_usd": 173634,
           "shares": null,
           "action": "Decreased",
-          "ticker": "NFE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NEW FORTRESS ENERGY INC",
@@ -107714,8 +107714,8 @@
           "value_thousands_usd": 1132255,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "NFE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NEW FOUND GOLD CORP",
@@ -127082,8 +127082,8 @@
           "value_thousands_usd": 1860,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "RCKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ROCKET PHARMACEUTICALS INC",
@@ -127091,8 +127091,8 @@
           "value_thousands_usd": 222300,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "RCKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ROCKET PHARMACEUTICALS INC",
@@ -127100,8 +127100,8 @@
           "value_thousands_usd": 243401,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "RCKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ROCKET PHARMACEUTICALS INC",
@@ -127109,8 +127109,8 @@
           "value_thousands_usd": 64,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "RCKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ROCKWELL AUTOMATION INC",
