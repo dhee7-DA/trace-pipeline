@@ -1,8 +1,42 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-17T01:50:17.019413Z",
+  "generated_at_utc": "2026-09-18T01:38:32.254193Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126037020/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1438.0,
+          "pricePerShare": 330.19,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 30104.0,
+          "pricePerShare": null,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 16228.0,
+          "pricePerShare": 331.34,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0001140361-26-037020",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -331,44 +365,103 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "O'BRIEN DEIRDRE",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-04-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126013192/",
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "SMITH BRADFORD L",
+      "role": "Vice Chair and President",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000224/",
       "transactions": [
         {
-          "transactionCode": "M",
-          "transactionDate": "2026-04-01",
-          "shares": 64317.0,
-          "pricePerShare": null,
+          "transactionCode": "A",
+          "transactionDate": "2026-09-15",
+          "shares": 29077.0,
+          "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-04-01",
-          "shares": 34315.0,
-          "pricePerShare": 255.63,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-04-02",
-          "shares": 20338.0,
-          "pricePerShare": 255.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-04-02",
-          "shares": 9664.0,
-          "pricePerShare": 255.82,
-          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-04-03",
-      "accessionNumber": "0001140361-26-013192",
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000789019-26-000224",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000223/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-15",
+          "shares": 11569.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000789019-26-000223",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "Hood Amy",
+      "role": "EVP & Chief Financial Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000222/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-15",
+          "shares": 29077.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000789019-26-000222",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "Coleman Amy",
+      "role": "EVP, Chief Human Resources Off",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000221/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-15",
+          "shares": 6506.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000789019-26-000221",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "Althoff Judson",
+      "role": "EVP, Chief Commercial Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000220/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-15",
+          "shares": 29077.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000789019-26-000220",
       "filingLagDays": 2
     },
     {
@@ -542,70 +635,6 @@
       "transactions": [],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000789019-26-000202"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "Johnston Hugh F",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000201/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000201"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "Hoffman Reid",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000200/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000200"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "Di Sibio Carmine",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000199/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000199"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "SMITH BRADFORD L",
-      "role": "Vice Chair and President",
-      "periodOfReport": "2026-09-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000188/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-09-09",
-          "shares": 14000.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-10",
-      "accessionNumber": "0000789019-26-000188",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "Walmsley Emma N",
-      "role": "Director",
-      "periodOfReport": "2026-09-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000186/",
-      "transactions": [],
-      "filedDate": "2026-09-08",
-      "accessionNumber": "0000789019-26-000186"
     },
     {
       "issuerTicker": "NVDA",
@@ -1512,6 +1541,129 @@
     {
       "issuerTicker": "GOOGL",
       "issuerName": "Alphabet Inc.",
+      "ownerName": "ARNOLD FRANCES",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393517/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 0.4,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 11.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-16",
+      "accessionNumber": "0001193125-26-393517",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Washington Robin L",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393515/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 0.4,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-16",
+      "accessionNumber": "0001193125-26-393515",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Shriram Kavitark Ram",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393513/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 0.4,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-14",
+          "shares": 1.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-16",
+      "accessionNumber": "0001193125-26-393513",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
       "ownerName": "Hennessy John L.",
       "role": "Reporting Person",
       "periodOfReport": "2026-09-14",
@@ -1939,91 +2091,23 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "ARNOLD FRANCES",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526377149/",
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Cox Christopher K",
+      "role": "Chief Product Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014140/",
       "transactions": [
         {
           "transactionCode": "S",
-          "transactionDate": "2026-08-28",
-          "shares": 82.0,
-          "pricePerShare": 337.71,
+          "transactionDate": "2026-09-15",
+          "shares": 20000.0,
+          "pricePerShare": 675.2278,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-08-31",
-      "accessionNumber": "0001193125-26-377149",
-      "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "WALKER JOHN KENT",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526371799/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-08-25",
-          "shares": 1624.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-25",
-          "shares": 1639.0,
-          "pricePerShare": 344.59,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-08-25",
-          "shares": 1624.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-08-27",
-      "accessionNumber": "0001193125-26-371799",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Pichai Sundar",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526371797/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-08-25",
-          "shares": 3669.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-25",
-          "shares": 3703.0,
-          "pricePerShare": 344.59,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-08-25",
-          "shares": 3669.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-08-27",
-      "accessionNumber": "0001193125-26-371797",
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000950103-26-014140",
       "filingLagDays": 2
     },
     {
@@ -2689,26 +2773,6 @@
       ],
       "filedDate": "2026-08-18",
       "accessionNumber": "0000950103-26-012605",
-      "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Collison Patrick",
-      "role": "Director",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012604/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-15",
-          "shares": 103.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000950103-26-012604",
       "filingLagDays": 3
     },
     {
@@ -4769,6 +4833,61 @@
     {
       "issuerTicker": "PG",
       "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Bharucha Freddy P.",
+      "role": "CEO - Beauty",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000171/",
+      "transactions": [],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000080424-26-000171"
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Purushothaman Balaji",
+      "role": "Chief Human Resources Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000170/",
+      "transactions": [],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000080424-26-000170"
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Jejurikar Shailesh",
+      "role": "Director, Chairman, President and CEO",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000169/",
+      "transactions": [],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000080424-26-000169"
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Santos de Azevedo Juliana Monteiro",
+      "role": "CEO - Grooming",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000168/",
+      "transactions": [],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000080424-26-000168"
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Aguilar Moses Victor Javier",
+      "role": "Chf Rsch, Dev & Innov Officer",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000167/",
+      "transactions": [],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000080424-26-000167"
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
       "ownerName": "Portman Robert Jones",
       "role": "Director",
       "periodOfReport": "2026-09-08",
@@ -4965,106 +5084,6 @@
       "filedDate": "2026-08-24",
       "accessionNumber": "0000080424-26-000156",
       "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Santos de Azevedo Juliana Monteiro",
-      "role": "CEO - Grooming",
-      "periodOfReport": "2026-08-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000155/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-20",
-          "shares": 2368.0,
-          "pricePerShare": 143.79,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-24",
-      "accessionNumber": "0000080424-26-000155",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Janzaruk Matthew W.",
-      "role": "SVP - Chief Accounting Officer",
-      "periodOfReport": "2026-08-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000154/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-20",
-          "shares": 156.0,
-          "pricePerShare": 143.79,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-24",
-      "accessionNumber": "0000080424-26-000154",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Schulten Andre",
-      "role": "Chief Financial Officer",
-      "periodOfReport": "2026-08-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000153/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-20",
-          "shares": 5402.0,
-          "pricePerShare": 143.79,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-24",
-      "accessionNumber": "0000080424-26-000153",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Bharucha Freddy P.",
-      "role": "CEO - Beauty",
-      "periodOfReport": "2026-08-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000151/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-20",
-          "shares": 246.0,
-          "pricePerShare": 143.79,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-24",
-      "accessionNumber": "0000080424-26-000151",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Purushothaman Balaji",
-      "role": "Chief Human Resources Officer",
-      "periodOfReport": "2026-08-20",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000150/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-20",
-          "shares": 2019.0,
-          "pricePerShare": 143.79,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-24",
-      "accessionNumber": "0000080424-26-000150",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "HD",
@@ -6852,6 +6871,115 @@
     {
       "issuerTicker": "ADBE",
       "issuerName": "ADOBE INC.",
+      "ownerName": "Pentland Adele Louise",
+      "role": "Chief Legal Officer & EVP",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000153/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 1949.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 966.0,
+          "pricePerShare": 257.76,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000796343-26-000153",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "ADBE",
+      "issuerName": "ADOBE INC.",
+      "ownerName": "Forusz Jillian",
+      "role": "SVP & CAO",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000152/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 227.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 112.0,
+          "pricePerShare": 257.76,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 2858.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 1416.0,
+          "pricePerShare": 257.76,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000796343-26-000152",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "ADBE",
+      "issuerName": "ADOBE INC.",
+      "ownerName": "Day Steven",
+      "role": "Interim CFO and SVP",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000151/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 312.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 154.0,
+          "pricePerShare": 257.76,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 1429.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-15",
+          "shares": 708.0,
+          "pricePerShare": 257.76,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000796343-26-000151",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "ADBE",
+      "issuerName": "ADOBE INC.",
       "ownerName": "Day Steven",
       "role": "Interim CFO and SVP",
       "periodOfReport": "2026-08-15",
@@ -7440,94 +7568,6 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "ADBE",
-      "issuerName": "ADOBE INC.",
-      "ownerName": "Pentland Adele Louise",
-      "role": "Chief Legal Officer & EVP",
-      "periodOfReport": "2026-06-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000164372426000003/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 7800.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-15",
-          "shares": 3676.0,
-          "pricePerShare": 206.36,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-16",
-      "accessionNumber": "0001643724-26-000003",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "ADBE",
-      "issuerName": "ADOBE INC.",
-      "ownerName": "Forusz Jillian",
-      "role": "SVP & CAO",
-      "periodOfReport": "2026-06-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000116/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 234.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-15",
-          "shares": 80.0,
-          "pricePerShare": 206.36,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 227.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-15",
-          "shares": 78.0,
-          "pricePerShare": 206.36,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-16",
-      "accessionNumber": "0000796343-26-000116",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "ADBE",
-      "issuerName": "ADOBE INC.",
-      "ownerName": "Forusz Jillian",
-      "role": "SVP & CAO",
-      "periodOfReport": "2026-04-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000107/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-04-30",
-          "shares": 755.0,
-          "pricePerShare": 246.245,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-01",
-      "accessionNumber": "0000796343-26-000107",
-      "filingLagDays": 1
-    },
-    {
       "issuerTicker": "CRM",
       "issuerName": "Salesforce, Inc.",
       "ownerName": "Niles Sabastian",
@@ -7853,6 +7893,89 @@
       ],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001108524-26-000162",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "AMD",
+      "issuerName": "ADVANCED MICRO DEVICES INC",
+      "ownerName": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000180/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 7261.0,
+          "pricePerShare": 84.85,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 757.0,
+          "pricePerShare": 498.3,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 100.0,
+          "pricePerShare": 498.98,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1017.0,
+          "pricePerShare": 500.67,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1655.0,
+          "pricePerShare": 501.7,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 5878.0,
+          "pricePerShare": 502.45,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 4604.0,
+          "pricePerShare": 504.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 2225.0,
+          "pricePerShare": 505.12,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 726.0,
+          "pricePerShare": 505.9,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 299.0,
+          "pricePerShare": 506.88,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000002488-26-000180",
       "filingLagDays": 2
     },
     {
@@ -8657,17 +8780,6 @@
       "filedDate": "2026-08-18",
       "accessionNumber": "0000002488-26-000149",
       "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "AMD",
-      "issuerName": "ADVANCED MICRO DEVICES INC",
-      "ownerName": "Ellis Emily",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000147/",
-      "transactions": [],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000002488-26-000147"
     },
     {
       "issuerTicker": "WMT",
@@ -9865,6 +9977,68 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Moore Alexander D.",
+      "role": "Director",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000022/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1308.0,
+          "pricePerShare": 170.2616,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 3901.0,
+          "pricePerShare": 171.0879,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 3990.0,
+          "pricePerShare": 172.2366,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 2319.0,
+          "pricePerShare": 173.0518,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 2129.0,
+          "pricePerShare": 174.2545,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1843.0,
+          "pricePerShare": 175.1725,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 510.0,
+          "pricePerShare": 176.1055,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0001823952-26-000022",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Stat Lauren Elaina Friedman",
       "role": "Director",
       "periodOfReport": "2026-09-01",
@@ -10372,24 +10546,212 @@
       "filingLagDays": 4
     },
     {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Schiff Alexandra W.",
-      "role": "Director",
-      "periodOfReport": "2026-06-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182394426000007/",
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/",
       "transactions": [
         {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-04",
-          "shares": 2118.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 594.0,
+          "pricePerShare": 233.1,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 320.0,
+          "pricePerShare": 234.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1370.0,
+          "pricePerShare": 235.53,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1088.0,
+          "pricePerShare": 236.35,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 640.0,
+          "pricePerShare": 237.38,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 480.0,
+          "pricePerShare": 238.31,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 569.0,
+          "pricePerShare": 239.68,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1049.0,
+          "pricePerShare": 240.67,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1675.0,
+          "pricePerShare": 241.9,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 1429.0,
+          "pricePerShare": 242.53,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-15",
+          "shares": 786.0,
+          "pricePerShare": 243.45,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 189.0,
+          "pricePerShare": 236.32,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 354.0,
+          "pricePerShare": 364.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 855.0,
+          "pricePerShare": 239.2,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 1394.0,
+          "pricePerShare": 240.11,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 3332.0,
+          "pricePerShare": 241.23,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 1953.0,
+          "pricePerShare": 242.16,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 1223.0,
+          "pricePerShare": 243.13,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 527.0,
+          "pricePerShare": 244.12,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 173.0,
+          "pricePerShare": 244.9,
+          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-06-08",
-      "accessionNumber": "0001823944-26-000007",
-      "filingLagDays": 4
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0001778564-26-000163",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Watzinger Gerhard",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000144583226000011/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 25980.0,
+          "pricePerShare": 236.3,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 21792.0,
+          "pricePerShare": 237.99,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 35299.0,
+          "pricePerShare": 238.98,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 27918.0,
+          "pricePerShare": 239.88,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 8244.0,
+          "pricePerShare": 240.87,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-16",
+          "shares": 767.0,
+          "pricePerShare": 241.45,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0001445832-26-000011",
+      "filingLagDays": 1
     },
     {
       "issuerTicker": "CRWD",
@@ -12073,228 +12435,6 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000143/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 2000.0,
-          "pricePerShare": 216.96,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 1120.0,
-          "pricePerShare": 218.29,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 3385.0,
-          "pricePerShare": 219.1,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 1541.0,
-          "pricePerShare": 220.15,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 794.0,
-          "pricePerShare": 221.02,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 160.0,
-          "pricePerShare": 221.92,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 320.0,
-          "pricePerShare": 223.36,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 360.0,
-          "pricePerShare": 225.04,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-14",
-          "shares": 320.0,
-          "pricePerShare": 226.05,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 2860.0,
-          "pricePerShare": 213.83,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 4023.0,
-          "pricePerShare": 214.71,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 1954.0,
-          "pricePerShare": 215.54,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 843.0,
-          "pricePerShare": 216.76,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 280.0,
-          "pricePerShare": 217.7,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 40.0,
-          "pricePerShare": 218.49,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0001778564-26-000143",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-08-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000141/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 600.0,
-          "pricePerShare": 219.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 972.0,
-          "pricePerShare": 220.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 2943.0,
-          "pricePerShare": 221.13,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 3080.0,
-          "pricePerShare": 222.01,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 1568.0,
-          "pricePerShare": 223.16,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 757.0,
-          "pricePerShare": 223.94,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-12",
-          "shares": 80.0,
-          "pricePerShare": 224.67,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 120.0,
-          "pricePerShare": 220.71,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 1022.0,
-          "pricePerShare": 222.39,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 1698.0,
-          "pricePerShare": 223.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 2595.0,
-          "pricePerShare": 224.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 2765.0,
-          "pricePerShare": 225.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-13",
-          "shares": 1800.0,
-          "pricePerShare": 226.06,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-14",
-      "accessionNumber": "0001778564-26-000141",
-      "filingLagDays": 2
-    },
-    {
       "issuerTicker": "AMT",
       "issuerName": "AMERICAN TOWER CORP /MA/",
       "ownerName": "Kalathur Rajesh",
@@ -13741,6 +13881,33 @@
     {
       "issuerTicker": "BAC",
       "issuerName": "BANK OF AMERICA CORP /DE/",
+      "ownerName": "MOYNIHAN BRIAN T",
+      "role": "Director, Chair and CEO",
+      "periodOfReport": "2026-09-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000469/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-09-15",
+          "shares": 18082.0,
+          "pricePerShare": null,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "D",
+          "transactionDate": "2026-09-15",
+          "shares": 18082.0,
+          "pricePerShare": 59.52,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-17",
+      "accessionNumber": "0000070858-26-000469",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "BAC",
+      "issuerName": "BANK OF AMERICA CORP /DE/",
       "ownerName": "Okpara Johnbull",
       "role": "Chief Accounting Officer",
       "periodOfReport": "2026-03-10",
@@ -14223,33 +14390,6 @@
       "transactions": [],
       "filedDate": "2026-07-10",
       "accessionNumber": "0000070858-26-000349"
-    },
-    {
-      "issuerTicker": "BAC",
-      "issuerName": "BANK OF AMERICA CORP /DE/",
-      "ownerName": "MOYNIHAN BRIAN T",
-      "role": "Director, Chair and CEO",
-      "periodOfReport": "2026-06-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000343/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 18083.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "D",
-          "transactionDate": "2026-06-15",
-          "shares": 18083.0,
-          "pricePerShare": 55.87,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-17",
-      "accessionNumber": "0000070858-26-000343",
-      "filingLagDays": 2
     }
   ]
 }
