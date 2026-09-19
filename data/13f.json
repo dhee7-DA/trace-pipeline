@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-18T01:38:49.459231Z",
+  "generated_at_utc": "2026-09-19T01:45:02.969585Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -3088,8 +3088,8 @@
           "value_thousands_usd": 151189352,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "Toast Inc",
@@ -26066,8 +26066,8 @@
           "value_thousands_usd": 8514,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARCHER AVIATION INC",
@@ -26075,8 +26075,8 @@
           "value_thousands_usd": 3302680,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARCHER AVIATION INC",
@@ -26084,8 +26084,8 @@
           "value_thousands_usd": 8592991,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARCHER AVIATION INC",
@@ -26093,8 +26093,8 @@
           "value_thousands_usd": 1845906,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARCHER AVIATION INC",
@@ -26102,8 +26102,8 @@
           "value_thousands_usd": 4493027,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ACHR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARCHER DANIELS MIDLAND CO",
@@ -33050,8 +33050,8 @@
           "value_thousands_usd": 210400,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BTAIQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BIRCHTECH CORP",
@@ -76727,8 +76727,8 @@
           "value_thousands_usd": 35226,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "HCWC",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "HEARTFLOW INC",
@@ -79661,8 +79661,8 @@
           "value_thousands_usd": 168812,
           "shares": null,
           "action": "Increased",
-          "ticker": "INVE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "IDENTIV INC",
@@ -79670,8 +79670,8 @@
           "value_thousands_usd": 151661,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "INVE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "IDEX CORP",
@@ -98678,8 +98678,8 @@
           "value_thousands_usd": 80974,
           "shares": null,
           "action": "Increased",
-          "ticker": "LPSN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LIVEPERSON INC",
@@ -98687,8 +98687,8 @@
           "value_thousands_usd": 71621,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "LPSN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LIVERAMP HLDGS INC",
