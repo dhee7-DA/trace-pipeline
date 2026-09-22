@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-19T01:45:02.969585Z",
+  "generated_at_utc": "2026-09-22T02:01:28.314375Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -2593,8 +2593,8 @@
           "value_thousands_usd": 2325964,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "TEVA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "3D Systems Corp",
@@ -68906,8 +68906,8 @@
           "value_thousands_usd": 48315,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "EOCN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMBLING COM GROUP LIMITED",
@@ -70679,8 +70679,8 @@
           "value_thousands_usd": 1233973,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "DNA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GINKGO BIOWORKS HOLDINGS INC",
@@ -70688,8 +70688,8 @@
           "value_thousands_usd": 1073253,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "DNA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GINKGO BIOWORKS HOLDINGS INC",
@@ -70697,8 +70697,8 @@
           "value_thousands_usd": 63592,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "DNA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GINKGO BIOWORKS HOLDINGS INC",
@@ -70706,8 +70706,8 @@
           "value_thousands_usd": 347841,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "DNA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GITLAB INC",
@@ -139475,8 +139475,8 @@
           "value_thousands_usd": 2164,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SNYR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SYNOPSYS INC",
