@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-09-23T01:56:08.835683Z",
+  "generated_at_utc": "2026-09-24T01:47:00.024134Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -110,6 +110,18 @@
       "tradeDate": null,
       "disclosedDate": "8/18/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Richard W. Allen",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "9/22/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf"
     },
     {
       "confidence": "index-only",
@@ -338,6 +350,18 @@
       "tradeDate": null,
       "disclosedDate": "7/27/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035007.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Sheri Biggs",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "9/22/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
     },
     {
       "confidence": "index-only",
@@ -4166,6 +4190,18 @@
       "tradeDate": null,
       "disclosedDate": "9/18/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Pete Sessions",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "9/22/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
     },
     {
       "confidence": "index-only",
