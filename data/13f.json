@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-24T01:46:59.030112Z",
+  "generated_at_utc": "2026-09-25T02:02:45.848738Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -53606,8 +53606,8 @@
           "value_thousands_usd": 141792,
           "shares": null,
           "action": "Decreased",
-          "ticker": "DOMO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "DOMO INC",
@@ -53615,8 +53615,8 @@
           "value_thousands_usd": 6967067,
           "shares": null,
           "action": "Increased",
-          "ticker": "DOMO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "DOMO INC",
@@ -53624,8 +53624,8 @@
           "value_thousands_usd": 328525,
           "shares": null,
           "action": "Increased",
-          "ticker": "DOMO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "DOMO INC",
@@ -53633,8 +53633,8 @@
           "value_thousands_usd": 227238,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "DOMO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "DONALDSON INC",

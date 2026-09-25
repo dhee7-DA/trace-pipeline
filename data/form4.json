@@ -1,8 +1,28 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-24T01:46:41.828059Z",
+  "generated_at_utc": "2026-09-25T02:02:28.755574Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126037584/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 2399.0,
+          "pricePerShare": 340.06,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0001140361-26-037584",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -335,33 +355,6 @@
       ],
       "filedDate": "2026-04-17",
       "accessionNumber": "0001140361-26-015421",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Parekh Kevan",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015420/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-04-15",
-          "shares": 10928.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-04-15",
-          "shares": 4793.0,
-          "pricePerShare": 266.43,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-04-17",
-      "accessionNumber": "0001140361-26-015420",
       "filingLagDays": 2
     },
     {
@@ -4226,61 +4219,221 @@
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "DeVeydt Wayne S",
-      "role": "Chief Financial Officer",
-      "periodOfReport": "2026-09-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000203/",
+      "ownerName": "MCNABB FREDERICK WILLIAM III",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000235/",
       "transactions": [
         {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-02",
-          "shares": 1208.895,
-          "pricePerShare": 399.66,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 57.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-09-04",
-      "accessionNumber": "0000731766-26-000203",
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000235",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Conway Patrick Hugh",
-      "role": "Chief Executive Officer, Optum",
-      "periodOfReport": "2026-08-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000201/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-21",
-          "shares": 1169.0,
-          "pricePerShare": 390.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-25",
-      "accessionNumber": "0000731766-26-000201",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
       "ownerName": "Stankiewicz Dennis Andrew",
       "role": "Chief Accounting Officer",
-      "periodOfReport": "2026-08-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000199/",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000234/",
       "transactions": [
         {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-11",
-          "shares": 233.402,
-          "pricePerShare": 402.19,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 51.084,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-08-13",
-      "accessionNumber": "0000731766-26-000199",
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000234",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Baker Charles D.",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000233/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 15.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000233",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "FLYNN TIMOTHY PATRICK",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000232/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 68.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000232",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Noseworthy John H",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000231/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 46.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000231",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Gottlieb Scott",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000230/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 5.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000230",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Zaetta Christopher R",
+      "role": "EVP & Chief Legal Officer",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000229/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 66.975,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000229",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "HEMSLEY STEPHEN J",
+      "role": "Director, CEO, UHG",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000228/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 50.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000228",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "MONTGOMERY RICE VALERIE MD",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000227/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 47.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000227",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "GARCIA PAUL R",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000226/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 16.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000226",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "UNH",
+      "issuerName": "UNITEDHEALTH GROUP INC",
+      "ownerName": "Gil Kristen",
+      "role": "Director",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000225/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 10.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000225",
       "filingLagDays": 2
     },
     {
@@ -4288,246 +4441,79 @@
       "issuerName": "UNITEDHEALTH GROUP INC",
       "ownerName": "Conway Patrick Hugh",
       "role": "Chief Executive Officer, Optum",
-      "periodOfReport": "2026-08-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000196/",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000224/",
       "transactions": [
         {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-05",
-          "shares": 500.0,
-          "pricePerShare": 410.0,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "A",
+          "transactionDate": "2026-09-22",
+          "shares": 91.029,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-08-07",
-      "accessionNumber": "0000731766-26-000196",
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000224",
       "filingLagDays": 2
     },
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Noseworthy John H",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000189/",
+      "ownerName": "DeVeydt Wayne S",
+      "role": "Chief Financial Officer",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000223/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 206.0,
+          "transactionDate": "2026-09-22",
+          "shares": 106.233,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000189",
-      "filingLagDays": 5
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000223",
+      "filingLagDays": 2
     },
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "MONTGOMERY RICE VALERIE MD",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000187/",
+      "ownerName": "Noel Timothy John",
+      "role": "Chief Executive Officer,  UHC",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000222/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 220.0,
+          "transactionDate": "2026-09-22",
+          "shares": 83.94,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000187",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "MCNABB FREDERICK WILLIAM III",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000185/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 250.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000185",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Gottlieb Scott",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000183/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 210.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000183",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Gil Kristen",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000181/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 206.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000181",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "GARCIA PAUL R",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000179/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 132.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 88.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000179",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "FLYNN TIMOTHY PATRICK",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000177/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 225.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000177",
-      "filingLagDays": 5
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Baker Charles D.",
-      "role": "Director",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000175/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-07-01",
-          "shares": 220.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0000731766-26-000175",
-      "filingLagDays": 5
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000222",
+      "filingLagDays": 2
     },
     {
       "issuerTicker": "UNH",
       "issuerName": "UNITEDHEALTH GROUP INC",
       "ownerName": "McSweeney Erin",
       "role": "EVP & Chief People Officer",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000173/",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000221/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-06-23",
-          "shares": 48.23,
+          "transactionDate": "2026-09-22",
+          "shares": 53.225,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000731766-26-000173",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "Noseworthy John H",
-      "role": "Director",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000172/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-23",
-          "shares": 41.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000731766-26-000172",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "UNH",
-      "issuerName": "UNITEDHEALTH GROUP INC",
-      "ownerName": "GARCIA PAUL R",
-      "role": "Director",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000171/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-23",
-          "shares": 13.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000731766-26-000171",
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0000731766-26-000221",
       "filingLagDays": 2
     },
     {
@@ -10700,6 +10686,145 @@
     {
       "issuerTicker": "CRWD",
       "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000171/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 734.0,
+          "pricePerShare": 246.08,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 2150.0,
+          "pricePerShare": 246.86,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 2134.0,
+          "pricePerShare": 247.99,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 3205.0,
+          "pricePerShare": 248.85,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 1697.0,
+          "pricePerShare": 249.83,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-22",
+          "shares": 80.0,
+          "pricePerShare": 250.48,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 195.0,
+          "pricePerShare": 249.85,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 528.0,
+          "pricePerShare": 251.02,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 917.0,
+          "pricePerShare": 251.74,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 840.0,
+          "pricePerShare": 252.89,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 637.0,
+          "pricePerShare": 253.98,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 163.0,
+          "pricePerShare": 255.05,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 120.0,
+          "pricePerShare": 256.18,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 360.0,
+          "pricePerShare": 258.14,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 578.0,
+          "pricePerShare": 259.41,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 1222.0,
+          "pricePerShare": 260.32,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 2807.0,
+          "pricePerShare": 261.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-23",
+          "shares": 1633.0,
+          "pricePerShare": 262.27,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-24",
+      "accessionNumber": "0001778564-26-000171",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
       "ownerName": "Saha Anurag",
       "role": "Reporting Person",
       "periodOfReport": "2026-09-21",
@@ -11571,40 +11696,6 @@
       "filedDate": "2026-09-17",
       "accessionNumber": "0001778564-26-000163",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "AUSTIN ROXANNE S",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000106163226000008/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-09-14",
-          "shares": 50000.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 30000.0,
-          "pricePerShare": 237.22,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 20000.0,
-          "pricePerShare": 238.17,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-15",
-      "accessionNumber": "0001061632-26-000008",
-      "filingLagDays": 1
     },
     {
       "issuerTicker": "AMT",
