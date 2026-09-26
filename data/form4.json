@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-25T02:02:28.755574Z",
+  "generated_at_utc": "2026-09-26T02:07:33.010748Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -10686,6 +10686,75 @@
     {
       "issuerTicker": "CRWD",
       "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Podbere Burt W.",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-24",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000024/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 74007.0,
+          "pricePerShare": 259.35,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 62156.0,
+          "pricePerShare": 260.25,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 114668.0,
+          "pricePerShare": 261.19,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 69169.0,
+          "pricePerShare": 262.29,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 62000.0,
+          "pricePerShare": 262.25,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 62000.0,
+          "pricePerShare": 262.72,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 18000.0,
+          "pricePerShare": 263.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-24",
+          "shares": 18000.0,
+          "pricePerShare": 263.51,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-25",
+      "accessionNumber": "0001778610-26-000024",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
       "ownerName": "Kurtz George",
       "role": "Reporting Person",
       "periodOfReport": "2026-09-22",
@@ -11543,159 +11612,6 @@
       "filedDate": "2026-09-17",
       "accessionNumber": "0001445832-26-000011",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000163/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 594.0,
-          "pricePerShare": 233.1,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 320.0,
-          "pricePerShare": 234.21,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 1370.0,
-          "pricePerShare": 235.53,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 1088.0,
-          "pricePerShare": 236.35,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 640.0,
-          "pricePerShare": 237.38,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 480.0,
-          "pricePerShare": 238.31,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 569.0,
-          "pricePerShare": 239.68,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 1049.0,
-          "pricePerShare": 240.67,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 1675.0,
-          "pricePerShare": 241.9,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 1429.0,
-          "pricePerShare": 242.53,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-15",
-          "shares": 786.0,
-          "pricePerShare": 243.45,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 189.0,
-          "pricePerShare": 236.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 354.0,
-          "pricePerShare": 364.26,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 855.0,
-          "pricePerShare": 239.2,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 1394.0,
-          "pricePerShare": 240.11,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 3332.0,
-          "pricePerShare": 241.23,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 1953.0,
-          "pricePerShare": 242.16,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 1223.0,
-          "pricePerShare": 243.13,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 527.0,
-          "pricePerShare": 244.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-16",
-          "shares": 173.0,
-          "pricePerShare": 244.9,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-17",
-      "accessionNumber": "0001778564-26-000163",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "AMT",
