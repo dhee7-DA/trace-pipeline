@@ -1,8 +1,74 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-29T02:51:49.703226Z",
+  "generated_at_utc": "2026-09-30T02:31:35.874729Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Khan Sabih",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038028/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038028"
+    },
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038027/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038027"
+    },
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "O'BRIEN DEIRDRE",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038026/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038026"
+    },
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Parekh Kevan",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038024/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038024"
+    },
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Ternus John",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038022/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038022"
+    },
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "COOK TIMOTHY D",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-27",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038021/",
+      "transactions": [],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001140361-26-038021"
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -193,168 +259,6 @@
       ],
       "filedDate": "2026-06-17",
       "accessionNumber": "0001140361-26-025622",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Borders Ben",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-06-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126025620/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 240.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-15",
-          "shares": 124.0,
-          "pricePerShare": 296.42,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-16",
-          "shares": 116.0,
-          "pricePerShare": 295.14,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-17",
-      "accessionNumber": "0001140361-26-025620",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "LEVINSON ARTHUR D",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-05-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126023363/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-27",
-          "shares": 50000.0,
-          "pricePerShare": 311.02,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-05-27",
-          "shares": 65000.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-29",
-      "accessionNumber": "0001140361-26-023363",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Borders Ben",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-05-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126020871/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-08",
-          "shares": 1274.0,
-          "pricePerShare": 290.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-12",
-      "accessionNumber": "0001140361-26-020871",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "LEVINSON ARTHUR D",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-05-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126020298/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-06",
-          "shares": 149527.0,
-          "pricePerShare": 284.57,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-05-06",
-          "shares": 100473.0,
-          "pricePerShare": 285.04,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-05-06",
-          "shares": 5000.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-05-08",
-      "accessionNumber": "0001140361-26-020298",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Parekh Kevan",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-04-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126017175/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-04-23",
-          "shares": 1534.0,
-          "pricePerShare": 275.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-04-27",
-      "accessionNumber": "0001140361-26-017175",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Borders Ben",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-04-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015421/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-04-15",
-          "shares": 1717.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-04-15",
-          "shares": 892.0,
-          "pricePerShare": 266.43,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-04-17",
-      "accessionNumber": "0001140361-26-015421",
       "filingLagDays": 2
     },
     {
@@ -1583,6 +1487,420 @@
     {
       "issuerTicker": "GOOGL",
       "issuerName": "Alphabet Inc.",
+      "ownerName": "WALKER JOHN KENT",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408019/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4747.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4791.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4258.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4297.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 1626.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 1641.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 10631.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408019",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Saraci Marsida",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408016/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 121.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 122.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 101.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 102.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 69.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 69.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 105.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 106.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 27.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 27.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 26.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 27.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 19.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 19.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 19.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 20.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 487.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408016",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Porat Ruth",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408014/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4747.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4791.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4258.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4297.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 1626.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 1641.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 10631.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408014",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Ashkenazi Anat",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4131.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4169.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 4258.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 4297.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 1765.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 1781.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 10154.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408009",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Pichai Sundar",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 3671.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 3705.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 3671.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408007",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Schindler Philipp",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408004/",
+      "transactions": [
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 6065.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 6121.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 5379.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 5429.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 1997.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-09-25",
+          "shares": 2016.0,
+          "pricePerShare": 339.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "C",
+          "transactionDate": "2026-09-25",
+          "shares": 13442.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001193125-26-408004",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
       "ownerName": "ARNOLD FRANCES",
       "role": "Reporting Person",
       "periodOfReport": "2026-09-14",
@@ -1968,168 +2286,6 @@
       ],
       "filedDate": "2026-09-16",
       "accessionNumber": "0001193125-26-393497",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Porat Ruth",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393494/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 37.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 12.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 33.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0001193125-26-393494",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Schindler Philipp",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393491/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 16.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 41.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 47.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0001193125-26-393491",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Ashkenazi Anat",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393485/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 11.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 33.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 38.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0001193125-26-393485",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Pichai Sundar",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393483/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 131.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0001193125-26-393483",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Schindler Philipp",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526382332/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-09-01",
-          "shares": 295.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-03",
-      "accessionNumber": "0001193125-26-382332",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "CHAVEZ R. MARTIN",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526382328/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-09-01",
-          "shares": 1181.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-03",
-      "accessionNumber": "0001193125-26-382328",
       "filingLagDays": 2
     },
     {
@@ -12599,6 +12755,26 @@
     {
       "issuerTicker": "OXY",
       "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "ownerName": "Hollub Vicki A.",
+      "role": "Director",
+      "periodOfReport": "2026-09-25",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026063825/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-09-25",
+          "shares": 90000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-29",
+      "accessionNumber": "0001628280-26-063825",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "OXY",
+      "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
       "ownerName": "POLLACK BRAD",
       "role": "SVP & General Counsel",
       "periodOfReport": "2026-08-01",
@@ -12959,33 +13135,6 @@
       "filedDate": "2026-04-16",
       "accessionNumber": "0001628280-26-025561",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "OXY",
-      "issuerName": "OCCIDENTAL PETROLEUM CORP /DE/",
-      "ownerName": "Peterson Robert L",
-      "role": "Senior Vice President",
-      "periodOfReport": "2026-02-28",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/797468/000162828026014308/",
-      "transactions": [
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-02-28",
-          "shares": 8988.0,
-          "pricePerShare": 53.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-03-01",
-          "shares": 24115.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-03-03",
-      "accessionNumber": "0001628280-26-014308",
-      "filingLagDays": 3
     },
     {
       "issuerTicker": "BAC",
