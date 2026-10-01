@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-09-30T02:31:35.874729Z",
+  "generated_at_utc": "2026-10-01T02:34:05.333616Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -2291,6 +2291,54 @@
     {
       "issuerTicker": "META",
       "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "periodOfReport": "2026-09-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014886/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 946.0,
+          "pricePerShare": 750.425,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 82.0,
+          "pricePerShare": 748.91,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 57.0,
+          "pricePerShare": 748.91,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 82.0,
+          "pricePerShare": 748.91,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 408.0,
+          "pricePerShare": 748.91,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-30",
+      "accessionNumber": "0000950103-26-014886",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
       "ownerName": "Zuckerberg Mark",
       "role": "Director, COB and CEO, 10% Owner",
       "periodOfReport": "2026-09-24",
@@ -2944,33 +2992,6 @@
       ],
       "filedDate": "2026-08-18",
       "accessionNumber": "0000950103-26-012609",
-      "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Elkann John",
-      "role": "Director",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012608/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-15",
-          "shares": 110.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-15",
-          "shares": 8.0,
-          "pricePerShare": 589.85,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000950103-26-012608",
       "filingLagDays": 3
     },
     {
@@ -6515,6 +6536,46 @@
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Frates Caton",
+      "role": "Sr. Executive Vice President",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000090/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 800.638,
+          "pricePerShare": 915.93,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-30",
+      "accessionNumber": "0000909832-26-000090",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Adamo Claudine",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000088/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 2200.0,
+          "pricePerShare": 915.93,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-30",
+      "accessionNumber": "0000909832-26-000088",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
       "ownerName": "Wilcox William Richard",
       "role": "Executive Vice President",
       "periodOfReport": "2026-09-10",
@@ -6820,46 +6881,6 @@
       "filedDate": "2026-03-11",
       "accessionNumber": "0000909832-26-000028",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "RAIKES JEFFREY S",
-      "role": "Director",
-      "periodOfReport": "2026-01-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000022/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-01-27",
-          "shares": 5115.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-01-28",
-      "accessionNumber": "0000909832-26-000022",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Jones Teresa A.",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-01-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000020/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-01-27",
-          "shares": 300.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-01-28",
-      "accessionNumber": "0000909832-26-000020",
-      "filingLagDays": 1
     },
     {
       "issuerTicker": "NFLX",
@@ -10865,6 +10886,145 @@
       "issuerName": "CrowdStrike Holdings, Inc.",
       "ownerName": "Kurtz George",
       "role": "Reporting Person",
+      "periodOfReport": "2026-09-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000175/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 204.0,
+          "pricePerShare": 248.24,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 382.0,
+          "pricePerShare": 249.81,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 460.0,
+          "pricePerShare": 251.76,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 1146.0,
+          "pricePerShare": 252.56,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 1234.0,
+          "pricePerShare": 253.71,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 459.0,
+          "pricePerShare": 254.79,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 293.0,
+          "pricePerShare": 255.99,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 256.0,
+          "pricePerShare": 256.99,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 565.0,
+          "pricePerShare": 258.01,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 3530.0,
+          "pricePerShare": 259.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-28",
+          "shares": 1471.0,
+          "pricePerShare": 259.88,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 315.0,
+          "pricePerShare": 256.42,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 645.0,
+          "pricePerShare": 257.35,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 1440.0,
+          "pricePerShare": 258.63,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 3355.0,
+          "pricePerShare": 259.5,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 2163.0,
+          "pricePerShare": 260.41,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 842.0,
+          "pricePerShare": 261.49,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 1240.0,
+          "pricePerShare": 262.42,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-09-30",
+      "accessionNumber": "0001778564-26-000175",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
+      "role": "Reporting Person",
       "periodOfReport": "2026-09-24",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000173/",
       "transactions": [
@@ -11804,40 +11964,6 @@
       "filedDate": "2026-09-21",
       "accessionNumber": "0001445832-26-000013",
       "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "DAVIS CARY",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000122063226000006/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-17",
-          "shares": 24760.0,
-          "pricePerShare": 245.88,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-17",
-          "shares": 5180.0,
-          "pricePerShare": 246.55,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-18",
-          "shares": 83.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-21",
-      "accessionNumber": "0001220632-26-000006",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "AMT",
