@@ -1,8 +1,28 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-01T02:34:05.333616Z",
+  "generated_at_utc": "2026-10-02T02:42:21.499603Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038307/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-09-29",
+          "shares": 2399.0,
+          "pricePerShare": 336.18,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001140361-26-038307",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -232,33 +252,6 @@
       ],
       "filedDate": "2026-08-13",
       "accessionNumber": "0001140361-26-032884",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Newstead Jennifer",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-06-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126025622/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-15",
-          "shares": 30104.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-06-15",
-          "shares": 16238.0,
-          "pricePerShare": 296.42,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-17",
-      "accessionNumber": "0001140361-26-025622",
       "filingLagDays": 2
     },
     {
@@ -3757,6 +3750,86 @@
     {
       "issuerTicker": "JPM",
       "issuerName": "JPMORGAN CHASE & CO",
+      "ownerName": "Rometty Virginia M",
+      "role": "Director",
+      "periodOfReport": "2026-09-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008053/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-30",
+          "shares": 120.908,
+          "pricePerShare": 330.83,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001225208-26-008053",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "JPM",
+      "issuerName": "JPMORGAN CHASE & CO",
+      "ownerName": "NOVAKOVIC PHEBE N",
+      "role": "Director",
+      "periodOfReport": "2026-09-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008052/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-30",
+          "shares": 120.908,
+          "pricePerShare": 330.83,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001225208-26-008052",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "JPM",
+      "issuerName": "JPMORGAN CHASE & CO",
+      "ownerName": "HOBSON MELLODY L",
+      "role": "Director",
+      "periodOfReport": "2026-09-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008051/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-30",
+          "shares": 136.0215,
+          "pricePerShare": 330.83,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001225208-26-008051",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "JPM",
+      "issuerName": "JPMORGAN CHASE & CO",
+      "ownerName": "BURKE STEPHEN B",
+      "role": "Director",
+      "periodOfReport": "2026-09-30",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008050/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-30",
+          "shares": 170.0269,
+          "pricePerShare": 330.83,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001225208-26-008050",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "JPM",
+      "issuerName": "JPMORGAN CHASE & CO",
       "ownerName": "Leopold Robin",
       "role": "Head of Human Resources",
       "periodOfReport": "2026-09-10",
@@ -3946,75 +4019,6 @@
       "transactions": [],
       "filedDate": "2026-06-26",
       "accessionNumber": "0001225208-26-006218"
-    },
-    {
-      "issuerTicker": "JPM",
-      "issuerName": "JPMORGAN CHASE & CO",
-      "ownerName": "Petno Douglas B",
-      "role": "Co-President; CEO CIB",
-      "periodOfReport": "2026-06-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826006217/",
-      "transactions": [],
-      "filedDate": "2026-06-26",
-      "accessionNumber": "0001225208-26-006217"
-    },
-    {
-      "issuerTicker": "JPM",
-      "issuerName": "JPMORGAN CHASE & CO",
-      "ownerName": "Erdoes Mary E.",
-      "role": "CEO Asset & Wealth Management",
-      "periodOfReport": "2026-06-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826006216/",
-      "transactions": [],
-      "filedDate": "2026-06-26",
-      "accessionNumber": "0001225208-26-006216"
-    },
-    {
-      "issuerTicker": "JPM",
-      "issuerName": "JPMORGAN CHASE & CO",
-      "ownerName": "Friedman Stacey",
-      "role": "General Counsel",
-      "periodOfReport": "2026-06-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000122520826006142/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-22",
-          "shares": 5467.0,
-          "pricePerShare": 330.7337,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-22",
-      "accessionNumber": "0001225208-26-006142",
-      "filingLagDays": 0
-    },
-    {
-      "issuerTicker": "MHD",
-      "issuerName": "BLACKROCK MUNIHOLDINGS FUND, INC.",
-      "ownerName": "JPMORGAN CHASE & CO",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-06-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/19617/000119312526258526/",
-      "transactions": [
-        {
-          "transactionCode": "J",
-          "transactionDate": "2026-06-02",
-          "shares": 7178.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "J",
-          "transactionDate": "2026-06-02",
-          "shares": 7178.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-05",
-      "accessionNumber": "0001193125-26-258526",
-      "filingLagDays": 3
     },
     {
       "issuerTicker": "V",
@@ -10313,6 +10317,57 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Glazer David A.",
+      "role": "See Remarks",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000010/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-29",
+          "shares": 92908.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001823940-26-000010",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Taylor Ryan D.",
+      "role": "See Remarks",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000011/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-09-29",
+          "shares": 92908.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001823923-26-000011",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Buckley Jeffrey",
+      "role": "See Remarks",
+      "periodOfReport": "2026-09-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000017/",
+      "transactions": [],
+      "filedDate": "2026-10-01",
+      "accessionNumber": "0001705189-26-000017"
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Moore Alexander D.",
       "role": "Director",
       "periodOfReport": "2026-09-15",
@@ -10820,66 +10875,6 @@
       "filedDate": "2026-06-17",
       "accessionNumber": "0001823952-26-000016",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Buckley Jeffrey",
-      "role": "See Remarks",
-      "periodOfReport": "2026-06-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000011/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-11",
-          "shares": 1481.0,
-          "pricePerShare": 128.8,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-15",
-      "accessionNumber": "0001705189-26-000011",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Woersching Eric H.",
-      "role": "Director",
-      "periodOfReport": "2026-06-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000193052626000007/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-04",
-          "shares": 2118.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-08",
-      "accessionNumber": "0001930526-26-000007",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "periodOfReport": "2026-06-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000184024426000012/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-06-04",
-          "shares": 2118.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-06-08",
-      "accessionNumber": "0001840244-26-000012",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "CRWD",

@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-01T02:34:22.553775Z",
+  "generated_at_utc": "2026-10-02T02:42:38.738231Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -19973,8 +19973,8 @@
           "value_thousands_usd": 78694,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "AIXC",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "AKAMAI TECHNOLOGIES INC",
@@ -24671,8 +24671,8 @@
           "value_thousands_usd": 280755,
           "shares": null,
           "action": "Increased",
-          "ticker": "ANGX",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ANGEL STUDIOS INC.",
@@ -24680,8 +24680,8 @@
           "value_thousands_usd": 1387510,
           "shares": null,
           "action": "Increased",
-          "ticker": "ANGX",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ANGEL STUDIOS INC.",
@@ -24689,8 +24689,8 @@
           "value_thousands_usd": 194510,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ANGX",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ANGI INC",
@@ -85988,8 +85988,8 @@
           "value_thousands_usd": 314234,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "IONQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "IONQ INC",
@@ -85997,8 +85997,8 @@
           "value_thousands_usd": 1512584,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "IONQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "IONQ INC",
@@ -86006,8 +86006,8 @@
           "value_thousands_usd": 251839910,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "IONQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "IONQ INC",
@@ -86015,8 +86015,8 @@
           "value_thousands_usd": 117475582,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "IONQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "IOVANCE BIOTHERAPEUTICS INC",
@@ -132221,8 +132221,8 @@
           "value_thousands_usd": 109938,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SBXD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SILVERCORP METALS INC",
