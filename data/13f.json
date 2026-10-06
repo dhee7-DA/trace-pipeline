@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-03T02:27:15.124473Z",
+  "generated_at_utc": "2026-10-06T03:28:01.539482Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -3511,8 +3511,8 @@
           "value_thousands_usd": 3192408,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VLN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "Airbnb Inc",
@@ -3727,8 +3727,8 @@
           "value_thousands_usd": 3417915,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VELO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "Broadcom Inc",
@@ -24671,8 +24671,8 @@
           "value_thousands_usd": 280755,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ANGX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ANGEL STUDIOS INC.",
@@ -24680,8 +24680,8 @@
           "value_thousands_usd": 1387510,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ANGX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ANGEL STUDIOS INC.",
@@ -24689,8 +24689,8 @@
           "value_thousands_usd": 194510,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ANGX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ANGI INC",
@@ -48845,8 +48845,8 @@
           "value_thousands_usd": 874404,
           "shares": null,
           "action": "Increased",
-          "ticker": "HELP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CYBIN INC",
@@ -48854,8 +48854,8 @@
           "value_thousands_usd": 795844,
           "shares": null,
           "action": "Increased",
-          "ticker": "HELP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CYBIN INC",
@@ -48863,8 +48863,8 @@
           "value_thousands_usd": 3230135,
           "shares": null,
           "action": "Increased",
-          "ticker": "HELP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CYBIN INC",
@@ -48872,8 +48872,8 @@
           "value_thousands_usd": 250519,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "HELP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CYCLERION THERAPEUTICS INC",
@@ -61967,8 +61967,8 @@
           "value_thousands_usd": 13548,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "FTRKF",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "FASTENAL CO",
@@ -70094,8 +70094,8 @@
           "value_thousands_usd": 9842406,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "THRM",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GENTHERM INC",
@@ -70103,8 +70103,8 @@
           "value_thousands_usd": 951669,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "THRM",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GENUINE PARTS CO",
@@ -91838,8 +91838,8 @@
           "value_thousands_usd": 86726,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JSPR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JASPER THERAPEUTICS INC",
@@ -91847,8 +91847,8 @@
           "value_thousands_usd": 9430,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "JSPR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "JATT II ACQUISITION CORP",
@@ -94241,8 +94241,8 @@
           "value_thousands_usd": 276295,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KLXE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KLX ENERGY SERVICES HOLDINGS",
@@ -94250,8 +94250,8 @@
           "value_thousands_usd": 354492,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KLXE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KLX ENERGY SERVICES HOLDINGS",
@@ -94259,8 +94259,8 @@
           "value_thousands_usd": 390336,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KLXE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KNIFE RIVER CORP",
@@ -103871,8 +103871,8 @@
           "value_thousands_usd": 42842260,
           "shares": null,
           "action": "Increased",
-          "ticker": "MMED",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MINIMED GROUP INC",
@@ -103880,8 +103880,8 @@
           "value_thousands_usd": 548665,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "MMED",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MINISO GROUP HLDG LTD",
@@ -143480,8 +143480,8 @@
           "value_thousands_usd": 1217489,
           "shares": null,
           "action": "Increased",
-          "ticker": "TBPH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "THERAVANCE BIOPHARMA INC",
@@ -143489,8 +143489,8 @@
           "value_thousands_usd": 7395867,
           "shares": null,
           "action": "Increased",
-          "ticker": "TBPH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "THERAVANCE BIOPHARMA INC",
@@ -143498,8 +143498,8 @@
           "value_thousands_usd": 523600,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "TBPH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "THERMO FISHER SCIENTIFIC INC",
@@ -150671,8 +150671,8 @@
           "value_thousands_usd": 135600,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VLN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VALENS SEMICONDUCTOR LTD",
@@ -150680,8 +150680,8 @@
           "value_thousands_usd": 214716,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VLN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VALENS SEMICONDUCTOR LTD",
@@ -150689,8 +150689,8 @@
           "value_thousands_usd": 298546,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VLN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VALERO ENERGY CORP",
@@ -153272,8 +153272,8 @@
           "value_thousands_usd": 1012600,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VELO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VELO3D INC",
@@ -153281,8 +153281,8 @@
           "value_thousands_usd": 3903120,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VELO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VELO3D INC",
@@ -153290,8 +153290,8 @@
           "value_thousands_usd": 2167425,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "VELO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "VELOCITY FINL INC",
@@ -153605,8 +153605,8 @@
           "value_thousands_usd": 14371,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "VRME",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "VERISIGN INC",
@@ -156143,8 +156143,8 @@
           "value_thousands_usd": 227531,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "WBX",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "WALMART INC",

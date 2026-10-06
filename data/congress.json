@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-10-03T02:27:16.222708Z",
+  "generated_at_utc": "2026-10-06T03:28:02.826303Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -3737,6 +3737,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Nancy Pelosi",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/2/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Scott H. Peters",
       "chamber": "House",
       "party": null,
@@ -4118,6 +4130,18 @@
       "tradeDate": null,
       "disclosedDate": "9/2/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Michael Rulli",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/2/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf"
     },
     {
       "confidence": "index-only",
