@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-08T03:04:17.960801Z",
+  "generated_at_utc": "2026-10-09T03:12:16.902245Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -96905,8 +96905,8 @@
           "value_thousands_usd": 601895,
           "shares": null,
           "action": "Increased",
-          "ticker": "LESL",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LESLIES INC",
@@ -96914,8 +96914,8 @@
           "value_thousands_usd": 280597,
           "shares": null,
           "action": "Decreased",
-          "ticker": "LESL",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LESLIES INC",
@@ -96923,8 +96923,8 @@
           "value_thousands_usd": 549115,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "LESL",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LEVI STRAUSS & CO NEW",
@@ -115526,8 +115526,8 @@
           "value_thousands_usd": 39440000,
           "shares": null,
           "action": "Decreased",
-          "ticker": "PSKY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PARAMOUNT SKYDANCE CORP",
@@ -115535,8 +115535,8 @@
           "value_thousands_usd": 1341354,
           "shares": null,
           "action": "Decreased",
-          "ticker": "PSKY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PARAMOUNT SKYDANCE CORP",
@@ -115544,8 +115544,8 @@
           "value_thousands_usd": 27849570,
           "shares": null,
           "action": "Decreased",
-          "ticker": "PSKY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PARAMOUNT SKYDANCE CORP",
@@ -115553,8 +115553,8 @@
           "value_thousands_usd": 23678080,
           "shares": null,
           "action": "Decreased",
-          "ticker": "PSKY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PARAMOUNT SKYDANCE CORP",
@@ -115562,8 +115562,8 @@
           "value_thousands_usd": 82136758,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "PSKY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PARK AEROSPACE CORP",
