@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-10T02:53:59.500097Z",
+  "generated_at_utc": "2026-10-13T04:01:07.508647Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -38603,8 +38603,8 @@
           "value_thousands_usd": 880860,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "XRPC",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "CANDEL THERAPEUTICS INC",
@@ -115193,8 +115193,8 @@
           "value_thousands_usd": 562260,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PDYN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PALLADYNE AI CORP",
@@ -115202,8 +115202,8 @@
           "value_thousands_usd": 732640,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PDYN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PALLADYNE AI CORP",
@@ -115211,8 +115211,8 @@
           "value_thousands_usd": 1181952,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PDYN",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PALMER SQUARE CAPITAL BDC IN",
