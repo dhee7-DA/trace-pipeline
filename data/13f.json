@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-14T02:17:51.704134Z",
+  "generated_at_utc": "2026-10-15T01:59:09.798428Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -70922,8 +70922,8 @@
           "value_thousands_usd": 392502,
           "shares": null,
           "action": "Decreased",
-          "ticker": "GBTG",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
@@ -70931,8 +70931,8 @@
           "value_thousands_usd": 1624141,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "GBTG",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GLOBAL E ONLINE LTD",
@@ -75251,8 +75251,8 @@
           "value_thousands_usd": 5558,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GFAI",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GUARDIAN PHARMACY SVCS INC",
@@ -110882,8 +110882,8 @@
           "value_thousands_usd": 83353,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "NTRB",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "NUTRIBAND INC",
@@ -110891,8 +110891,8 @@
           "value_thousands_usd": 60597,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "NTRB",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "NUTRIEN LTD",

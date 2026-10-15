@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-14T02:17:34.286577Z",
+  "generated_at_utc": "2026-10-15T01:58:52.449169Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -371,6 +371,40 @@
     {
       "issuerTicker": "MSFT",
       "issuerName": "MICROSOFT CORP",
+      "ownerName": "Hood Amy",
+      "role": "EVP, Chief Financial Officer",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000226/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-13",
+          "shares": 3387.0,
+          "pricePerShare": 544.8001,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-13",
+          "shares": 2927.0,
+          "pricePerShare": 545.7722,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-13",
+          "shares": 991.0,
+          "pricePerShare": 546.5084,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000789019-26-000226",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
       "ownerName": "SMITH BRADFORD L",
       "role": "Vice Chair and President",
       "periodOfReport": "2026-09-15",
@@ -628,17 +662,6 @@
       "transactions": [],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000789019-26-000203"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "List Teri",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000202/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000202"
     },
     {
       "issuerTicker": "NVDA",
@@ -2386,6 +2409,54 @@
       "issuerName": "Meta Platforms, Inc.",
       "ownerName": "Olivan Javier",
       "role": "Chief Operating Officer",
+      "periodOfReport": "2026-10-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015598/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-12",
+          "shares": 946.0,
+          "pricePerShare": 728.1,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-12",
+          "shares": 82.0,
+          "pricePerShare": 728.1,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-12",
+          "shares": 57.0,
+          "pricePerShare": 728.1,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-12",
+          "shares": 82.0,
+          "pricePerShare": 728.1,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-12",
+          "shares": 408.0,
+          "pricePerShare": 728.1,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000950103-26-015598",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Olivan Javier",
+      "role": "Chief Operating Officer",
       "periodOfReport": "2026-10-05",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015324/",
       "transactions": [
@@ -3093,26 +3164,6 @@
       ],
       "filedDate": "2026-08-18",
       "accessionNumber": "0000950103-26-012611",
-      "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "White Dana",
-      "role": "Director",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012610/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-15",
-          "shares": 110.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000950103-26-012610",
       "filingLagDays": 3
     },
     {
@@ -5184,6 +5235,226 @@
     {
       "issuerTicker": "PG",
       "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Subramaniam Rajesh",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000225/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000225",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Portman Robert Jones",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000224/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000224",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "McEvoy Ashley",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000223/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000223",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "McCarthy Christine M",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000222/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000222",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Kempczinski Christopher J",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000221/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000221",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "JIMENEZ JOSEPH",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000220/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000220",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Chang Amy",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000219/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000219",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Bonini Sheila",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000218/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000218",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Biggs M. Brett",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000217/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000217",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "ARNOLD CRAIG",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000216/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000216",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Allen Bertrand Marc",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000215/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000215",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
       "ownerName": "Schulten Andre",
       "role": "Chief Financial Officer",
       "periodOfReport": "2026-10-05",
@@ -5260,172 +5531,6 @@
       "filedDate": "2026-10-05",
       "accessionNumber": "0000080424-26-000197",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Schulten Andre",
-      "role": "Chief Financial Officer",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000196/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 6557.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000196",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Gama Paul",
-      "role": "CEO- Health Care",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000195/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 12517.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000195",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Jejurikar Shailesh",
-      "role": "Director, Chairman, President and CEO",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000194/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 16065.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000194",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Aguilar Moses Victor Javier",
-      "role": "Chf Rsch, Dev & Innov Officer",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000193/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 5732.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000193",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Santos de Azevedo Juliana Monteiro",
-      "role": "CEO - Grooming",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000192/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 3130.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000192",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Bharucha Freddy P.",
-      "role": "CEO - Beauty",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000191/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000191"
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Janzaruk Matthew W.",
-      "role": "SVP - Chief Accounting Officer",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000190/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000190"
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Pritchard Marc S.",
-      "role": "Chief Brand Officer",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000189/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000189"
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Raman Sundar G.",
-      "role": "CEO-Fabric Home & Habitat Care",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000188/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000188"
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Purushothaman Balaji",
-      "role": "Chief Human Resources Officer",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000187/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000187"
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Abd El Hak Hesham",
-      "role": "CEO-Baby and Feminine Care",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000186/",
-      "transactions": [],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000186"
     },
     {
       "issuerTicker": "HD",
@@ -6666,6 +6771,26 @@
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Wilcox William Richard",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000098/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-13",
+          "shares": 1100.0,
+          "pricePerShare": 958.205,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000909832-26-000098",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
       "ownerName": "Frates Caton",
       "role": "Sr. Executive Vice President",
       "periodOfReport": "2026-09-29",
@@ -6990,26 +7115,6 @@
       ],
       "filedDate": "2026-03-13",
       "accessionNumber": "0000909832-26-000033",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Adamo Claudine",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-03-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000028/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-03-09",
-          "shares": 730.0,
-          "pricePerShare": 1003.021,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-03-11",
-      "accessionNumber": "0000909832-26-000028",
       "filingLagDays": 2
     },
     {
@@ -10404,6 +10509,26 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Woersching Eric H.",
+      "role": "Director",
+      "periodOfReport": "2026-10-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000193052626000013/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-09",
+          "shares": 1000.0,
+          "pricePerShare": 205.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0001930526-26-000013",
+      "filingLagDays": 5
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Stat Lauren Elaina Friedman",
       "role": "Director",
       "periodOfReport": "2026-10-08",
@@ -10888,17 +11013,6 @@
       "filedDate": "2026-08-07",
       "accessionNumber": "0001840244-26-000015",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Buckley Jeffrey",
-      "role": "See Remarks",
-      "periodOfReport": "2026-07-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000170518926000013/",
-      "transactions": [],
-      "filedDate": "2026-07-24",
-      "accessionNumber": "0001705189-26-000013"
     },
     {
       "issuerTicker": "CRWD",
