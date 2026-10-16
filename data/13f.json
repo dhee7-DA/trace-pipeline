@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-15T01:59:09.798428Z",
+  "generated_at_utc": "2026-10-16T01:47:34.079661Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -26930,8 +26930,8 @@
           "value_thousands_usd": 190717,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "XRPNU",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARMADA ACQUISITION CORP II",
@@ -26939,8 +26939,8 @@
           "value_thousands_usd": 85000,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "XRPNU",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARMLOGI HOLDING CORP",
@@ -30224,8 +30224,8 @@
           "value_thousands_usd": 1513578,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BAKKT INC",
@@ -30233,8 +30233,8 @@
           "value_thousands_usd": 1264439,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BKKT",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BALCHEM CORP",
