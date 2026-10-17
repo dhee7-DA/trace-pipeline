@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-16T01:47:16.751522Z",
+  "generated_at_utc": "2026-10-17T01:40:50.857117Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -9395,6 +9395,80 @@
     {
       "issuerTicker": "WMT",
       "issuerName": "Walmart Inc.",
+      "ownerName": "Watkins Latriece",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000188636726000029/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 5000.0,
+          "pricePerShare": 115.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-16",
+      "accessionNumber": "0001886367-26-000029",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Nicholas Christopher James",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000199280826000029/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-15",
+          "shares": 1600.0,
+          "pricePerShare": 120.3264,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-15",
+          "shares": 1300.0,
+          "pricePerShare": 120.9454,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-16",
+      "accessionNumber": "0001992808-26-000029",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Furner John R.",
+      "role": "Director, President & CEO",
+      "periodOfReport": "2026-10-15",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000021/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-15",
+          "shares": 7089.0,
+          "pricePerShare": 120.3265,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-15",
+          "shares": 6036.0,
+          "pricePerShare": 120.9256,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-16",
+      "accessionNumber": "0001696737-26-000021",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
       "ownerName": "Dallaire Seth",
       "role": "Executive Vice President",
       "periodOfReport": "2026-10-06",
@@ -9631,73 +9705,6 @@
       "filedDate": "2026-10-02",
       "accessionNumber": "0001707351-26-000023",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Bartlett Daniel J",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000026/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-01",
-          "shares": 3990.0,
-          "pricePerShare": 104.41,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-02",
-      "accessionNumber": "0001579299-26-000026",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Conde Cesar",
-      "role": "Director",
-      "periodOfReport": "2026-09-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000161617226000010/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-30",
-          "shares": 277.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-02",
-      "accessionNumber": "0001616172-26-000010",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Furner John R.",
-      "role": "Director, President & CEO",
-      "periodOfReport": "2026-09-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000019/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-17",
-          "shares": 7080.0,
-          "pricePerShare": 106.498,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-17",
-          "shares": 6045.0,
-          "pricePerShare": 106.844,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-18",
-      "accessionNumber": "0001696737-26-000019",
-      "filingLagDays": 1
     },
     {
       "issuerTicker": "TSM",
@@ -13729,6 +13736,138 @@
       "filingLagDays": 2
     },
     {
+      "issuerTicker": "PCQ",
+      "issuerName": "PIMCO CALIFORNIA MUNICIPAL INCOME FUND",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-14",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000486/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-14",
+          "shares": 2000.0,
+          "pricePerShare": 8.1303,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 500.0,
+          "pricePerShare": 7.7016,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-14",
+          "shares": 100.0,
+          "pricePerShare": 7.715,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-16",
+      "accessionNumber": "0000070858-26-000486",
+      "filingLagDays": 2
+    },
+    {
       "issuerTicker": "NMS",
       "issuerName": "Nuveen Minnesota Quality Municipal Income Fund",
       "ownerName": "BANK OF AMERICA CORP /DE/",
@@ -14245,17 +14384,6 @@
       "filedDate": "2026-07-28",
       "accessionNumber": "0000070858-26-000368",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "BJDX",
-      "issuerName": "Bluejay Diagnostics, Inc.",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-07-21",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000359/",
-      "transactions": [],
-      "filedDate": "2026-07-22",
-      "accessionNumber": "0000070858-26-000359"
     }
   ]
 }
