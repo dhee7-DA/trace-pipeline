@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-17T01:41:08.132750Z",
+  "generated_at_utc": "2026-10-20T02:13:50.351260Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -10740,8 +10740,8 @@
           "value_thousands_usd": 2892862,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "QRVO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "QUALCOMM INC",
@@ -123077,8 +123077,8 @@
           "value_thousands_usd": 5773413,
           "shares": null,
           "action": "Increased",
-          "ticker": "QRVO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "QORVO INC",
@@ -123086,8 +123086,8 @@
           "value_thousands_usd": 11111628,
           "shares": null,
           "action": "Increased",
-          "ticker": "QRVO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "QORVO INC",
@@ -123095,8 +123095,8 @@
           "value_thousands_usd": 2910024,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "QRVO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "QT IMAGING HLDGS INC",
