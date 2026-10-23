@@ -1,8 +1,28 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-22T01:59:28.642811Z",
+  "generated_at_utc": "2026-10-23T02:06:20.990699Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040540/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 2399.0,
+          "pricePerShare": 339.62,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0001140361-26-040540",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -426,17 +446,6 @@
       "transactions": [],
       "filedDate": "2026-09-29",
       "accessionNumber": "0001140361-26-038022"
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "COOK TIMOTHY D",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038021/",
-      "transactions": [],
-      "filedDate": "2026-09-29",
-      "accessionNumber": "0001140361-26-038021"
     },
     {
       "issuerTicker": "MSFT",
@@ -12987,6 +12996,124 @@
     {
       "issuerTicker": "AMT",
       "issuerName": "AMERICAN TOWER CORP /MA/",
+      "ownerName": "Clarke Teresa Hillary",
+      "role": "Director",
+      "periodOfReport": "2023-04-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000151/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2023-04-28",
+          "shares": 6.674,
+          "pricePerShare": 205.93,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2023-07-10",
+          "shares": 7.192,
+          "pricePerShare": 193.78,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2023-10-27",
+          "shares": 8.452,
+          "pricePerShare": 171.52,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2024-02-01",
+          "shares": 7.68,
+          "pricePerShare": 199.95,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2024-04-26",
+          "shares": 18.588,
+          "pricePerShare": 172.82,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2024-07-12",
+          "shares": 15.873,
+          "pricePerShare": 204.28,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2024-10-25",
+          "shares": 14.371,
+          "pricePerShare": 227.42,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2025-02-03",
+          "shares": 17.577,
+          "pricePerShare": 187.27,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2025-04-28",
+          "shares": 25.488,
+          "pricePerShare": 209.33,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2025-07-11",
+          "shares": 24.095,
+          "pricePerShare": 223.23,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2025-10-20",
+          "shares": 28.657,
+          "pricePerShare": 189.12,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-02-02",
+          "shares": 30.713,
+          "pricePerShare": 178.04,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-04-28",
+          "shares": 43.5,
+          "pricePerShare": 177.08,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-07-13",
+          "shares": 46.448,
+          "pricePerShare": 167.52,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 42.926,
+          "pricePerShare": 183.2,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0001053507-26-000151",
+      "filingLagDays": 1273
+    },
+    {
+      "issuerTicker": "AMT",
+      "issuerName": "AMERICAN TOWER CORP /MA/",
       "ownerName": "Blanchett Paul",
       "role": "SVP & Chief Accounting Officer",
       "periodOfReport": "2026-10-01",
@@ -13351,40 +13478,6 @@
       ],
       "filedDate": "2026-03-12",
       "accessionNumber": "0001053507-26-000072",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AMT",
-      "issuerName": "AMERICAN TOWER CORP /MA/",
-      "ownerName": "Vondran Steven O",
-      "role": "Director, President and CEO",
-      "periodOfReport": "2026-03-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000070/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-03-10",
-          "shares": 20955.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-03-10",
-          "shares": 15269.0,
-          "pricePerShare": 186.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-03-11",
-          "shares": 2158.0,
-          "pricePerShare": 182.85,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-03-12",
-      "accessionNumber": "0001053507-26-000070",
       "filingLagDays": 2
     },
     {
@@ -14198,6 +14291,224 @@
       "filingLagDays": 2
     },
     {
+      "issuerTicker": "VKI",
+      "issuerName": "Invesco Advantage Municipal Income Trust II",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000500/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 105.0,
+          "pricePerShare": 8.03,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 105.0,
+          "pricePerShare": 8.195,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000500",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "NMS",
+      "issuerName": "Nuveen Minnesota Quality Municipal Income Fund",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000499/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 18.0,
+          "pricePerShare": 10.215,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 82.0,
+          "pricePerShare": 10.2502,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 18.0,
+          "pricePerShare": 10.175,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 82.0,
+          "pricePerShare": 10.215,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000499",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "NMCO",
+      "issuerName": "Nuveen Municipal Credit Opportunities Fund",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000498/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 15.0,
+          "pricePerShare": 8.765,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 96.0,
+          "pricePerShare": 8.779,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 15.0,
+          "pricePerShare": 8.795,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 96.0,
+          "pricePerShare": 8.7601,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000498",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "NBH",
+      "issuerName": "NEUBERGER MUNICIPAL FUND INC.",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000497/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 92.0,
+          "pricePerShare": 9.1899,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 92.0,
+          "pricePerShare": 9.2655,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000497",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "LEO",
+      "issuerName": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000496/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 34.0,
+          "pricePerShare": 5.725,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 149.0,
+          "pricePerShare": 5.6689,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 149.0,
+          "pricePerShare": 5.725,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 34.0,
+          "pricePerShare": 5.655,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000496",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "DSM",
+      "issuerName": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "ownerName": "BANK OF AMERICA CORP /DE/",
+      "role": "10% Owner",
+      "periodOfReport": "2026-10-20",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000495/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 161.0,
+          "pricePerShare": 5.2896,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-10-20",
+          "shares": 39.0,
+          "pricePerShare": 5.315,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 39.0,
+          "pricePerShare": 5.2701,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-20",
+          "shares": 161.0,
+          "pricePerShare": 5.315,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-22",
+      "accessionNumber": "0000070858-26-000495",
+      "filingLagDays": 2
+    },
+    {
       "issuerTicker": "BAC",
       "issuerName": "BANK OF AMERICA CORP /DE/",
       "ownerName": "MOYNIHAN BRIAN T",
@@ -14523,329 +14834,6 @@
       "filedDate": "2026-08-26",
       "accessionNumber": "0000070858-26-000458",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PNI",
-      "issuerName": "PIMCO NEW YORK MUNICIPAL INCOME FUND II",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-08-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000457/",
-      "transactions": [
-        {
-          "transactionCode": "J",
-          "transactionDate": "2026-08-24",
-          "shares": 150.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-26",
-      "accessionNumber": "0000070858-26-000457",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PML",
-      "issuerName": "PIMCO MUNICIPAL INCOME FUND II",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-08-18",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000451/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-18",
-          "shares": 100.0,
-          "pricePerShare": 7.45,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 100.0,
-          "pricePerShare": 7.355,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-20",
-      "accessionNumber": "0000070858-26-000451",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "BAC",
-      "issuerName": "BANK OF AMERICA CORP /DE/",
-      "ownerName": "MOYNIHAN BRIAN T",
-      "role": "Director, Chair and CEO",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000449/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-15",
-          "shares": 18083.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "D",
-          "transactionDate": "2026-08-15",
-          "shares": 18083.0,
-          "pricePerShare": 64.49,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000070858-26-000449",
-      "filingLagDays": 3
-    },
-    {
-      "issuerTicker": "MUNEX",
-      "issuerName": "BlackRock Municipal Credit Alpha Portfolio, Inc.",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-08-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000439/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 4797.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 322.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 751.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 500.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 500.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 4797.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 751.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-10",
-          "shares": 322.0,
-          "pricePerShare": 12.29,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 500.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 500.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 751.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 751.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 322.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 4797.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 4797.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-10",
-          "shares": 322.0,
-          "pricePerShare": 12.32,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-12",
-      "accessionNumber": "0000070858-26-000439",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-08-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000411/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.1887,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.185,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.175,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.2412,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.3237,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-04",
-          "shares": 1.0,
-          "pricePerShare": 10.2301,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-06",
-      "accessionNumber": "0000070858-26-000411",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "NMZ",
-      "issuerName": "NUVEEN MUNICIPAL HIGH INCOME OPPORTUNITY FUND",
-      "ownerName": "BANK OF AMERICA CORP /DE/",
-      "role": "10% Owner",
-      "periodOfReport": "2026-07-31",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000409/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-03",
-          "shares": 7.0,
-          "pricePerShare": 10.195,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-03",
-          "shares": 14.0,
-          "pricePerShare": 10.2143,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-03",
-          "shares": 10.0,
-          "pricePerShare": 10.2143,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-08-03",
-          "shares": 5.0,
-          "pricePerShare": 10.22,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-03",
-          "shares": 7.0,
-          "pricePerShare": 10.3237,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-03",
-          "shares": 14.0,
-          "pricePerShare": 10.2412,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-03",
-          "shares": 10.0,
-          "pricePerShare": 10.2301,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-31",
-          "shares": 5.0,
-          "pricePerShare": 10.325,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-04",
-      "accessionNumber": "0000070858-26-000409",
-      "filingLagDays": 1
     }
   ]
 }

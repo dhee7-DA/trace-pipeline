@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-22T01:59:45.793259Z",
+  "generated_at_utc": "2026-10-23T02:06:38.265528Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -6717,8 +6717,8 @@
           "value_thousands_usd": 360731,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "EDISON INTL",
@@ -25895,8 +25895,8 @@
           "value_thousands_usd": 301373,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ARBE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARBE ROBOTICS LTD",
@@ -25904,8 +25904,8 @@
           "value_thousands_usd": 93209,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ARBE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ARBOR REALTY TRUST INC",
@@ -32870,8 +32870,8 @@
           "value_thousands_usd": 2625558,
           "shares": null,
           "action": "Increased",
-          "ticker": "BLFS",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BIOLIFE SOLUTIONS INC",
@@ -32879,8 +32879,8 @@
           "value_thousands_usd": 1010992,
           "shares": null,
           "action": "Decreased",
-          "ticker": "BLFS",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BIOLIFE SOLUTIONS INC",
@@ -32888,8 +32888,8 @@
           "value_thousands_usd": 1834781,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BLFS",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BIOLINE RX LIMITED",
@@ -55766,8 +55766,8 @@
           "value_thousands_usd": 5965764,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55775,8 +55775,8 @@
           "value_thousands_usd": 187625027,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55784,8 +55784,8 @@
           "value_thousands_usd": 363968850,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55793,8 +55793,8 @@
           "value_thousands_usd": 339448683,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55802,8 +55802,8 @@
           "value_thousands_usd": 395273480,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ECHO",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ECO WAVE POWER GLOBAL AB",
@@ -96905,8 +96905,8 @@
           "value_thousands_usd": 601895,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LESLQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "LESLIES INC",
@@ -96914,8 +96914,8 @@
           "value_thousands_usd": 280597,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LESLQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "LESLIES INC",
@@ -96923,8 +96923,8 @@
           "value_thousands_usd": 549115,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LESLQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "LEVI STRAUSS & CO NEW",
@@ -132581,8 +132581,8 @@
           "value_thousands_usd": 962355,
           "shares": null,
           "action": "Decreased",
-          "ticker": "SLP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SIMULATIONS PLUS INC",
@@ -132590,8 +132590,8 @@
           "value_thousands_usd": 1058483,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SLP",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SINCLAIR INC",
@@ -156233,8 +156233,8 @@
           "value_thousands_usd": 1170217452,
           "shares": null,
           "action": "Increased",
-          "ticker": "WBD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WARNER BROS DISCOVERY INC",
@@ -156242,8 +156242,8 @@
           "value_thousands_usd": 511666718,
           "shares": null,
           "action": "Increased",
-          "ticker": "WBD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WARNER BROS DISCOVERY INC",
@@ -156251,8 +156251,8 @@
           "value_thousands_usd": 173687234,
           "shares": null,
           "action": "Increased",
-          "ticker": "WBD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WARNER BROS DISCOVERY INC",
@@ -156260,8 +156260,8 @@
           "value_thousands_usd": 18493562,
           "shares": null,
           "action": "Decreased",
-          "ticker": "WBD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WARNER BROS DISCOVERY INC",
@@ -156269,8 +156269,8 @@
           "value_thousands_usd": 43415810,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "WBD",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WARNER MUSIC GROUP CORP",
@@ -157655,8 +157655,8 @@
           "value_thousands_usd": 23504,
           "shares": null,
           "action": "Decreased",
-          "ticker": "WPRT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WESTPORT FUEL SYSTEMS INC",
@@ -157664,8 +157664,8 @@
           "value_thousands_usd": 203307,
           "shares": null,
           "action": "Increased",
-          "ticker": "WPRT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WESTPORT FUEL SYSTEMS INC",
@@ -157673,8 +157673,8 @@
           "value_thousands_usd": 43392,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "WPRT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WESTROCK COFFEE CO",
