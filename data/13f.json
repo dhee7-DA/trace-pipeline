@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-23T02:06:38.265528Z",
+  "generated_at_utc": "2026-10-24T02:07:14.443584Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -26930,8 +26930,8 @@
           "value_thousands_usd": 190717,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "XRPNU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ARMADA ACQUISITION CORP II",
@@ -26939,8 +26939,8 @@
           "value_thousands_usd": 85000,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "XRPNU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ARMLOGI HOLDING CORP",
