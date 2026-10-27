@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-24T02:06:57.191251Z",
+  "generated_at_utc": "2026-10-27T02:33:28.426947Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -5346,6 +5346,73 @@
     {
       "issuerTicker": "PG",
       "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Jejurikar Shailesh",
+      "role": "Director, Chairman, President and CEO",
+      "periodOfReport": "2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000263/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-10-23",
+          "shares": 35000.0,
+          "pricePerShare": 78.52,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-23",
+          "shares": 35000.0,
+          "pricePerShare": 163.0871,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000080424-26-000263",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Purushothaman Balaji",
+      "role": "Chief Human Resources Officer",
+      "periodOfReport": "2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000261/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-23",
+          "shares": 4181.0,
+          "pricePerShare": 160.71,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000080424-26-000261",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Gama Paul",
+      "role": "CEO- Health Care",
+      "periodOfReport": "2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000260/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-23",
+          "shares": 4331.0,
+          "pricePerShare": 161.27,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000080424-26-000260",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
       "ownerName": "Subramaniam Rajesh",
       "role": "Director",
       "periodOfReport": "2026-10-13",
@@ -5582,66 +5649,6 @@
       "filedDate": "2026-10-06",
       "accessionNumber": "0000080424-26-000200",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Gama Paul",
-      "role": "CEO- Health Care",
-      "periodOfReport": "2026-10-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000199/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-05",
-          "shares": 2225.0,
-          "pricePerShare": 145.34,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-06",
-      "accessionNumber": "0000080424-26-000199",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Whaley Susan Street",
-      "role": "Chief Legal Officer & Secy",
-      "periodOfReport": "2026-10-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000198/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-05",
-          "shares": 2369.0,
-          "pricePerShare": 145.34,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-06",
-      "accessionNumber": "0000080424-26-000198",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Whaley Susan Street",
-      "role": "Chief Legal Officer & Secy",
-      "periodOfReport": "2026-10-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000197/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-01",
-          "shares": 6110.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-05",
-      "accessionNumber": "0000080424-26-000197",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "HD",
@@ -6903,250 +6910,143 @@
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Wilcox William Richard",
+      "ownerName": "MILLERCHIP GARY",
       "role": "Executive Vice President",
-      "periodOfReport": "2026-10-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000098/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-13",
-          "shares": 1100.0,
-          "pricePerShare": 958.205,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-14",
-      "accessionNumber": "0000909832-26-000098",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Frates Caton",
-      "role": "Sr. Executive Vice President",
-      "periodOfReport": "2026-09-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000090/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-29",
-          "shares": 800.638,
-          "pricePerShare": 915.93,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-30",
-      "accessionNumber": "0000909832-26-000090",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Adamo Claudine",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-29",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000088/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-29",
-          "shares": 2200.0,
-          "pricePerShare": 915.93,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-30",
-      "accessionNumber": "0000909832-26-000088",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Wilcox William Richard",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000080/",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000125/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4129.0,
+          "transactionDate": "2026-10-22",
+          "shares": 6140.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         },
         {
           "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 1934.609,
-          "pricePerShare": 902.38,
+          "transactionDate": "2026-10-22",
+          "shares": 313.451,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 500.323,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 816.968,
+          "pricePerShare": 1018.21,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000080",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000125",
       "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Rubanenko Yoram",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000078/",
+      "ownerName": "Vachris Roland Michael",
+      "role": "Director, President and CEO",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000124/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4129.0,
+          "transactionDate": "2026-10-22",
+          "shares": 13973.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
         },
         {
           "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 1695.952,
-          "pricePerShare": 902.38,
+          "transactionDate": "2026-10-22",
+          "shares": 1403.592,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 1120.544,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 1131.478,
+          "pricePerShare": 1018.21,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000078",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000124",
       "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Riel Pierre",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000076/",
+      "ownerName": "Wilderotter Mary Agnes",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000123/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4552.0,
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 1561.66,
-          "pricePerShare": 902.38,
-          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000076",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000123",
       "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Klauer James C",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000074/",
+      "ownerName": "STANTON JOHN W",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000122/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4129.0,
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 936.115,
-          "pricePerShare": 902.38,
-          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000074",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000122",
       "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Jones Teresa A.",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000072/",
+      "ownerName": "Raimondo Gina Marie",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000121/",
       "transactions": [
         {
           "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4129.0,
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 1458.535,
-          "pricePerShare": 902.38,
-          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000072",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Frates Caton",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000070/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4552.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 1654.363,
-          "pricePerShare": 902.38,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000070",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Adamo Claudine",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000068/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-10",
-          "shares": 4129.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-10",
-          "shares": 916.685,
-          "pricePerShare": 902.38,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-14",
-      "accessionNumber": "0000909832-26-000068",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000121",
       "filingLagDays": 4
     },
     {
@@ -7154,19 +7054,175 @@
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
       "ownerName": "RAIKES JEFFREY S",
       "role": "Director",
-      "periodOfReport": "2026-07-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000062/",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000120/",
       "transactions": [
         {
-          "transactionCode": "G",
-          "transactionDate": "2026-07-10",
-          "shares": 5249.0,
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
           "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000120",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Klauer James C",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000119/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 190.678,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 396.177,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 529.972,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 442.688,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 541.85,
+          "pricePerShare": 1018.21,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-07-14",
-      "accessionNumber": "0000909832-26-000062",
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000119",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "JEWELL SARAH MR SALLY",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000117/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000117",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "JAMES HAMILTON E",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000115/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000115",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "George Sarah Catherine",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000113/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 59.988,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 62.467,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 55.774,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 34.821,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 46.711,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000113",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Foulkes Helena",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000111/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000111",
       "filingLagDays": 4
     },
     {
@@ -7174,80 +7230,143 @@
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
       "ownerName": "DENMAN KENNETH D",
       "role": "Director",
-      "periodOfReport": "2026-06-23",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000053/",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000109/",
       "transactions": [
         {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-23",
-          "shares": 885.0,
-          "pricePerShare": 957.4525,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-06-25",
-      "accessionNumber": "0000909832-26-000053",
-      "filingLagDays": 2
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000109",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "Frates Caton",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-04-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000039/",
+      "ownerName": "DECKER SUSAN L",
+      "role": "Director",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000107/",
       "transactions": [
         {
-          "transactionCode": "S",
-          "transactionDate": "2026-04-01",
-          "shares": 700.0,
-          "pricePerShare": 993.0,
-          "acquiredOrDisposed": "Disposed"
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 266.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-04-01",
-      "accessionNumber": "0000909832-26-000039",
-      "filingLagDays": 0
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000107",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "George Sarah Catherine",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-03-12",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000035/",
+      "ownerName": "Barbre Tiffany Marie",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000105/",
       "transactions": [
         {
-          "transactionCode": "I",
-          "transactionDate": "2026-03-12",
-          "shares": 642.1252,
-          "pricePerShare": 991.2129,
+          "transactionCode": "A",
+          "transactionDate": "2026-10-22",
+          "shares": 1965.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 90.23,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 93.948,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 101.536,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 84.603,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 166.451,
+          "pricePerShare": 1018.21,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-03-13",
-      "accessionNumber": "0000909832-26-000035",
-      "filingLagDays": 1
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000105",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "MILLERCHIP GARY",
+      "ownerName": "Adamo Claudine",
       "role": "Executive Vice President",
-      "periodOfReport": "2026-03-11",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000033/",
+      "periodOfReport": "2026-10-22",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000103/",
       "transactions": [
         {
           "transactionCode": "F",
-          "transactionDate": "2026-03-11",
-          "shares": 1154.017,
-          "pricePerShare": 992.23,
+          "transactionDate": "2026-10-22",
+          "shares": 96.942,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 198.289,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 177.058,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 110.967,
+          "pricePerShare": 1018.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-10-22",
+          "shares": 108.607,
+          "pricePerShare": 1018.21,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-03-13",
-      "accessionNumber": "0000909832-26-000033",
-      "filingLagDays": 2
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000909832-26-000103",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "NFLX",

@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-24T02:07:14.443584Z",
+  "generated_at_utc": "2026-10-27T02:33:45.659830Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -6717,8 +6717,8 @@
           "value_thousands_usd": 360731,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "EDISON INTL",
@@ -35012,8 +35012,8 @@
           "value_thousands_usd": 395970,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BBLG",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BONE BIOLOGICS CORP",
@@ -35021,8 +35021,8 @@
           "value_thousands_usd": 32714,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BBLG",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BONK INC",
@@ -55766,8 +55766,8 @@
           "value_thousands_usd": 5965764,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55775,8 +55775,8 @@
           "value_thousands_usd": 187625027,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55784,8 +55784,8 @@
           "value_thousands_usd": 363968850,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55793,8 +55793,8 @@
           "value_thousands_usd": 339448683,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ECHOSTAR CORP",
@@ -55802,8 +55802,8 @@
           "value_thousands_usd": 395273480,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ECHO",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ECO WAVE POWER GLOBAL AB",
@@ -70364,8 +70364,8 @@
           "value_thousands_usd": 191264,
           "shares": null,
           "action": "Increased",
-          "ticker": "GETY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GETTY IMAGES HOLDINGS INC",
@@ -70373,8 +70373,8 @@
           "value_thousands_usd": 149554,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "GETY",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GETTY RLTY CORP NEW",
