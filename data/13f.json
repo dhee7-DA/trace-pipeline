@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-28T02:42:42.014300Z",
+  "generated_at_utc": "2026-10-29T03:01:05.391376Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -118379,8 +118379,8 @@
           "value_thousands_usd": 46629,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "PAPL",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PING AN BIOMEDICAL CO LTD",

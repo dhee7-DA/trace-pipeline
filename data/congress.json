@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-10-28T02:42:42.773774Z",
+  "generated_at_utc": "2026-10-29T03:01:06.331697Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -134,6 +134,18 @@
       "tradeDate": null,
       "disclosedDate": "10/14/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035648.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Jodey Arrington",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/27/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf"
     },
     {
       "confidence": "index-only",
@@ -386,6 +398,18 @@
       "tradeDate": null,
       "disclosedDate": "9/22/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Sheri Biggs",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/27/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035525.pdf"
     },
     {
       "confidence": "index-only",
@@ -1046,6 +1070,18 @@
       "tradeDate": null,
       "disclosedDate": "10/14/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Suzan K. DelBene",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/28/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
     },
     {
       "confidence": "index-only",
@@ -3593,6 +3629,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Max Miller",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/27/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035715.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Tim Moore",
       "chamber": "House",
       "party": null,
@@ -4598,6 +4646,18 @@
       "tradeDate": null,
       "disclosedDate": "9/22/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Pete Sessions",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "10/27/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
     },
     {
       "confidence": "index-only",

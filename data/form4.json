@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-28T02:42:24.693920Z",
+  "generated_at_utc": "2026-10-29T03:00:48.029955Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -2551,6 +2551,74 @@
     {
       "issuerTicker": "META",
       "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Alford Peggy",
+      "role": "Director",
+      "periodOfReport": "2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016314/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 390.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-28",
+      "accessionNumber": "0000950103-26-016314",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "periodOfReport": "2026-10-26",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 946.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 82.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 57.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 82.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-26",
+          "shares": 408.0,
+          "pricePerShare": 640.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-28",
+      "accessionNumber": "0000950103-26-016313",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
       "ownerName": "Olivan Javier",
       "role": "Chief Operating Officer",
       "periodOfReport": "2026-10-19",
@@ -3198,130 +3266,6 @@
       ],
       "filedDate": "2026-08-20",
       "accessionNumber": "0000950103-26-012729",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "periodOfReport": "2026-08-18",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012727/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 1845.0,
-          "pricePerShare": 547.5143,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 1864.0,
-          "pricePerShare": 548.1951,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 1219.0,
-          "pricePerShare": 549.2492,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 708.0,
-          "pricePerShare": 550.1979,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 1031.0,
-          "pricePerShare": 551.2472,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 561.0,
-          "pricePerShare": 552.4692,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 768.0,
-          "pricePerShare": 553.4182,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 160.0,
-          "pricePerShare": 554.3888,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 40.0,
-          "pricePerShare": 555.83,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 720.0,
-          "pricePerShare": 557.5686,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 120.0,
-          "pricePerShare": 558.1217,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 40.0,
-          "pricePerShare": 559.59,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 120.0,
-          "pricePerShare": 560.63,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-20",
-      "accessionNumber": "0000950103-26-012727",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Bosworth Andrew",
-      "role": "Chief Technology Officer",
-      "periodOfReport": "2026-08-18",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012726/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-18",
-          "shares": 7848.0,
-          "pricePerShare": 558.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-20",
-      "accessionNumber": "0000950103-26-012726",
       "filingLagDays": 2
     },
     {
