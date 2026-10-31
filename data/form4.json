@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-30T03:05:55.942385Z",
+  "generated_at_utc": "2026-10-31T02:50:43.922981Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -1714,6 +1714,26 @@
     {
       "issuerTicker": "GOOGL",
       "issuerName": "Alphabet Inc.",
+      "ownerName": "ARNOLD FRANCES",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-10-29",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442116/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-29",
+          "shares": 82.0,
+          "pricePerShare": 284.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-30",
+      "accessionNumber": "0001193125-26-442116",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
       "ownerName": "Saraci Marsida",
       "role": "Reporting Person",
       "periodOfReport": "2026-10-25",
@@ -2515,47 +2535,6 @@
       "filedDate": "2026-09-29",
       "accessionNumber": "0001193125-26-408004",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "ARNOLD FRANCES",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393517/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 0.4,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 1.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 1.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-14",
-          "shares": 11.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0001193125-26-393517",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "META",
@@ -10969,6 +10948,66 @@
     {
       "issuerTicker": "PLTR",
       "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Taylor Ryan D.",
+      "role": "See Remarks",
+      "periodOfReport": "2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000015/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-28",
+          "shares": 211208.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-30",
+      "accessionNumber": "0001823923-26-000015",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Sankar Shyam",
+      "role": "See Remarks",
+      "periodOfReport": "2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000015/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-28",
+          "shares": 564830.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-30",
+      "accessionNumber": "0001824159-26-000015",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
+      "ownerName": "Glazer David A.",
+      "role": "See Remarks",
+      "periodOfReport": "2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000012/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-28",
+          "shares": 211208.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-30",
+      "accessionNumber": "0001823940-26-000012",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "PLTR",
+      "issuerName": "Palantir Technologies Inc.",
       "ownerName": "Moore Alexander D.",
       "role": "Director",
       "periodOfReport": "2026-10-15",
@@ -11398,129 +11437,6 @@
       ],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001823951-26-000009",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Moore Alexander D.",
-      "role": "Director",
-      "periodOfReport": "2026-08-17",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000020/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 3516.0,
-          "pricePerShare": 173.2121,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 7520.0,
-          "pricePerShare": 174.0721,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 3455.0,
-          "pricePerShare": 175.1319,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-17",
-          "shares": 1509.0,
-          "pricePerShare": 175.8424,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-19",
-      "accessionNumber": "0001823952-26-000020",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Sankar Shyam",
-      "role": "See Remarks",
-      "periodOfReport": "2026-08-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000013/",
-      "transactions": [
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-08-10",
-          "shares": 55498.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "G",
-          "transactionDate": "2026-08-11",
-          "shares": 294502.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-12",
-      "accessionNumber": "0001824159-26-000013",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "PLTR",
-      "issuerName": "Palantir Technologies Inc.",
-      "ownerName": "Sankar Shyam",
-      "role": "See Remarks",
-      "periodOfReport": "2026-08-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000011/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-08-06",
-          "shares": 35000.0,
-          "pricePerShare": null,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-06",
-          "shares": 2735.0,
-          "pricePerShare": 153.4046,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-06",
-          "shares": 6191.0,
-          "pricePerShare": 154.653,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-06",
-          "shares": 16063.0,
-          "pricePerShare": 155.7404,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-06",
-          "shares": 7976.0,
-          "pricePerShare": 156.7791,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-06",
-          "shares": 2035.0,
-          "pricePerShare": 157.4435,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-10",
-      "accessionNumber": "0001824159-26-000011",
       "filingLagDays": 4
     },
     {
@@ -13429,6 +13345,33 @@
     {
       "issuerTicker": "AMT",
       "issuerName": "AMERICAN TOWER CORP /MA/",
+      "ownerName": "Dowling Ruth T",
+      "role": "EVP, Chief Admin Ofr, GC & Sec",
+      "periodOfReport": "2026-10-28",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000159/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-28",
+          "shares": 626.0,
+          "pricePerShare": 182.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-29",
+          "shares": 952.0,
+          "pricePerShare": 185.81,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-30",
+      "accessionNumber": "0001053507-26-000159",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "AMT",
+      "issuerName": "AMERICAN TOWER CORP /MA/",
       "ownerName": "Clarke Teresa Hillary",
       "role": "Director",
       "periodOfReport": "2023-04-28",
@@ -13877,40 +13820,6 @@
       ],
       "filedDate": "2026-03-12",
       "accessionNumber": "0001053507-26-000074",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "AMT",
-      "issuerName": "AMERICAN TOWER CORP /MA/",
-      "ownerName": "Noel Eugene M",
-      "role": "EVP & Chief Operating Officer",
-      "periodOfReport": "2026-03-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000072/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-03-10",
-          "shares": 8167.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-03-10",
-          "shares": 2498.0,
-          "pricePerShare": 186.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-03-11",
-          "shares": 719.0,
-          "pricePerShare": 182.85,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-03-12",
-      "accessionNumber": "0001053507-26-000072",
       "filingLagDays": 2
     },
     {
