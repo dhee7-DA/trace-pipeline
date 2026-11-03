@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-10-31T02:51:01.134126Z",
+  "generated_at_utc": "2026-11-03T04:09:44.882140Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -4872,8 +4872,8 @@
           "value_thousands_usd": 1656912,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ATKR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATMOS ENERGY CORP",
@@ -17885,8 +17885,8 @@
           "value_thousands_usd": 13008809,
           "shares": null,
           "action": "Increased",
-          "ticker": "ACVA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ACV AUCTIONS INC",
@@ -17894,8 +17894,8 @@
           "value_thousands_usd": 326426,
           "shares": null,
           "action": "Increased",
-          "ticker": "ACVA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ACV AUCTIONS INC",
@@ -17903,8 +17903,8 @@
           "value_thousands_usd": 765785,
           "shares": null,
           "action": "Increased",
-          "ticker": "ACVA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ACV AUCTIONS INC",
@@ -17912,8 +17912,8 @@
           "value_thousands_usd": 271063,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ACVA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ADAGENE INC",
@@ -18155,8 +18155,8 @@
           "value_thousands_usd": 75640,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ADIL",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ADICET BIO INC",
@@ -28262,8 +28262,8 @@
           "value_thousands_usd": 2691816,
           "shares": null,
           "action": "Increased",
-          "ticker": "ATKR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATKORE INC",
@@ -28271,8 +28271,8 @@
           "value_thousands_usd": 1064560,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ATKR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ATLANTA BRAVES HLDGS INC",
@@ -31763,8 +31763,8 @@
           "value_thousands_usd": 1480311,
           "shares": null,
           "action": "Decreased",
-          "ticker": "BZH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BEAZER HOMES USA INC",
@@ -31772,8 +31772,8 @@
           "value_thousands_usd": 5694150,
           "shares": null,
           "action": "Increased",
-          "ticker": "BZH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BEAZER HOMES USA INC",
@@ -31781,8 +31781,8 @@
           "value_thousands_usd": 1214874,
           "shares": null,
           "action": "Decreased",
-          "ticker": "BZH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BEAZER HOMES USA INC",
@@ -31790,8 +31790,8 @@
           "value_thousands_usd": 2252415,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BZH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BECTON DICKINSON & CO",
@@ -35876,8 +35876,8 @@
           "value_thousands_usd": 1298249,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SLMT",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BRIACELL THERAPEUTICS CORP",
@@ -56675,8 +56675,8 @@
           "value_thousands_usd": 176105,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ELME",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELME COMMUNITIES",
@@ -56684,8 +56684,8 @@
           "value_thousands_usd": 1249341,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ELME",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ELMET GROUP CO (THE)",
@@ -103871,8 +103871,8 @@
           "value_thousands_usd": 42842260,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MMED",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MINIMED GROUP INC",
@@ -103880,8 +103880,8 @@
           "value_thousands_usd": 548665,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MMED",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MINISO GROUP HLDG LTD",
