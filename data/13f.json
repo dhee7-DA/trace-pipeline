@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-03T04:09:44.882140Z",
+  "generated_at_utc": "2026-11-04T03:26:41.520835Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -1581,8 +1581,8 @@
           "value_thousands_usd": 28165,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Monte Rosa Therapeutics Inc",
@@ -2222,8 +2222,8 @@
           "value_thousands_usd": 1522358404,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MICROSOFT CORP",
@@ -3259,8 +3259,8 @@
           "value_thousands_usd": 134610910,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Taiwan Semiconductor Manufacturing Company Ltd",
@@ -7464,8 +7464,8 @@
           "value_thousands_usd": 930827,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMING & LEISURE P",
@@ -9372,8 +9372,8 @@
           "value_thousands_usd": 62008653,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "METLIFE INC",
@@ -15089,8 +15089,8 @@
           "value_thousands_usd": 380220750,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MICRON TECHNOLOGY INC",
@@ -15777,8 +15777,8 @@
           "value_thousands_usd": 1590269062,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MICROSOFT CORP",
@@ -68969,8 +68969,8 @@
           "value_thousands_usd": 39744,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMESTOP CORP",
@@ -68978,8 +68978,8 @@
           "value_thousands_usd": 22974410,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMESTOP CORP",
@@ -68987,8 +68987,8 @@
           "value_thousands_usd": 293418912,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMESTOP CORP",
@@ -68996,8 +68996,8 @@
           "value_thousands_usd": 81490656,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMESTOP CORP NEW",
@@ -69005,8 +69005,8 @@
           "value_thousands_usd": 45801,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GME",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GAMING & LEISURE P",
@@ -70364,8 +70364,8 @@
           "value_thousands_usd": 191264,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GETYQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GETTY IMAGES HOLDINGS INC",
@@ -70373,8 +70373,8 @@
           "value_thousands_usd": 149554,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "GETYQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "GETTY RLTY CORP NEW",
@@ -86051,8 +86051,8 @@
           "value_thousands_usd": 29549,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "IPST",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "IPERIONX LTD",
@@ -102719,8 +102719,8 @@
           "value_thousands_usd": 533509421,
           "shares": null,
           "action": "Decreased",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "META PLATFORMS INC",
@@ -102728,8 +102728,8 @@
           "value_thousands_usd": 8675623593,
           "shares": null,
           "action": "Increased",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "META PLATFORMS INC",
@@ -102737,8 +102737,8 @@
           "value_thousands_usd": 97556758,
           "shares": null,
           "action": "Decreased",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "META PLATFORMS INC",
@@ -102746,8 +102746,8 @@
           "value_thousands_usd": 5084424527,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "META",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "METAGENOMI THERAPEUTICS INC",
@@ -128423,8 +128423,8 @@
           "value_thousands_usd": 315900,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "SABS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "SAB BIOTHERAPEUTICS INC",
@@ -128432,8 +128432,8 @@
           "value_thousands_usd": 244908,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "SABS",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "SABINE RTY TR",
