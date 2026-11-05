@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-04T03:26:41.520835Z",
+  "generated_at_utc": "2026-11-05T03:51:59.086336Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -8229,8 +8229,8 @@
           "value_thousands_usd": 2797466,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "INDV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INGEVITY CORP",
@@ -80498,8 +80498,8 @@
           "value_thousands_usd": 89486676,
           "shares": null,
           "action": "Increased",
-          "ticker": "INDV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INDIVIOR PHARMACEUTICALS INC",
@@ -80507,8 +80507,8 @@
           "value_thousands_usd": 4821025,
           "shares": null,
           "action": "Increased",
-          "ticker": "INDV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INDIVIOR PHARMACEUTICALS INC",
@@ -80516,8 +80516,8 @@
           "value_thousands_usd": 19974266,
           "shares": null,
           "action": "Increased",
-          "ticker": "INDV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INDIVIOR PHARMACEUTICALS INC",
@@ -80525,8 +80525,8 @@
           "value_thousands_usd": 3434211,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "INDV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INDUSTRIAL LOGISTICS PPTYS T",
@@ -86051,8 +86051,8 @@
           "value_thousands_usd": 29549,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "IPST",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "IPERIONX LTD",
@@ -103187,8 +103187,8 @@
           "value_thousands_usd": 4910506,
           "shares": null,
           "action": "Increased",
-          "ticker": "MGPI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MGP INGREDIENTS INC NEW",
@@ -103196,8 +103196,8 @@
           "value_thousands_usd": 1828703,
           "shares": null,
           "action": "Increased",
-          "ticker": "MGPI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MGP INGREDIENTS INC NEW",
@@ -103205,8 +103205,8 @@
           "value_thousands_usd": 194472,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "MGPI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "MIAMI INTL HLDGS INC",
@@ -139124,8 +139124,8 @@
           "value_thousands_usd": 50415770,
           "shares": null,
           "action": "Increased",
-          "ticker": "SUPN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SUPERNUS PHARMACEUTICALS",
@@ -139133,8 +139133,8 @@
           "value_thousands_usd": 13488133,
           "shares": null,
           "action": "Increased",
-          "ticker": "SUPN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SUPERNUS PHARMACEUTICALS",
@@ -139142,8 +139142,8 @@
           "value_thousands_usd": 2116205,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "SUPN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "SURF AIR MOBILITY INC",
@@ -155054,8 +155054,8 @@
           "value_thousands_usd": 10415,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "GVHGF",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "VISIONSYS AI INC",
