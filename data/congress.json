@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-11-05T03:51:59.859278Z",
+  "generated_at_utc": "2026-11-06T03:47:47.896564Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -2885,6 +2885,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Mike Kelly",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/4/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035765.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Rohit Khanna",
       "chamber": "House",
       "party": null,
@@ -3626,6 +3638,18 @@
       "tradeDate": null,
       "disclosedDate": "10/14/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035487.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Daniel Meuser",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/5/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035662.pdf"
     },
     {
       "confidence": "index-only",
@@ -4670,6 +4694,18 @@
       "tradeDate": null,
       "disclosedDate": "10/7/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Maria Elvira Salazar",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/5/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf"
     },
     {
       "confidence": "index-only",
