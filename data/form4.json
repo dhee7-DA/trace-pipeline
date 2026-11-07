@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-06T03:47:29.869695Z",
+  "generated_at_utc": "2026-11-07T03:29:24.221223Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -774,6 +774,26 @@
       "issuerName": "NVIDIA CORP",
       "ownerName": "COXE TENCH",
       "role": "Director",
+      "periodOfReport": "2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000013/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-04",
+          "shares": 500000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-06",
+      "accessionNumber": "0001197647-26-000013",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "NVDA",
+      "issuerName": "NVIDIA CORP",
+      "ownerName": "COXE TENCH",
+      "role": "Director",
       "periodOfReport": "2026-10-07",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000011/",
       "transactions": [
@@ -1186,33 +1206,6 @@
       "transactions": [],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001347842-26-000015"
-    },
-    {
-      "issuerTicker": "NVDA",
-      "issuerName": "NVIDIA CORP",
-      "ownerName": "NORA JOHNSON SUZANNE M",
-      "role": "Director",
-      "periodOfReport": "2026-08-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000008/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-08-10",
-          "shares": 1262.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-08-10",
-          "shares": 1148.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-08-12",
-      "accessionNumber": "0001310264-26-000008",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "AMZN",
@@ -2548,6 +2541,17 @@
     {
       "issuerTicker": "META",
       "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Zuckerberg Mark",
+      "role": "Director, COB and CEO, 10% Owner",
+      "periodOfReport": "2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017123/",
+      "transactions": [],
+      "filedDate": "2026-11-06",
+      "accessionNumber": "0000950103-26-017123"
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
       "ownerName": "Olivan Javier",
       "role": "Chief Operating Officer",
       "periodOfReport": "2026-11-02",
@@ -3180,166 +3184,6 @@
       ],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000950103-26-013860",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "periodOfReport": "2026-09-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013794/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 258.0,
-          "pricePerShare": 612.9883,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 117.0,
-          "pricePerShare": 614.2163,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 262.0,
-          "pricePerShare": 615.2329,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 855.0,
-          "pricePerShare": 616.3211,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 555.0,
-          "pricePerShare": 617.2823,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 529.0,
-          "pricePerShare": 618.184,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 120.0,
-          "pricePerShare": 618.93,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 78.0,
-          "pricePerShare": 620.3697,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 40.0,
-          "pricePerShare": 621.03,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 24.0,
-          "pricePerShare": 622.99,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 328.0,
-          "pricePerShare": 616.06,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 228.0,
-          "pricePerShare": 616.06,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 328.0,
-          "pricePerShare": 616.06,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 52.0,
-          "pricePerShare": 612.2056,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 40.0,
-          "pricePerShare": 613.296,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 200.0,
-          "pricePerShare": 614.49,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 354.0,
-          "pricePerShare": 615.879,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 473.0,
-          "pricePerShare": 616.7869,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 304.0,
-          "pricePerShare": 618.0049,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 157.0,
-          "pricePerShare": 619.11,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-08",
-          "shares": 52.0,
-          "pricePerShare": 620.2669,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-10",
-      "accessionNumber": "0000950103-26-013794",
       "filingLagDays": 2
     },
     {
@@ -11678,6 +11522,173 @@
       "issuerTicker": "CRWD",
       "issuerName": "CrowdStrike Holdings, Inc.",
       "ownerName": "Kurtz George",
+      "role": "Director, PRESIDENT AND CEO",
+      "periodOfReport": "2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000095010326017094/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 200.0,
+          "pricePerShare": 238.12,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 200.0,
+          "pricePerShare": 239.99,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 1607.0,
+          "pricePerShare": 241.17,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 2034.0,
+          "pricePerShare": 242.23,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 3036.0,
+          "pricePerShare": 243.14,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 923.0,
+          "pricePerShare": 244.35,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 500.0,
+          "pricePerShare": 245.33,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 300.0,
+          "pricePerShare": 246.64,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 300.0,
+          "pricePerShare": 247.85,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 300.0,
+          "pricePerShare": 249.06,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 300.0,
+          "pricePerShare": 250.65,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 300.0,
+          "pricePerShare": 252.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 100.0,
+          "pricePerShare": 214.06,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 300.0,
+          "pricePerShare": 215.81,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 2722.0,
+          "pricePerShare": 216.86,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 2278.0,
+          "pricePerShare": 218.04,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 1230.0,
+          "pricePerShare": 218.95,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 1670.0,
+          "pricePerShare": 220.15,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 1248.0,
+          "pricePerShare": 221.24,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 252.0,
+          "pricePerShare": 222.41,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 100.0,
+          "pricePerShare": 225.34,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-05",
+          "shares": 100.0,
+          "pricePerShare": 231.49,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-06",
+      "accessionNumber": "0000950103-26-017094",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
       "role": "Reporting Person",
       "periodOfReport": "2026-11-02",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000203/",
@@ -11707,130 +11718,6 @@
       "filedDate": "2026-11-04",
       "accessionNumber": "0001778564-26-000203",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "GANDHI SAMEER K",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-11-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000029/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1069.0,
-          "pricePerShare": 241.13,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 2193.0,
-          "pricePerShare": 242.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1719.0,
-          "pricePerShare": 243.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1059.0,
-          "pricePerShare": 244.02,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1058.0,
-          "pricePerShare": 245.12,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 571.0,
-          "pricePerShare": 246.16,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 719.0,
-          "pricePerShare": 247.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1359.0,
-          "pricePerShare": 248.4,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 2512.0,
-          "pricePerShare": 249.43,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 1427.0,
-          "pricePerShare": 250.16,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 314.0,
-          "pricePerShare": 251.19,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-11-04",
-      "accessionNumber": "0001201326-26-000029",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Podbere Burt W.",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-11-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000026/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 710.0,
-          "pricePerShare": 250.54,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 4410.0,
-          "pricePerShare": 251.81,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-11-02",
-          "shares": 2590.0,
-          "pricePerShare": 252.93,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-11-04",
-      "accessionNumber": "0001778610-26-000026",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "CRWD",
@@ -12046,6 +11933,130 @@
       ],
       "filedDate": "2026-11-04",
       "accessionNumber": "0001778564-26-000202",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "GANDHI SAMEER K",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000120132626000029/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1069.0,
+          "pricePerShare": 241.13,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 2193.0,
+          "pricePerShare": 242.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1719.0,
+          "pricePerShare": 243.08,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1059.0,
+          "pricePerShare": 244.02,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1058.0,
+          "pricePerShare": 245.12,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 571.0,
+          "pricePerShare": 246.16,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 719.0,
+          "pricePerShare": 247.27,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1359.0,
+          "pricePerShare": 248.4,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 2512.0,
+          "pricePerShare": 249.43,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 1427.0,
+          "pricePerShare": 250.16,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 314.0,
+          "pricePerShare": 251.19,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-04",
+      "accessionNumber": "0001201326-26-000029",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Podbere Burt W.",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-02",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177861026000026/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 710.0,
+          "pricePerShare": 250.54,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 4410.0,
+          "pricePerShare": 251.81,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-02",
+          "shares": 2590.0,
+          "pricePerShare": 252.93,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-04",
+      "accessionNumber": "0001778610-26-000026",
       "filingLagDays": 2
     },
     {
@@ -13390,229 +13401,6 @@
       "filingLagDays": 1
     },
     {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-10-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000182/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 400.0,
-          "pricePerShare": 262.51,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 2040.0,
-          "pricePerShare": 263.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 1080.0,
-          "pricePerShare": 264.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 1568.0,
-          "pricePerShare": 265.47,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 1792.0,
-          "pricePerShare": 266.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 760.0,
-          "pricePerShare": 267.31,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 760.0,
-          "pricePerShare": 268.84,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 1292.0,
-          "pricePerShare": 269.76,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 148.0,
-          "pricePerShare": 271.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-08",
-          "shares": 160.0,
-          "pricePerShare": 271.77,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 560.0,
-          "pricePerShare": 263.21,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 400.0,
-          "pricePerShare": 264.2,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 440.0,
-          "pricePerShare": 265.41,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1803.0,
-          "pricePerShare": 266.79,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1080.0,
-          "pricePerShare": 267.64,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 147.0,
-          "pricePerShare": 269.08,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1079.0,
-          "pricePerShare": 269.99,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 126.0,
-          "pricePerShare": 271.35,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1156.0,
-          "pricePerShare": 272.32,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1594.0,
-          "pricePerShare": 273.37,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 1041.0,
-          "pricePerShare": 274.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-09",
-          "shares": 574.0,
-          "pricePerShare": 274.99,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 320.0,
-          "pricePerShare": 261.97,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 3200.0,
-          "pricePerShare": 263.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 1040.0,
-          "pricePerShare": 263.79,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 1800.0,
-          "pricePerShare": 264.9,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 680.0,
-          "pricePerShare": 265.82,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 440.0,
-          "pricePerShare": 267.03,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 880.0,
-          "pricePerShare": 268.03,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 560.0,
-          "pricePerShare": 268.86,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-13",
-      "accessionNumber": "0001778564-26-000182",
-      "filingLagDays": 5
-    },
-    {
       "issuerTicker": "AMT",
       "issuerName": "AMERICAN TOWER CORP /MA/",
       "ownerName": "Font Juan",
@@ -14081,6 +13869,159 @@
     {
       "issuerTicker": "ADI",
       "issuerName": "ANALOG DEVICES INC",
+      "ownerName": "STATA RAY",
+      "role": "Director",
+      "periodOfReport": "2026-11-04",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6281/000090072926000021/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 12.0,
+          "pricePerShare": 397.995,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 36.0,
+          "pricePerShare": 399.2317,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 53.0,
+          "pricePerShare": 400.8888,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 23.0,
+          "pricePerShare": 401.9639,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 210.0,
+          "pricePerShare": 403.2857,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 280.0,
+          "pricePerShare": 404.3475,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 180.0,
+          "pricePerShare": 405.114,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 163.0,
+          "pricePerShare": 406.0025,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 108.0,
+          "pricePerShare": 407.3921,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 12.0,
+          "pricePerShare": 408.5025,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 48.0,
+          "pricePerShare": 411.315,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 24.0,
+          "pricePerShare": 412.1675,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 36.0,
+          "pricePerShare": 414.6792,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 36.0,
+          "pricePerShare": 415.7133,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 48.0,
+          "pricePerShare": 416.9975,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 79.0,
+          "pricePerShare": 418.1114,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 12.0,
+          "pricePerShare": 418.815,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 36.0,
+          "pricePerShare": 420.2406,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 12.0,
+          "pricePerShare": 421.03,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-04",
+          "shares": 8.0,
+          "pricePerShare": 423.025,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-06",
+      "accessionNumber": "0000900729-26-000021",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "ADI",
+      "issuerName": "ANALOG DEVICES INC",
       "ownerName": "ROCHE VINCENT",
       "role": "Director, Chair & CEO",
       "periodOfReport": "2026-11-02",
@@ -14524,26 +14465,6 @@
       ],
       "filedDate": "2026-09-02",
       "accessionNumber": "0001201872-26-000017",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "ADI",
-      "issuerName": "ANALOG DEVICES INC",
-      "ownerName": "Golz Karen",
-      "role": "Director",
-      "periodOfReport": "2026-08-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6281/000174471226000007/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-27",
-          "shares": 1000.0,
-          "pricePerShare": 374.5,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-28",
-      "accessionNumber": "0001744712-26-000007",
       "filingLagDays": 1
     },
     {
