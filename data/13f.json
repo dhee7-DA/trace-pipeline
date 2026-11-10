@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-07T03:29:54.965898Z",
+  "generated_at_utc": "2026-11-10T04:55:07.651539Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -26219,8 +26219,8 @@
           "value_thousands_usd": 726450,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ACA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ARCOSA INC",
@@ -26228,8 +26228,8 @@
           "value_thousands_usd": 17875465,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ACA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ARCTURUS THERAPEUTICS HLDGS",
@@ -56675,8 +56675,8 @@
           "value_thousands_usd": 176105,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ELMES",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ELME COMMUNITIES",
@@ -56684,8 +56684,8 @@
           "value_thousands_usd": 1249341,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "ELMES",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "ELMET GROUP CO (THE)",
@@ -96041,8 +96041,8 @@
           "value_thousands_usd": 373560,
           "shares": null,
           "action": "Decreased",
-          "ticker": "LASE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LASER PHOTONICS CORP",
@@ -96050,8 +96050,8 @@
           "value_thousands_usd": 29231,
           "shares": null,
           "action": "Decreased",
-          "ticker": "LASE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LASER PHOTONICS CORP",
@@ -96059,8 +96059,8 @@
           "value_thousands_usd": 447315,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "LASE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LATAM AIRLINES GROUP SA",
@@ -105959,8 +105959,8 @@
           "value_thousands_usd": 762000,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "NATH",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "NATIONAL BANKSHARES INC VA",
@@ -117029,8 +117029,8 @@
           "value_thousands_usd": 10257503,
           "shares": null,
           "action": "Increased",
-          "ticker": "PRM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PERIMETER SOLUTIONS INC",
@@ -117038,8 +117038,8 @@
           "value_thousands_usd": 1782500,
           "shares": null,
           "action": "Decreased",
-          "ticker": "PRM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PERIMETER SOLUTIONS INC",
@@ -117047,8 +117047,8 @@
           "value_thousands_usd": 2299425,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "PRM",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "PERION NETWORK LTD",
@@ -156782,8 +156782,8 @@
           "value_thousands_usd": 1478679,
           "shares": null,
           "action": "Decreased",
-          "ticker": "WEAV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WEAVE COMMUNICATIONS INC",
@@ -156791,8 +156791,8 @@
           "value_thousands_usd": 103627,
           "shares": null,
           "action": "Decreased",
-          "ticker": "WEAV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WEAVE COMMUNICATIONS INC",
@@ -156800,8 +156800,8 @@
           "value_thousands_usd": 1525306,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "WEAV",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "WEBSTER FINL CORP",
