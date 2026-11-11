@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-10T04:54:50.445918Z",
+  "generated_at_utc": "2026-11-11T03:09:25.107566Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -468,6 +468,33 @@
     {
       "issuerTicker": "MSFT",
       "issuerName": "MICROSOFT CORP",
+      "ownerName": "Hood Amy",
+      "role": "EVP, Chief Financial Officer",
+      "periodOfReport": "2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000232/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 5912.0,
+          "pricePerShare": 544.2359,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 1393.0,
+          "pricePerShare": 544.9467,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0000789019-26-000232",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
       "ownerName": "Nadella Satya",
       "role": "Director, Chief Executive Officer",
       "periodOfReport": "2026-11-06",
@@ -766,17 +793,6 @@
       "transactions": [],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000789019-26-000206"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "PETERSON SANDRA E",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000205/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000205"
     },
     {
       "issuerTicker": "NVDA",
@@ -4240,6 +4256,33 @@
     {
       "issuerTicker": "V",
       "issuerName": "VISA INC.",
+      "ownerName": "ROTTENBERG JULIE B",
+      "role": "GENERAL COUNSEL",
+      "periodOfReport": "2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000138/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-09",
+          "shares": 1867.0,
+          "pricePerShare": 134.76,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 1867.0,
+          "pricePerShare": 423.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001403161-26-000138",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "V",
+      "issuerName": "VISA INC.",
       "ownerName": "Taneja Rajat",
       "role": "PRESIDENT, TECHNOLOGY",
       "periodOfReport": "2026-11-04",
@@ -4621,40 +4664,6 @@
       "filedDate": "2026-07-06",
       "accessionNumber": "0001403161-26-000090",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "V",
-      "issuerName": "VISA INC.",
-      "ownerName": "MCINERNEY RYAN",
-      "role": "Director, Chief Executive Officer",
-      "periodOfReport": "2026-07-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000089/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-07-01",
-          "shares": 10490.0,
-          "pricePerShare": 109.82,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-01",
-          "shares": 8852.0,
-          "pricePerShare": 343.8849,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-01",
-          "shares": 1638.0,
-          "pricePerShare": 344.5451,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-07-02",
-      "accessionNumber": "0001403161-26-000089",
-      "filingLagDays": 1
     },
     {
       "issuerTicker": "UNH",
@@ -7431,6 +7440,26 @@
     {
       "issuerTicker": "NFLX",
       "issuerName": "NETFLIX INC",
+      "ownerName": "Peters Gregory K",
+      "role": "Director, Co-CEO",
+      "periodOfReport": "2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000158310926000006/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 27312.0,
+          "pricePerShare": 63.6186,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001583109-26-000006",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "NFLX",
+      "issuerName": "NETFLIX INC",
       "ownerName": "SARANDOS THEODORE A",
       "role": "Director, Co-CEO",
       "periodOfReport": "2026-11-03",
@@ -7822,17 +7851,6 @@
       "transactions": [],
       "filedDate": "2026-11-03",
       "accessionNumber": "0001065280-26-000294"
-    },
-    {
-      "issuerTicker": "NFLX",
-      "issuerName": "NETFLIX INC",
-      "ownerName": "Hoag Jay C",
-      "role": "Director",
-      "periodOfReport": "2026-11-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1065280/000110465926121972/",
-      "transactions": [],
-      "filedDate": "2026-11-03",
-      "accessionNumber": "0001104659-26-121972"
     },
     {
       "issuerTicker": "ADBE",
@@ -10295,21 +10313,101 @@
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "SPLINTER MICHAEL R",
-      "role": "Director",
-      "periodOfReport": "2026-11-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000734/",
+      "ownerName": "Wu Shien-Yang",
+      "role": "SVP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000794/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-11-05",
-          "shares": 840.0,
-          "pricePerShare": 357.0,
+          "transactionDate": "2026-11-06",
+          "shares": 59.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-11-09",
-      "accessionNumber": "0001046179-26-000734",
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000794",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Yoo Chue-San",
+      "role": "VP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000793/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 54.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000793",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Yeap Choh Fei",
+      "role": "SVP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000792/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 57.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000792",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Zhang Kevin Xiaoqiang",
+      "role": "SVP and Deputy Co-COO",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000791/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 65.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000791",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Wu Yi-Huang",
+      "role": "VP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000790/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 41.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000790",
       "filingLagDays": 4
     },
     {
@@ -10317,287 +10415,207 @@
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ownerName": "Yuan Lipen",
       "role": "VP",
-      "periodOfReport": "2026-11-01",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000732/",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000789/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-11-01",
-          "shares": 1000.0,
-          "pricePerShare": 71.49,
+          "transactionDate": "2026-11-06",
+          "shares": 43.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-11-03",
-      "accessionNumber": "0001046179-26-000732",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Yuan Lipen",
-      "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000724/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 40.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000724",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Yeap Choh Fei",
-      "role": "SVP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000723/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 52.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000723",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Zhang Kevin Xiaoqiang",
-      "role": "SVP and Deputy Co-COO",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000722/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 59.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000722",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Yoo Chue-San",
-      "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000721/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 50.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000721",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Wu Shien-Yang",
-      "role": "SVP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000716/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 53.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000716",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Wei Che-Chia",
-      "role": "Director, Chairman and CEO",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000715/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 144.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000715",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Wu Yi-Huang",
-      "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000714/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 39.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000714",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Wang Ying-Lang",
-      "role": "SVP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000710/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 52.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000710",
-      "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Mii Yuh-Jier",
-      "role": "EVP and Co-COO",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000709/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 68.0,
-          "pricePerShare": 79.39,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000709",
-      "filingLagDays": 1
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000789",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ownerName": "Tien Bor-Zen",
       "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000708/",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000782/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 40.0,
-          "pricePerShare": 79.39,
+          "transactionDate": "2026-11-06",
+          "shares": 43.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         },
         {
           "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 7.0,
-          "pricePerShare": 79.39,
+          "transactionDate": "2026-11-06",
+          "shares": 6.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000708",
-      "filingLagDays": 1
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000782",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Lin Chris Horng-Dar",
+      "role": "VP and CIO",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000781/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 50.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000781",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Hwang Yuan-Ko",
+      "role": "VP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000780/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 41.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000780",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Wei Che-Chia",
+      "role": "Director, Chairman and CEO",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000779/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 155.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000779",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Jang Syun-Ming",
+      "role": "VP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000778/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 51.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000778",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "Ku Yao-Ching",
+      "role": "VP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000777/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-06",
+          "shares": 48.0,
+          "pricePerShare": 70.5,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000777",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ownerName": "Lu Chin-Sheng",
       "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000704/",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000776/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 36.0,
-          "pricePerShare": 79.39,
+          "transactionDate": "2026-11-06",
+          "shares": 40.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000704",
-      "filingLagDays": 1
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000776",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Lu Lee-Chung",
-      "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000703/",
+      "ownerName": "Wang Ying-Lang",
+      "role": "SVP",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000775/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 49.0,
-          "pricePerShare": 79.39,
+          "transactionDate": "2026-11-06",
+          "shares": 56.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000703",
-      "filingLagDays": 1
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000775",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ownerName": "Lin Shyue-Shyh",
       "role": "VP",
-      "periodOfReport": "2026-10-07",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000702/",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000774/",
       "transactions": [
         {
           "transactionCode": "P",
-          "transactionDate": "2026-10-07",
-          "shares": 44.0,
-          "pricePerShare": 79.39,
+          "transactionDate": "2026-11-06",
+          "shares": 47.0,
+          "pricePerShare": 70.5,
           "acquiredOrDisposed": "Acquired"
         }
       ],
-      "filedDate": "2026-10-08",
-      "accessionNumber": "0001046179-26-000702",
-      "filingLagDays": 1
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001046179-26-000774",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "COIN",
@@ -11532,6 +11550,173 @@
       ],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001705189-26-000015",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "CRWD",
+      "issuerName": "CrowdStrike Holdings, Inc.",
+      "ownerName": "Kurtz George",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-06",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000205/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 1300.0,
+          "pricePerShare": 216.68,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 1100.0,
+          "pricePerShare": 217.89,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 1799.0,
+          "pricePerShare": 218.89,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 1801.0,
+          "pricePerShare": 219.86,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 900.0,
+          "pricePerShare": 220.75,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 700.0,
+          "pricePerShare": 222.04,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 800.0,
+          "pricePerShare": 223.08,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 500.0,
+          "pricePerShare": 224.63,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 500.0,
+          "pricePerShare": 225.63,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 300.0,
+          "pricePerShare": 226.63,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-06",
+          "shares": 300.0,
+          "pricePerShare": 227.86,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 500.0,
+          "pricePerShare": 217.15,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 600.0,
+          "pricePerShare": 219.29,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 400.0,
+          "pricePerShare": 220.58,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 898.0,
+          "pricePerShare": 221.62,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 1144.0,
+          "pricePerShare": 222.77,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 2472.0,
+          "pricePerShare": 223.81,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 1386.0,
+          "pricePerShare": 224.67,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 100.0,
+          "pricePerShare": 225.73,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 2100.0,
+          "pricePerShare": 228.78,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 300.0,
+          "pricePerShare": 229.76,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 100.0,
+          "pricePerShare": 230.97,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-10",
+      "accessionNumber": "0001778564-26-000205",
       "filingLagDays": 4
     },
     {
@@ -13367,54 +13552,6 @@
       "filedDate": "2026-10-15",
       "accessionNumber": "0001778564-26-000185",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "CRWD",
-      "issuerName": "CrowdStrike Holdings, Inc.",
-      "ownerName": "Kurtz George",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-10-08",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000183/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 120.0,
-          "pricePerShare": 270.69,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 440.0,
-          "pricePerShare": 272.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 280.0,
-          "pricePerShare": 272.83,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 120.0,
-          "pricePerShare": 274.62,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-10-12",
-          "shares": 120.0,
-          "pricePerShare": 276.04,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-10-13",
-      "accessionNumber": "0001778564-26-000183",
-      "filingLagDays": 1
     },
     {
       "issuerTicker": "AMT",
