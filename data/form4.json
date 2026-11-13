@@ -1,8 +1,28 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-12T04:24:56.332613Z",
+  "generated_at_utc": "2026-11-13T03:43:28.132252Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "Newstead Jennifer",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126043484/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-10",
+          "shares": 2399.0,
+          "pricePerShare": 351.36,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0001140361-26-043484",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -455,15 +475,24 @@
       "accessionNumber": "0001140361-26-038027"
     },
     {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "O'BRIEN DEIRDRE",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038026/",
-      "transactions": [],
-      "filedDate": "2026-09-29",
-      "accessionNumber": "0001140361-26-038026"
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
+      "ownerName": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "periodOfReport": "2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000234/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-10",
+          "shares": 5000.0,
+          "pricePerShare": 531.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000789019-26-000234",
+      "filingLagDays": 2
     },
     {
       "issuerTicker": "MSFT",
@@ -782,17 +811,6 @@
       "transactions": [],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000789019-26-000207"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "PRITZKER PENNY S",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000206/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000206"
     },
     {
       "issuerTicker": "NVDA",
@@ -1231,6 +1249,17 @@
       "transactions": [],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001347842-26-000015"
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "GORELICK JAMIE S",
+      "role": "Director",
+      "periodOfReport": "2026-11-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000042/",
+      "transactions": [],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0001018724-26-000042"
     },
     {
       "issuerTicker": "AMZN",
@@ -1717,26 +1746,6 @@
       "filedDate": "2026-08-10",
       "accessionNumber": "0001018724-26-000032",
       "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "periodOfReport": "2026-08-03",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000030/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-03",
-          "shares": 1000.0,
-          "pricePerShare": 278.39,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-05",
-      "accessionNumber": "0001018724-26-000030",
-      "filingLagDays": 2
     },
     {
       "issuerTicker": "GOOGL",
@@ -2566,6 +2575,95 @@
     {
       "issuerTicker": "META",
       "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Anderson Aaron",
+      "role": "Chief Accounting Officer",
+      "periodOfReport": "2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017401/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-09",
+          "shares": 650.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-09",
+          "shares": 165.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-09",
+          "shares": 165.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-09",
+          "shares": 84.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000950103-26-017401",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
+      "ownerName": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "periodOfReport": "2026-11-09",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017398/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 946.0,
+          "pricePerShare": 631.03,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 82.0,
+          "pricePerShare": 631.03,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 57.0,
+          "pricePerShare": 631.03,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 82.0,
+          "pricePerShare": 631.03,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-09",
+          "shares": 408.0,
+          "pricePerShare": 631.03,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000950103-26-017398",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "META",
+      "issuerName": "Meta Platforms, Inc.",
       "ownerName": "Zuckerberg Mark",
       "role": "Director, COB and CEO, 10% Owner",
       "periodOfReport": "2026-11-04",
@@ -3134,81 +3232,6 @@
       ],
       "filedDate": "2026-09-17",
       "accessionNumber": "0000950103-26-014140",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "periodOfReport": "2026-09-14",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014061/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 946.0,
-          "pricePerShare": 657.73,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 82.0,
-          "pricePerShare": 657.73,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 57.0,
-          "pricePerShare": 657.73,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 82.0,
-          "pricePerShare": 657.73,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-14",
-          "shares": 408.0,
-          "pricePerShare": 657.73,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-16",
-      "accessionNumber": "0000950103-26-014061",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "META",
-      "issuerName": "Meta Platforms, Inc.",
-      "ownerName": "Cox Christopher K",
-      "role": "Chief Product Officer",
-      "periodOfReport": "2026-09-09",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013860/",
-      "transactions": [
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-09",
-          "shares": 18578.0,
-          "pricePerShare": 650.2121,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-09-09",
-          "shares": 1422.0,
-          "pricePerShare": 651.1496,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000950103-26-013860",
       "filingLagDays": 2
     },
     {
@@ -4256,6 +4279,26 @@
     {
       "issuerTicker": "V",
       "issuerName": "VISA INC.",
+      "ownerName": "Fabara Paul D",
+      "role": "CHIEF RISK & CLIENT SVCS OFC",
+      "periodOfReport": "2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000140/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-10",
+          "shares": 3401.0,
+          "pricePerShare": 423.09,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0001403161-26-000140",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "V",
+      "issuerName": "VISA INC.",
       "ownerName": "ROTTENBERG JULIE B",
       "role": "GENERAL COUNSEL",
       "periodOfReport": "2026-11-09",
@@ -4637,33 +4680,6 @@
       "filedDate": "2026-07-31",
       "accessionNumber": "0001403161-26-000107",
       "filingLagDays": 1
-    },
-    {
-      "issuerTicker": "V",
-      "issuerName": "VISA INC.",
-      "ownerName": "ROTTENBERG JULIE B",
-      "role": "GENERAL COUNSEL",
-      "periodOfReport": "2026-07-02",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000090/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-07-02",
-          "shares": 2027.0,
-          "pricePerShare": 109.82,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-07-02",
-          "shares": 2027.0,
-          "pricePerShare": 360.0,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-07-06",
-      "accessionNumber": "0001403161-26-000090",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "UNH",
@@ -5303,6 +5319,26 @@
     {
       "issuerTicker": "PG",
       "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Abd El Hak Hesham",
+      "role": "CEO-Baby and Feminine Care",
+      "periodOfReport": "2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000275/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-12",
+          "shares": 2250.0,
+          "pricePerShare": 168.47,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000080424-26-000275",
+      "filingLagDays": 0
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
       "ownerName": "Schulten Andre",
       "role": "Chief Financial Officer",
       "periodOfReport": "2026-11-05",
@@ -5623,26 +5659,6 @@
       "filingLagDays": 1
     },
     {
-      "issuerTicker": "PG",
-      "issuerName": "PROCTER & GAMBLE Co",
-      "ownerName": "Kempczinski Christopher J",
-      "role": "Director",
-      "periodOfReport": "2026-10-13",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000221/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-13",
-          "shares": 1438.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-14",
-      "accessionNumber": "0000080424-26-000221",
-      "filingLagDays": 1
-    },
-    {
       "issuerTicker": "HD",
       "issuerName": "HOME DEPOT, INC.",
       "ownerName": "Scardino Kimberly R",
@@ -5928,6 +5944,47 @@
       "transactions": [],
       "filedDate": "2026-05-26",
       "accessionNumber": "0000354950-26-000126"
+    },
+    {
+      "issuerTicker": "CVX",
+      "issuerName": "CHEVRON CORP",
+      "ownerName": "NELSON MARK A",
+      "role": "Vice Chairman",
+      "periodOfReport": "2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000202/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-10",
+          "shares": 81900.0,
+          "pricePerShare": 88.2,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-10",
+          "shares": 81900.0,
+          "pricePerShare": 210.4734,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-10",
+          "shares": 30100.0,
+          "pricePerShare": 179.08,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-10",
+          "shares": 30100.0,
+          "pricePerShare": 210.4828,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000093410-26-000202",
+      "filingLagDays": 2
     },
     {
       "issuerTicker": "CVX",
@@ -6367,26 +6424,6 @@
       ],
       "filedDate": "2026-05-29",
       "accessionNumber": "0000093410-26-000148",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "CVX",
-      "issuerName": "CHEVRON CORP",
-      "ownerName": "REED DEBRA L",
-      "role": "Director",
-      "periodOfReport": "2026-05-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000146/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-05-27",
-          "shares": 1272.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-05-29",
-      "accessionNumber": "0000093410-26-000146",
       "filingLagDays": 2
     },
     {
@@ -6951,6 +6988,33 @@
     {
       "issuerTicker": "COST",
       "issuerName": "COSTCO WHOLESALE CORP /NEW",
+      "ownerName": "Jones Teresa A.",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-11-11",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000136/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-11",
+          "shares": 900.0,
+          "pricePerShare": 1083.953,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-11",
+          "shares": 200.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-12",
+      "accessionNumber": "0000909832-26-000136",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "COST",
+      "issuerName": "COSTCO WHOLESALE CORP /NEW",
       "ownerName": "Sullivan John Christopher",
       "role": "Executive VP",
       "periodOfReport": "2026-10-22",
@@ -7415,26 +7479,6 @@
       ],
       "filedDate": "2026-10-26",
       "accessionNumber": "0000909832-26-000111",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "COST",
-      "issuerName": "COSTCO WHOLESALE CORP /NEW",
-      "ownerName": "DENMAN KENNETH D",
-      "role": "Director",
-      "periodOfReport": "2026-10-22",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000109/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-10-22",
-          "shares": 266.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-26",
-      "accessionNumber": "0000909832-26-000109",
       "filingLagDays": 4
     },
     {
