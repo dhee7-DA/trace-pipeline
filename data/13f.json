@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-13T03:43:45.545424Z",
+  "generated_at_utc": "2026-11-14T03:43:00.590198Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -911,33 +911,24 @@
       "display_name": "Carl Icahn",
       "firm": "Icahn Enterprises",
       "cik": "0000921669",
-      "accessionNumber": "0001539497-26-002243",
-      "filedDate": "2026-08-14",
-      "periodOfReport": "2026-06-30",
+      "accessionNumber": "0001539497-26-002964",
+      "filedDate": "2026-11-13",
+      "periodOfReport": "2026-09-30",
       "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000921669&type=13F-HR",
       "holdings": [
         {
-          "issuer": "American Electric Power Company",
-          "cusip": "025537101",
-          "value_thousands_usd": 59472675,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
           "issuer": "Bausch Plus Lomb Corp.",
           "cusip": "071705107",
-          "value_thousands_usd": 57960000,
+          "value_thousands_usd": 40427700,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Caesars Entertainment, Inc.",
           "cusip": "12769G100",
-          "value_thousands_usd": 73642490,
+          "value_thousands_usd": 72349232,
           "shares": null,
           "action": "Held Steady",
           "ticker": "CZR",
@@ -946,16 +937,16 @@
         {
           "issuer": "Centuri Holdings, Inc.",
           "cusip": "155923105",
-          "value_thousands_usd": 433521971,
+          "value_thousands_usd": 287294322,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CTRI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "CVR Energy Inc",
           "cusip": "12662P108",
-          "value_thousands_usd": 1860894131,
+          "value_thousands_usd": 3445424537,
           "shares": null,
           "action": "Increased",
           "ticker": "CVI",
@@ -964,16 +955,16 @@
         {
           "issuer": "CVR Energy Inc",
           "cusip": "12662P108",
-          "value_thousands_usd": 100005506,
+          "value_thousands_usd": 185159069,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CVI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "CVR Partners, LP",
           "cusip": "126633205",
-          "value_thousands_usd": 433880160,
+          "value_thousands_usd": 481751760,
           "shares": null,
           "action": "Increased",
           "ticker": "UAN",
@@ -982,25 +973,25 @@
         {
           "issuer": "CVR Partners, LP",
           "cusip": "126633205",
-          "value_thousands_usd": 30353106,
+          "value_thousands_usd": 33702076,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "UAN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "EchoStar Corporation",
           "cusip": "278768106",
-          "value_thousands_usd": 142561013,
+          "value_thousands_usd": 44705000,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Icahn Enterprises LP",
           "cusip": "451100101",
-          "value_thousands_usd": 2234185830,
+          "value_thousands_usd": 2228736263,
           "shares": null,
           "action": "Increased",
           "ticker": "IEP",
@@ -1009,7 +1000,7 @@
         {
           "issuer": "Icahn Enterprises LP",
           "cusip": "451100101",
-          "value_thousands_usd": 492500377,
+          "value_thousands_usd": 491299061,
           "shares": null,
           "action": "Increased",
           "ticker": "IEP",
@@ -1018,7 +1009,7 @@
         {
           "issuer": "Icahn Enterprises LP",
           "cusip": "451100101",
-          "value_thousands_usd": 952613838,
+          "value_thousands_usd": 950290238,
           "shares": null,
           "action": "Increased",
           "ticker": "IEP",
@@ -1027,7 +1018,7 @@
         {
           "issuer": "Icahn Enterprises LP",
           "cusip": "451100101",
-          "value_thousands_usd": 612880751,
+          "value_thousands_usd": 611385827,
           "shares": null,
           "action": "Increased",
           "ticker": "IEP",
@@ -1036,7 +1027,7 @@
         {
           "issuer": "Icahn Enterprises LP",
           "cusip": "451100101",
-          "value_thousands_usd": 166435207,
+          "value_thousands_usd": 166029237,
           "shares": null,
           "action": "Held Steady",
           "ticker": "IEP",
@@ -1045,37 +1036,46 @@
         {
           "issuer": "International Flavors and Fragrances Inc.",
           "cusip": "459506101",
-          "value_thousands_usd": 338665500,
+          "value_thousands_usd": 249916413,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Monro, Inc.",
           "cusip": "610236101",
-          "value_thousands_usd": 86894384,
+          "value_thousands_usd": 71049236,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MNRO",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "JetBlue Airways Corp.",
-          "cusip": "477143101",
-          "value_thousands_usd": 118371366,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "JBLU",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "SandRidge Energy, Inc.",
           "cusip": "80007P869",
-          "value_thousands_usd": 69252220,
+          "value_thousands_usd": 68561946,
           "shares": null,
           "action": "Held Steady",
           "ticker": "SD",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "American Electric Power Company",
+          "cusip": "025537101",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "JetBlue Airways Corp.",
+          "cusip": "477143101",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "JBLU",
           "tickerConfidence": "exact"
         }
       ]
@@ -1176,8 +1176,8 @@
           "value_thousands_usd": 4322,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "AUR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "Baidu Inc",
@@ -1635,8 +1635,8 @@
           "value_thousands_usd": 12345,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "OLMA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Palo Alto Networks Inc",
@@ -2267,60 +2267,60 @@
       "display_name": "Cathie Wood",
       "firm": "ARK Investment Management",
       "cik": "0001697748",
-      "accessionNumber": "0001104659-26-096910",
-      "filedDate": "2026-08-14",
-      "periodOfReport": "2026-06-30",
+      "accessionNumber": "0001104659-26-126785",
+      "filedDate": "2026-11-13",
+      "periodOfReport": "2026-09-30",
       "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697748&type=13F-HR",
       "holdings": [
         {
           "issuer": "AeroVironment Inc",
           "cusip": "008073108",
-          "value_thousands_usd": 100280355,
+          "value_thousands_usd": 88796764,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "AVAV",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Align Technology Inc",
           "cusip": "016255101",
-          "value_thousands_usd": 887826,
+          "value_thousands_usd": 794628,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ALGN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "ATI Inc",
           "cusip": "01741R102",
-          "value_thousands_usd": 95988,
+          "value_thousands_usd": 84094,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ATI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Alphabet Inc",
           "cusip": "02079K107",
-          "value_thousands_usd": 368641312,
+          "value_thousands_usd": 348550865,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Amazon.com Inc",
           "cusip": "023135106",
-          "value_thousands_usd": 379241133,
+          "value_thousands_usd": 422994246,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "AMETEK Inc",
           "cusip": "031100100",
-          "value_thousands_usd": 1012761,
+          "value_thousands_usd": 1018170,
           "shares": null,
           "action": "Held Steady",
           "ticker": null,
@@ -2329,124 +2329,124 @@
         {
           "issuer": "Arcturus Therapeutics Holdings",
           "cusip": "03969T109",
-          "value_thousands_usd": 19498987,
+          "value_thousands_usd": 40995387,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ARCT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Autodesk Inc",
           "cusip": "052769106",
-          "value_thousands_usd": 2376979,
+          "value_thousands_usd": 2796838,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ADSK",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "CareDx Inc",
           "cusip": "14167L103",
-          "value_thousands_usd": 55675622,
+          "value_thousands_usd": 104588493,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CDNA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Carpenter Technology Corp",
           "cusip": "144285103",
-          "value_thousands_usd": 109798,
+          "value_thousands_usd": 57545,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CRS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Cerus Corp",
           "cusip": "157085101",
-          "value_thousands_usd": 52361728,
+          "value_thousands_usd": 48809050,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CERS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Deere & Co",
           "cusip": "244199105",
-          "value_thousands_usd": 249307586,
+          "value_thousands_usd": 101874612,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "DE",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "HP Inc",
           "cusip": "40434L105",
-          "value_thousands_usd": 2498286,
+          "value_thousands_usd": 2843289,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "HPQ",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Intellia Therapeutics Inc",
           "cusip": "45826J105",
-          "value_thousands_usd": 285536575,
+          "value_thousands_usd": 192058167,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "NTLA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Intuitive Surgical Inc",
           "cusip": "46120E602",
-          "value_thousands_usd": 27986730,
+          "value_thousands_usd": 30252865,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ISRG",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Ionis Pharmaceuticals Inc",
           "cusip": "462222100",
-          "value_thousands_usd": 23848064,
+          "value_thousands_usd": 41219180,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "IONS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Iridium Communications Inc",
           "cusip": "46269C102",
-          "value_thousands_usd": 66648948,
+          "value_thousands_usd": 3826060,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "IRDM",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Kaiser Aluminum Corp",
+          "issuer": "Kaiser Aluminium Corp",
           "cusip": "483007704",
-          "value_thousands_usd": 1473094,
+          "value_thousands_usd": 998824,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "KALU",
-          "tickerConfidence": "exact"
+          "action": "Decreased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
-          "issuer": "Kratos Defense & Security Solutions Inc.",
+          "issuer": "Kratos Defense & Security Solu",
           "cusip": "50077B207",
-          "value_thousands_usd": 232974116,
+          "value_thousands_usd": 224312131,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "KTOS",
-          "tickerConfidence": "exact"
+          "action": "Decreased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Lincoln Electric Holdings Inc",
           "cusip": "533900106",
-          "value_thousands_usd": 1113283,
+          "value_thousands_usd": 1128434,
           "shares": null,
           "action": "Held Steady",
           "ticker": "LECO",
@@ -2455,106 +2455,106 @@
         {
           "issuer": "Materialise NV",
           "cusip": "57667T100",
-          "value_thousands_usd": 3118995,
+          "value_thousands_usd": 2928573,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MTLS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "MercadoLibre Inc",
           "cusip": "58733R102",
-          "value_thousands_usd": 37417265,
+          "value_thousands_usd": 45244273,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MELI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Moog Inc",
           "cusip": "615394202",
-          "value_thousands_usd": 1464367,
+          "value_thousands_usd": 1049043,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Nano Dimension Ltd",
           "cusip": "63008G203",
-          "value_thousands_usd": 1808872,
+          "value_thousands_usd": 2294522,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "NNDM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Elbit Systems Ltd",
           "cusip": "M3760D101",
-          "value_thousands_usd": 47578572,
+          "value_thousands_usd": 31221054,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ESLT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Nice Ltd",
           "cusip": "653656108",
-          "value_thousands_usd": 1911030,
+          "value_thousands_usd": 2396311,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "PTC Inc",
           "cusip": "69370C100",
-          "value_thousands_usd": 2391377,
+          "value_thousands_usd": 3229566,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "PTC",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Pacific Biosciences of California, Inc.",
+          "issuer": "Pacific Biosciences of Califor",
           "cusip": "69404D108",
-          "value_thousands_usd": 50032778,
+          "value_thousands_usd": 70507247,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "PACB",
-          "tickerConfidence": "exact"
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Personalis Inc",
           "cusip": "71535D106",
-          "value_thousands_usd": 110835941,
+          "value_thousands_usd": 115903674,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "PSNL",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Proto Labs Inc",
           "cusip": "743713109",
-          "value_thousands_usd": 2886921,
+          "value_thousands_usd": 2717358,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "PRLB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Roku Inc",
           "cusip": "77543R102",
-          "value_thousands_usd": 82314834,
+          "value_thousands_usd": 698336,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ROKU",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Shopify Inc",
           "cusip": "82509L107",
-          "value_thousands_usd": 474523465,
+          "value_thousands_usd": 466477128,
           "shares": null,
           "action": "Held Steady",
           "ticker": "SHOP",
@@ -2563,79 +2563,70 @@
         {
           "issuer": "Block Inc",
           "cusip": "852234103",
-          "value_thousands_usd": 235445950,
+          "value_thousands_usd": 339846908,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Teradyne Inc",
           "cusip": "880770102",
-          "value_thousands_usd": 311971420,
+          "value_thousands_usd": 259353089,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TER",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Tesla Inc",
           "cusip": "88160R101",
-          "value_thousands_usd": 1160772073,
+          "value_thousands_usd": 1196306136,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "TSLA",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Teva Pharmaceutical Industries",
-          "cusip": "881624209",
-          "value_thousands_usd": 2325964,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "TEVA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "3D Systems Corp",
           "cusip": "88554D205",
-          "value_thousands_usd": 3119014,
+          "value_thousands_usd": 2960248,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "DDD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "3M Co",
           "cusip": "88579Y101",
-          "value_thousands_usd": 76098,
+          "value_thousands_usd": 83552,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MMM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Trimble Inc",
           "cusip": "896239100",
-          "value_thousands_usd": 68155382,
+          "value_thousands_usd": 66101912,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TRMB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Twist Bioscience Corp",
           "cusip": "90184D100",
-          "value_thousands_usd": 468083756,
+          "value_thousands_usd": 656640575,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "TWST",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Veracyte Inc",
           "cusip": "92337F107",
-          "value_thousands_usd": 134841222,
+          "value_thousands_usd": 136492485,
           "shares": null,
           "action": "Held Steady",
           "ticker": "VCYT",
@@ -2644,376 +2635,358 @@
         {
           "issuer": "Zillow Group Inc",
           "cusip": "98954M200",
-          "value_thousands_usd": 4809164,
+          "value_thousands_usd": 26045,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "CRISPR Therapeutics AG",
           "cusip": "H17182108",
-          "value_thousands_usd": 515999631,
+          "value_thousands_usd": 556344632,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CRSP",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Spotify Technology SA",
           "cusip": "L8681T102",
-          "value_thousands_usd": 34484423,
+          "value_thousands_usd": 41852529,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "SPOT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AudioCodes Ltd",
           "cusip": "M15342104",
-          "value_thousands_usd": 2385520,
+          "value_thousands_usd": 2400768,
           "shares": null,
           "action": "Held Steady",
           "ticker": "AUDC",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Camtek Ltd",
+          "issuer": "Camtek Ltd/Israel",
           "cusip": "M20791105",
-          "value_thousands_usd": 1983702,
+          "value_thousands_usd": 2304531,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "CAMT",
-          "tickerConfidence": "exact"
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
-          "issuer": "Check Point Software Technologies Ltd",
+          "issuer": "Check Point Software Technolog",
           "cusip": "M22465104",
-          "value_thousands_usd": 2117600,
+          "value_thousands_usd": 2067975,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "CHKP",
-          "tickerConfidence": "exact"
+          "action": "Decreased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Fiverr International Ltd",
           "cusip": "M4R82T106",
-          "value_thousands_usd": 2085042,
+          "value_thousands_usd": 1590924,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "FVRR",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Ituran Location and Control Ltd",
+          "issuer": "Ituran Location and Control Lt",
           "cusip": "M6158M104",
-          "value_thousands_usd": 2448758,
+          "value_thousands_usd": 2017914,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Nova Ltd",
           "cusip": "M7516K103",
-          "value_thousands_usd": 2291207,
+          "value_thousands_usd": 1782706,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "NVMI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Radware Ltd",
           "cusip": "M81873107",
-          "value_thousands_usd": 2662601,
+          "value_thousands_usd": 2172106,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "RDWR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Stratasys Ltd",
           "cusip": "M85548101",
-          "value_thousands_usd": 4384261,
+          "value_thousands_usd": 4472600,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "SSYS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Tower Semiconductor Ltd",
           "cusip": "M87915274",
-          "value_thousands_usd": 2639241,
+          "value_thousands_usd": 2091446,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TSEM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "UroGen Pharma Ltd",
           "cusip": "M96088105",
-          "value_thousands_usd": 3735494,
+          "value_thousands_usd": 2204178,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "URGN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Wix.com Ltd",
           "cusip": "M98068105",
-          "value_thousands_usd": 1465995,
+          "value_thousands_usd": 2962956,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "WIX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Inmode Ltd",
           "cusip": "M5425M103",
-          "value_thousands_usd": 2240135,
+          "value_thousands_usd": 1971727,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "INMD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Perion Network Ltd",
           "cusip": "M78673114",
-          "value_thousands_usd": 2058365,
+          "value_thousands_usd": 1958161,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "PERI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Sea Ltd",
           "cusip": "81141R100",
-          "value_thousands_usd": 15180586,
+          "value_thousands_usd": 16178274,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "SE",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Synopsys Inc",
           "cusip": "871607107",
-          "value_thousands_usd": 36257908,
+          "value_thousands_usd": 32655730,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "SNPS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Caterpillar Inc",
           "cusip": "149123101",
-          "value_thousands_usd": 59642919,
+          "value_thousands_usd": 25968793,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CAT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Adaptive Biotechnologies Corp",
           "cusip": "00650F109",
-          "value_thousands_usd": 44837058,
+          "value_thousands_usd": 55510311,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ADPT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "10X Genomics Inc",
           "cusip": "88025U109",
-          "value_thousands_usd": 383517223,
+          "value_thousands_usd": 566828112,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "TXG",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Schrodinger Inc",
+          "issuer": "Schrodinger Inc/United States",
           "cusip": "80810D103",
-          "value_thousands_usd": 35002797,
+          "value_thousands_usd": 73740830,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "SDGR",
-          "tickerConfidence": "exact"
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Gilat Satellite Networks Ltd",
           "cusip": "M51474118",
-          "value_thousands_usd": 1578579,
+          "value_thousands_usd": 1942268,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GILT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Beam Therapeutics Inc",
           "cusip": "07373V105",
-          "value_thousands_usd": 351260447,
+          "value_thousands_usd": 288641356,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "BEAM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Cloudflare Inc",
           "cusip": "18915M107",
-          "value_thousands_usd": 43101337,
+          "value_thousands_usd": 195576483,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "NET",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Kaspi.KZ JSC",
           "cusip": "48581R205",
-          "value_thousands_usd": 3597726,
+          "value_thousands_usd": 4097160,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "908 Devices Inc",
           "cusip": "65443P102",
-          "value_thousands_usd": 17642905,
+          "value_thousands_usd": 25850227,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MASS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "JFrog Ltd",
           "cusip": "M6191J100",
-          "value_thousands_usd": 4600436,
+          "value_thousands_usd": 2443661,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "FROG",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Lockheed Martin Corp",
           "cusip": "539830109",
-          "value_thousands_usd": 7543065,
+          "value_thousands_usd": 6371227,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "LMT",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Nano-X Imaging Ltd",
-          "cusip": "M70700105",
-          "value_thousands_usd": 935672,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "NNOX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Teledyne Technologies Inc",
           "cusip": "879360105",
-          "value_thousands_usd": 36594804,
+          "value_thousands_usd": 8584541,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TDY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Butterfly Network Inc",
           "cusip": "124155102",
-          "value_thousands_usd": 42819541,
+          "value_thousands_usd": 47077779,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "BFLY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Garmin Ltd",
           "cusip": "H2906T109",
-          "value_thousands_usd": 14651942,
+          "value_thousands_usd": 12110385,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "GRMN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "HEICO Corp",
           "cusip": "422806109",
-          "value_thousands_usd": 17828022,
+          "value_thousands_usd": 11656058,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "L3Harris Technologies Inc",
           "cusip": "502431109",
-          "value_thousands_usd": 125296306,
+          "value_thousands_usd": 100160308,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "ROBLOX Corp",
           "cusip": "771049103",
-          "value_thousands_usd": 351615103,
+          "value_thousands_usd": 58324453,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "RBLX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Coinbase Global Inc",
           "cusip": "19260Q107",
-          "value_thousands_usd": 367129713,
+          "value_thousands_usd": 545771189,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "COIN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Recursion Pharmaceuticals Inc",
           "cusip": "75629V104",
-          "value_thousands_usd": 151709111,
+          "value_thousands_usd": 184796952,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "RXRX",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Strata Critical Medical Inc",
-          "cusip": "092667104",
-          "value_thousands_usd": 14391606,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "SRTA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Quantum-Si Inc",
           "cusip": "74765K105",
-          "value_thousands_usd": 6343448,
+          "value_thousands_usd": 7910525,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "QSI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Xometry Inc",
           "cusip": "98423F109",
-          "value_thousands_usd": 4444553,
+          "value_thousands_usd": 2345391,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "XMTR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Robinhood Markets Inc",
           "cusip": "770700102",
-          "value_thousands_usd": 525069168,
+          "value_thousands_usd": 517972160,
           "shares": null,
           "action": "Held Steady",
           "ticker": "HOOD",
@@ -3022,115 +2995,115 @@
         {
           "issuer": "Playtika Holding Corp",
           "cusip": "72815L107",
-          "value_thousands_usd": 2284095,
+          "value_thousands_usd": 1131266,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "PLTK",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Cognyte Software Ltd",
           "cusip": "M25133105",
-          "value_thousands_usd": 1982480,
+          "value_thousands_usd": 2125452,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CGNT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Monday.com Ltd",
           "cusip": "M7S64H106",
-          "value_thousands_usd": 2400959,
+          "value_thousands_usd": 2139369,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MNDY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "SimilarWeb Ltd",
           "cusip": "M84137104",
-          "value_thousands_usd": 5116484,
+          "value_thousands_usd": 2389234,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "SMWB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Joby Aviation Inc",
           "cusip": "G65163100",
-          "value_thousands_usd": 59713254,
+          "value_thousands_usd": 36544009,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "JOBY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "GE Aerospace",
           "cusip": "369604301",
-          "value_thousands_usd": 1349165,
+          "value_thousands_usd": 967162,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Genius Sports Ltd",
           "cusip": "G3934V109",
-          "value_thousands_usd": 18578566,
+          "value_thousands_usd": 15038935,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "GENI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Archer Aviation Inc",
           "cusip": "03945R102",
-          "value_thousands_usd": 151189352,
+          "value_thousands_usd": 168096179,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ACHR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Toast Inc",
           "cusip": "888787108",
-          "value_thousands_usd": 51742056,
+          "value_thousands_usd": 57679229,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "TOST",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Crowdstrike Holdings Inc",
           "cusip": "22788C105",
-          "value_thousands_usd": 18029183,
+          "value_thousands_usd": 74472851,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CRWD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "NVIDIA Corp",
           "cusip": "67066G104",
-          "value_thousands_usd": 276373746,
+          "value_thousands_usd": 584932116,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "NVDA",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "NU Holdings Ltd",
+          "issuer": "NU Holdings Ltd/Cayman Islands",
           "cusip": "G6683N103",
-          "value_thousands_usd": 14315494,
+          "value_thousands_usd": 14941408,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": "NU",
-          "tickerConfidence": "exact"
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Nurix Therapeutics Inc",
           "cusip": "67080M103",
-          "value_thousands_usd": 43502930,
+          "value_thousands_usd": 43924834,
           "shares": null,
           "action": "Held Steady",
           "ticker": "NRIX",
@@ -3139,61 +3112,61 @@
         {
           "issuer": "Cellebrite DI Ltd",
           "cusip": "M2197Q107",
-          "value_thousands_usd": 2495476,
+          "value_thousands_usd": 1565376,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CLBT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Riskified Ltd",
           "cusip": "M8216R109",
-          "value_thousands_usd": 2463537,
+          "value_thousands_usd": 3337047,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "RSKD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Taboola.com Ltd",
           "cusip": "M8744T106",
-          "value_thousands_usd": 3014060,
+          "value_thousands_usd": 1333930,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TBLA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "DraftKings Inc",
           "cusip": "26142V105",
-          "value_thousands_usd": 31040642,
+          "value_thousands_usd": 23445296,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "DKNG",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Guardant Health Inc",
           "cusip": "40131M109",
-          "value_thousands_usd": 75977634,
+          "value_thousands_usd": 108295449,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GH",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Compass Pathways Plc",
           "cusip": "20451W101",
-          "value_thousands_usd": 48845310,
+          "value_thousands_usd": 61025828,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CMPS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Prime Medicine Inc",
           "cusip": "74168J101",
-          "value_thousands_usd": 30806875,
+          "value_thousands_usd": 30682919,
           "shares": null,
           "action": "Held Steady",
           "ticker": "PRME",
@@ -3202,223 +3175,223 @@
         {
           "issuer": "Mobileye Global Inc",
           "cusip": "60741F104",
-          "value_thousands_usd": 2721087,
+          "value_thousands_usd": 1803138,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MBLY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Nayax Ltd",
           "cusip": "M7S750159",
-          "value_thousands_usd": 2163772,
+          "value_thousands_usd": 1603647,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "NYAX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Advanced Micro Devices Inc",
           "cusip": "007903107",
-          "value_thousands_usd": 822826048,
+          "value_thousands_usd": 413346374,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "AMD",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "iShares Russell 1000 Growth ETF",
+          "issuer": "iShares Russell 1000 Growth ET",
           "cusip": "464287614",
-          "value_thousands_usd": 70792,
+          "value_thousands_usd": 5027,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Palantir Technologies Inc",
           "cusip": "69608A108",
-          "value_thousands_usd": 374777381,
+          "value_thousands_usd": 487773444,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "PLTR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "SoFi Technologies Inc",
           "cusip": "83406F102",
-          "value_thousands_usd": 67102642,
+          "value_thousands_usd": 64927656,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "SOFI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Meta Platforms Inc",
           "cusip": "30303M102",
-          "value_thousands_usd": 134610910,
+          "value_thousands_usd": 355295103,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
-          "issuer": "Taiwan Semiconductor Manufacturing Company Ltd",
+          "issuer": "Taiwan Semiconductor Manufactu",
           "cusip": "874039100",
-          "value_thousands_usd": 230325325,
+          "value_thousands_usd": 242997815,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Everpure Inc",
           "cusip": "74624M102",
-          "value_thousands_usd": 31354638,
+          "value_thousands_usd": 43960258,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "P",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Avient Corp",
           "cusip": "05368V106",
-          "value_thousands_usd": 74474,
+          "value_thousands_usd": 80782,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "AVNT",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Dentsply Sirona Inc",
+          "issuer": "DENTSPLY SIRONA Inc",
           "cusip": "24906P109",
-          "value_thousands_usd": 2499058,
+          "value_thousands_usd": 1840461,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "XRAY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Cameco Corp",
           "cusip": "13321L108",
-          "value_thousands_usd": 36829520,
+          "value_thousands_usd": 29318294,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CCJ",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Pagaya Technologies Ltd",
           "cusip": "M7S64L123",
-          "value_thousands_usd": 2693755,
+          "value_thousands_usd": 2146675,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Jabil Inc",
           "cusip": "466313103",
-          "value_thousands_usd": 94443,
+          "value_thousands_usd": 71428,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "JBL",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Absci Corp",
           "cusip": "00091E109",
-          "value_thousands_usd": 149803896,
+          "value_thousands_usd": 128474441,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ABSI",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "ARK 21Shares Bitcoin ETF",
           "cusip": "040919102",
-          "value_thousands_usd": 125605835,
+          "value_thousands_usd": 135553266,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ARKB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Natera Inc",
           "cusip": "632307104",
-          "value_thousands_usd": 186989592,
+          "value_thousands_usd": 225726826,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "NTRA",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Datadog Inc",
           "cusip": "23804L103",
-          "value_thousands_usd": 54714133,
+          "value_thousands_usd": 58953059,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "DDOG",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Rubrik Inc",
           "cusip": "781154109",
-          "value_thousands_usd": 29336399,
+          "value_thousands_usd": 45348893,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "RBRK",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Tempus AI Inc",
           "cusip": "88023B103",
-          "value_thousands_usd": 580611200,
+          "value_thousands_usd": 766382941,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "TEM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Materion Corp",
           "cusip": "576690101",
-          "value_thousands_usd": 135312,
+          "value_thousands_usd": 91661,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MTRN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Oklo Inc",
           "cusip": "02156V109",
-          "value_thousands_usd": 19480209,
+          "value_thousands_usd": 16392752,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "OKLO",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Gitlab Inc",
           "cusip": "37637K108",
-          "value_thousands_usd": 23446979,
+          "value_thousands_usd": 38768861,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GTLB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "MediWound Ltd",
           "cusip": "M68830112",
-          "value_thousands_usd": 1860667,
+          "value_thousands_usd": 2020293,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MDWD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "ARK Innovation ETF",
           "cusip": "00214Q104",
-          "value_thousands_usd": 7363075,
+          "value_thousands_usd": 6076966,
           "shares": null,
           "action": "Increased",
           "ticker": null,
@@ -3427,160 +3400,160 @@
         {
           "issuer": "Aurora Innovation Inc",
           "cusip": "051774107",
-          "value_thousands_usd": 41819087,
+          "value_thousands_usd": 31683803,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
-          "issuer": "ARK Genomic Revolution ETF",
-          "cusip": "00214Q302",
-          "value_thousands_usd": 69794,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "action": "Decreased",
+          "ticker": "AUR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "Illumina Inc",
           "cusip": "452327109",
-          "value_thousands_usd": 183744158,
+          "value_thousands_usd": 233116470,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ILMN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "BWX Technologies Inc",
           "cusip": "05605H100",
-          "value_thousands_usd": 107034337,
+          "value_thousands_usd": 103313618,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "BWXT",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Futu Holdings Ltd",
+          "cusip": "36118L106",
+          "value_thousands_usd": 12948390,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "FUTU",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Symbotic Inc",
           "cusip": "87151X101",
-          "value_thousands_usd": 35813868,
+          "value_thousands_usd": 31254518,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "SYM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Intuitive Machines Inc",
           "cusip": "46125A100",
-          "value_thousands_usd": 57740187,
+          "value_thousands_usd": 48238384,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "LUNR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "TAT Technologies Ltd",
           "cusip": "M8740S227",
-          "value_thousands_usd": 2508930,
+          "value_thousands_usd": 1862396,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "TATT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Allot Ltd",
           "cusip": "M0854Q105",
-          "value_thousands_usd": 2587620,
+          "value_thousands_usd": 2199445,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ALLT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "RADCOM Ltd",
           "cusip": "M81865111",
-          "value_thousands_usd": 2456417,
+          "value_thousands_usd": 1647414,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "RDCM",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Valens Semiconductor Ltd",
           "cusip": "M9607U115",
-          "value_thousands_usd": 3192408,
+          "value_thousands_usd": 2352081,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "VLN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Airbnb Inc",
           "cusip": "009066101",
-          "value_thousands_usd": 21224619,
+          "value_thousands_usd": 35180613,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ABNB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Baidu Inc",
           "cusip": "056752108",
-          "value_thousands_usd": 34508037,
+          "value_thousands_usd": 18235490,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "CoreWeave Inc",
           "cusip": "21873S108",
-          "value_thousands_usd": 264496911,
+          "value_thousands_usd": 366812897,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CRWV",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Kennametal Inc",
           "cusip": "489170100",
-          "value_thousands_usd": 69364,
+          "value_thousands_usd": 66091,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "KMT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Rocket Lab Corp",
           "cusip": "773121108",
-          "value_thousands_usd": 165812192,
+          "value_thousands_usd": 247883675,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "RKLB",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Etoro Group Ltd",
           "cusip": "G32089107",
-          "value_thousands_usd": 12458508,
+          "value_thousands_usd": 8429703,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "ETOR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Circle Internet Group Inc",
           "cusip": "172573107",
-          "value_thousands_usd": 285477674,
+          "value_thousands_usd": 563479299,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CRCL",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "DoorDash Inc",
           "cusip": "25809K105",
-          "value_thousands_usd": 70147050,
+          "value_thousands_usd": 71282927,
           "shares": null,
           "action": "Held Steady",
           "ticker": "DASH",
@@ -3589,405 +3562,513 @@
         {
           "issuer": "BitMine Immersion Technologies",
           "cusip": "09175A206",
-          "value_thousands_usd": 117282236,
+          "value_thousands_usd": 244470945,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Figma Inc",
           "cusip": "316841105",
-          "value_thousands_usd": 55030051,
+          "value_thousands_usd": 22911190,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "FIG",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Oddity Tech Ltd",
           "cusip": "M7518J104",
-          "value_thousands_usd": 2220388,
+          "value_thousands_usd": 2472170,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ODD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Bullish",
           "cusip": "G16910120",
-          "value_thousands_usd": 158063147,
+          "value_thousands_usd": 251173322,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "BLSH",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "GeneDx Holdings Corp",
           "cusip": "81663L200",
-          "value_thousands_usd": 110539494,
+          "value_thousands_usd": 138318822,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "WGS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Pony AI Inc",
           "cusip": "732908108",
-          "value_thousands_usd": 15376555,
+          "value_thousands_usd": 20046643,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Alibaba Group Holding Ltd",
           "cusip": "01609W102",
-          "value_thousands_usd": 11474896,
+          "value_thousands_usd": 504470,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Klarna Group PLC",
           "cusip": "G5279N105",
-          "value_thousands_usd": 14414948,
+          "value_thousands_usd": 9256829,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "KLAR",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Kodiak AI Inc",
           "cusip": "500081104",
-          "value_thousands_usd": 26163153,
+          "value_thousands_usd": 10561261,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Netflix Inc",
           "cusip": "64110L106",
-          "value_thousands_usd": 16055789,
+          "value_thousands_usd": 20109385,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "NFLX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Brainsway Ltd",
           "cusip": "10501L106",
-          "value_thousands_usd": 2210175,
+          "value_thousands_usd": 1938420,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Microsoft Corp",
           "cusip": "594918104",
-          "value_thousands_usd": 2304145,
+          "value_thousands_usd": 2919940,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "MSFT",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Canton Strategic Holdings Inc",
           "cusip": "432705309",
-          "value_thousands_usd": 10314285,
+          "value_thousands_usd": 7711338,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "CNTN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "WeRide Inc",
           "cusip": "950915108",
-          "value_thousands_usd": 21783963,
+          "value_thousands_usd": 21076383,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
-          "issuer": "State Street SPDR S&P 500 ETF Trust",
-          "cusip": "78462F103",
-          "value_thousands_usd": 344,
-          "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Velo3D Inc",
           "cusip": "92259N302",
-          "value_thousands_usd": 3417915,
+          "value_thousands_usd": 2285778,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "VELO",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Broadcom Inc",
           "cusip": "11135F101",
-          "value_thousands_usd": 153820556,
+          "value_thousands_usd": 274672400,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "AVGO",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Compugen Ltd",
           "cusip": "M25722105",
-          "value_thousands_usd": 1683187,
+          "value_thousands_usd": 2113123,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CGEN",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Kamada Ltd",
-          "cusip": "M6240T109",
-          "value_thousands_usd": 1931485,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "KMDA",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Enlivex Ltd",
-          "cusip": "M4130Y106",
-          "value_thousands_usd": 1310264,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "ENLV",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Alpha Tau Medical Ltd",
           "cusip": "M0740A108",
-          "value_thousands_usd": 3485742,
+          "value_thousands_usd": 2749061,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Grayscale Ethereum Staking Min",
           "cusip": "38964R203",
-          "value_thousands_usd": 64328,
+          "value_thousands_usd": 100736,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
-          "issuer": "Dauch Corporation",
-          "cusip": "024061103",
-          "value_thousands_usd": 34612,
-          "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Generate Biomedicines Inc",
           "cusip": "370920100",
-          "value_thousands_usd": 21671492,
+          "value_thousands_usd": 29509210,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GENB",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Vanguard Growth ETF",
-          "cusip": "922908736",
-          "value_thousands_usd": 66182,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
           "issuer": "PayPay Corp",
           "cusip": "70450C101",
-          "value_thousands_usd": 3510635,
+          "value_thousands_usd": 4034759,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "PAYP",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "BioNTech SE",
           "cusip": "09075V102",
-          "value_thousands_usd": 12406622,
+          "value_thousands_usd": 237,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "BNTX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Eli Lilly & Co",
           "cusip": "532457108",
-          "value_thousands_usd": 92660897,
+          "value_thousands_usd": 124776742,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "LLY",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "X-Energy Inc",
           "cusip": "98386P102",
-          "value_thousands_usd": 99361493,
+          "value_thousands_usd": 128389705,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "XE",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Alamar Biosciences Inc",
           "cusip": "010911105",
-          "value_thousands_usd": 37220549,
+          "value_thousands_usd": 42258184,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "ALMR",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Octave Intelligence PLC",
-          "cusip": "G22845104",
-          "value_thousands_usd": 145021,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
           "issuer": "Cerebras Systems Inc",
           "cusip": "15675D103",
-          "value_thousands_usd": 168979473,
+          "value_thousands_usd": 264522069,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CBRS",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "State Street SPDR S&P Biotech ETF",
-          "cusip": "78464A870",
-          "value_thousands_usd": 14822,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
-          "issuer": "State Street SPDR S&P Capital Markets ETF",
-          "cusip": "78464A771",
-          "value_thousands_usd": 2775,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
           "issuer": "Alphabet Inc",
           "cusip": "02079K305",
-          "value_thousands_usd": 50075399,
+          "value_thousands_usd": 34752,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "Honeywell Aerospace Inc",
           "cusip": "43849R105",
-          "value_thousands_usd": 5142763,
+          "value_thousands_usd": 3094441,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "HONA",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "Honeywell International Inc",
-          "cusip": "438516205",
-          "value_thousands_usd": 5208362,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "HON",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "Space Exploration Technologies Corp",
+          "issuer": "Space Exploration Technologies",
           "cusip": "84615Q103",
-          "value_thousands_usd": 765113281,
+          "value_thousands_usd": 1017764417,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "SPCX",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Snowflake Inc",
           "cusip": "833445109",
-          "value_thousands_usd": 68597731,
+          "value_thousands_usd": 24173127,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "SNOW",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Securitize Corp",
+          "cusip": "81517B101",
+          "value_thousands_usd": 37696592,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "SECZ",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Scribe Therapeutics Inc",
+          "cusip": "811033109",
+          "value_thousands_usd": 14483278,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "SCTX",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Silicom Ltd",
+          "cusip": "M84116108",
+          "value_thousands_usd": 2877651,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "SILC",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Sol-Gel Technologies Ltd",
+          "cusip": "M8694L137",
+          "value_thousands_usd": 2090833,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "SLGL",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Nexxen International Ltd",
+          "cusip": "M8T80P204",
+          "value_thousands_usd": 1890036,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "NEXN",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Freenome Inc",
+          "cusip": "35661P100",
+          "value_thousands_usd": 43906384,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "FRNM",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "ARK Active Autocallable Income",
+          "cusip": "00214Q724",
+          "value_thousands_usd": 29782301,
+          "shares": null,
+          "action": "New Position",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Teva Pharmaceutical Industries",
+          "cusip": "M8769Q102",
+          "value_thousands_usd": 2735355,
+          "shares": null,
+          "action": "New Position",
+          "ticker": "TEVA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "ARK Innovation ETF",
+          "cusip": "00214Q104",
+          "value_thousands_usd": 766260,
+          "shares": null,
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Teva Pharmaceutical Industries",
+          "cusip": "881624209",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "TEVA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Nano-X Imaging Ltd",
+          "cusip": "M70700105",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "NNOX",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Strata Critical Medical Inc",
+          "cusip": "092667104",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "SRTA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "ARK Genomic Revolution ETF",
+          "cusip": "00214Q302",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "State Street SPDR S&P 500 ETF Trust",
+          "cusip": "78462F103",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Kamada Ltd",
+          "cusip": "M6240T109",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "KMDA",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Enlivex Ltd",
+          "cusip": "M4130Y106",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "ENLV",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "Dauch Corporation",
+          "cusip": "024061103",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Vanguard Growth ETF",
+          "cusip": "922908736",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Octave Intelligence PLC",
+          "cusip": "G22845104",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "State Street SPDR S&P Biotech ETF",
+          "cusip": "78464A870",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "State Street SPDR S&P Capital Markets ETF",
+          "cusip": "78464A771",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "Honeywell International Inc",
+          "cusip": "438516205",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "HON",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "Fidelity MSCI Communication Services Index ETF",
           "cusip": "316092873",
-          "value_thousands_usd": 482,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "iShares Expanded Tech-Software Sector ETF",
           "cusip": "464287515",
-          "value_thousands_usd": 5109,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "iShares U.S. Broker-Dealers & Securities Exchanges ETF",
           "cusip": "464288794",
-          "value_thousands_usd": 424,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "State Street SPDR S&P Aerospace & Defense ETF",
           "cusip": "78464A631",
-          "value_thousands_usd": 729,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "State Street SPDR S&P Health Care Equipment ETF",
           "cusip": "78464A581",
-          "value_thousands_usd": 1805,
+          "value_thousands_usd": 0,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
-          "issuer": "ARK Innovation ETF",
-          "cusip": "00214Q104",
-          "value_thousands_usd": 719298,
-          "shares": null,
-          "action": "Held Steady",
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
@@ -5619,8 +5700,8 @@
           "value_thousands_usd": 355863,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "CBZ",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CBOE GLOBAL MKTS INC",
@@ -8598,8 +8679,8 @@
           "value_thousands_usd": 5947816,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "KVUE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KEURIG DR PEPPER INC",
@@ -15296,87 +15377,78 @@
       "display_name": "Seth Klarman",
       "firm": "Baupost Group",
       "cik": "0001061768",
-      "accessionNumber": "0001061768-26-000010",
-      "filedDate": "2026-08-13",
-      "periodOfReport": "2026-06-30",
+      "accessionNumber": "0001061768-26-000015",
+      "filedDate": "2026-11-13",
+      "periodOfReport": "2026-09-30",
       "filingUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061768&type=13F-HR",
       "holdings": [
         {
           "issuer": "ALPHABET INC",
           "cusip": "02079K107",
-          "value_thousands_usd": 484744,
+          "value_thousands_usd": 323679,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "AMAZON COM INC",
           "cusip": "023135106",
-          "value_thousands_usd": 892310,
+          "value_thousands_usd": 932781,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "AMZN",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AMERICOLD REALTY TRUST INC",
           "cusip": "03064D108",
-          "value_thousands_usd": 107371,
+          "value_thousands_usd": 95487,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "COLD",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AON PLC",
           "cusip": "G0403H108",
-          "value_thousands_usd": 227871,
+          "value_thousands_usd": 186759,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "AON",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "AXALTA COATING SYS LTD",
           "cusip": "G0750C108",
-          "value_thousands_usd": 43608,
+          "value_thousands_usd": 80594,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "CME GROUP INC",
           "cusip": "12572Q105",
-          "value_thousands_usd": 136694,
+          "value_thousands_usd": 179570,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "CME",
-          "tickerConfidence": "exact"
-        },
-        {
-          "issuer": "DNOW INC",
-          "cusip": "67011P100",
-          "value_thousands_usd": 36160,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": "DNOW",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "EAGLE MATLS INC",
           "cusip": "26969P108",
-          "value_thousands_usd": 119422,
+          "value_thousands_usd": 90771,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "ELEVANCE HEALTH INC FORMERLY",
           "cusip": "036752103",
-          "value_thousands_usd": 493140,
+          "value_thousands_usd": 495805,
           "shares": null,
           "action": "Held Steady",
           "ticker": null,
@@ -15385,7 +15457,7 @@
         {
           "issuer": "FERGUSON ENTERPRISES INC",
           "cusip": "31488V107",
-          "value_thousands_usd": 344269,
+          "value_thousands_usd": 349868,
           "shares": null,
           "action": "Held Steady",
           "ticker": null,
@@ -15394,117 +15466,144 @@
         {
           "issuer": "GDS HLDGS LTD",
           "cusip": "36165L108",
-          "value_thousands_usd": 113208,
+          "value_thousands_usd": 117731,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "GENUINE PARTS CO",
           "cusip": "372460105",
-          "value_thousands_usd": 332253,
+          "value_thousands_usd": 389540,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "GPC",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "GRUPO AEROMEXICO SAB DE CV",
           "cusip": "40054J109",
-          "value_thousands_usd": 87843,
+          "value_thousands_usd": 77058,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "AERO",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "HERBALIFE LTD",
           "cusip": "G4412G101",
-          "value_thousands_usd": 121767,
+          "value_thousands_usd": 124452,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "HLF",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "LIBERTY GLOBAL LTD",
-          "cusip": "G61188127",
-          "value_thousands_usd": 93975,
+          "issuer": "HONEYWELL AEROSPACE INC",
+          "cusip": "43849R105",
+          "value_thousands_usd": 175426,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "action": "New Position",
+          "ticker": "HONA",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "MOLINA HEALTHCARE INC",
           "cusip": "60855R100",
-          "value_thousands_usd": 144906,
+          "value_thousands_usd": 85021,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": "MOH",
           "tickerConfidence": "exact"
         },
         {
-          "issuer": "NORWEGIAN CRUISE LINE HLDGS",
-          "cusip": "G66721104",
-          "value_thousands_usd": 163180,
-          "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
-        },
-        {
           "issuer": "PERSHING SQUARE INC",
           "cusip": "71531U102",
-          "value_thousands_usd": 12881,
+          "value_thousands_usd": 21928,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "PS",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "RESTAURANT BRANDS INTL INC",
           "cusip": "76131D103",
-          "value_thousands_usd": 489612,
+          "value_thousands_usd": 480104,
           "shares": null,
           "action": "Held Steady",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
-          "issuer": "TELEFLEX INCORPORATED",
-          "cusip": "879369106",
-          "value_thousands_usd": 178605,
+          "issuer": "SITEONE LANDSCAPE SUPPLY INC",
+          "cusip": "82982L103",
+          "value_thousands_usd": 112436,
           "shares": null,
-          "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "action": "New Position",
+          "ticker": "SITE",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "UNION PAC CORP",
           "cusip": "907818108",
-          "value_thousands_usd": 322427,
+          "value_thousands_usd": 216451,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Decreased",
           "ticker": null,
           "tickerConfidence": "none"
         },
         {
           "issuer": "VISA INC",
           "cusip": "92826C839",
-          "value_thousands_usd": 240628,
+          "value_thousands_usd": 252018,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
           "ticker": "V",
           "tickerConfidence": "exact"
         },
         {
           "issuer": "WESCO INTL INC",
           "cusip": "95082P105",
-          "value_thousands_usd": 228979,
+          "value_thousands_usd": 258374,
           "shares": null,
-          "action": "Held Steady",
+          "action": "Increased",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "DNOW INC",
+          "cusip": "67011P100",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": "DNOW",
+          "tickerConfidence": "exact"
+        },
+        {
+          "issuer": "LIBERTY GLOBAL LTD",
+          "cusip": "G61188127",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "NORWEGIAN CRUISE LINE HLDGS",
+          "cusip": "G66721104",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
+          "ticker": null,
+          "tickerConfidence": "none"
+        },
+        {
+          "issuer": "TELEFLEX INCORPORATED",
+          "cusip": "879369106",
+          "value_thousands_usd": 0,
+          "shares": null,
+          "action": "Sold Out",
           "ticker": null,
           "tickerConfidence": "none"
         },
@@ -28883,8 +28982,8 @@
           "value_thousands_usd": 6649534,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "AUR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "AURORA INNOVATION INC",
@@ -28892,8 +28991,8 @@
           "value_thousands_usd": 21595530,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "AUR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "AURORA INNOVATION INC",
@@ -28901,8 +29000,8 @@
           "value_thousands_usd": 5440314,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "AUR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "AUSTIN GOLD CORP",
@@ -32789,8 +32888,8 @@
           "value_thousands_usd": 99222,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "BFRI",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "BIOGEN INC",
@@ -40133,8 +40232,8 @@
           "value_thousands_usd": 2338632,
           "shares": null,
           "action": "Increased",
-          "ticker": "CBZ",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CBIZ INC",
@@ -40142,8 +40241,8 @@
           "value_thousands_usd": 1098259,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "CBZ",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "CBL & ASSOC PPTYS INC",
@@ -68906,8 +69005,8 @@
           "value_thousands_usd": 48315,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "EOCN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "GAMBLING COM GROUP LIMITED",
@@ -92918,8 +93017,8 @@
           "value_thousands_usd": 509994,
           "shares": null,
           "action": "Increased",
-          "ticker": "KPTI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KARYOPHARM THERAPEUTICS INC",
@@ -92927,8 +93026,8 @@
           "value_thousands_usd": 508714,
           "shares": null,
           "action": "Increased",
-          "ticker": "KPTI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KARYOPHARM THERAPEUTICS INC",
@@ -92936,8 +93035,8 @@
           "value_thousands_usd": 133849,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "KPTI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KASPI KZ JSC",
@@ -93323,8 +93422,8 @@
           "value_thousands_usd": 216137922,
           "shares": null,
           "action": "Increased",
-          "ticker": "KVUE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KENVUE INC",
@@ -93332,8 +93431,8 @@
           "value_thousands_usd": 20505030,
           "shares": null,
           "action": "Increased",
-          "ticker": "KVUE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KENVUE INC",
@@ -93341,8 +93440,8 @@
           "value_thousands_usd": 12431991,
           "shares": null,
           "action": "Increased",
-          "ticker": "KVUE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KENVUE INC",
@@ -93350,8 +93449,8 @@
           "value_thousands_usd": 7523607,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "KVUE",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KEROS THERAPEUTICS INC",
@@ -94322,8 +94421,8 @@
           "value_thousands_usd": 12383,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "KNRX",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "KNOT OFFSHORE PARTNERS LP",
@@ -112187,8 +112286,8 @@
           "value_thousands_usd": 5710252,
           "shares": null,
           "action": "Increased",
-          "ticker": "OLMA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OLEMA PHARMACEUTICALS INC",
@@ -112196,8 +112295,8 @@
           "value_thousands_usd": 691803,
           "shares": null,
           "action": "Increased",
-          "ticker": "OLMA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OLEMA PHARMACEUTICALS INC",
@@ -112205,8 +112304,8 @@
           "value_thousands_usd": 2319016,
           "shares": null,
           "action": "Increased",
-          "ticker": "OLMA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OLEMA PHARMACEUTICALS INC",
@@ -112214,8 +112313,8 @@
           "value_thousands_usd": 356535,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "OLMA",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "OLIN CORP",
@@ -122411,8 +122510,8 @@
           "value_thousands_usd": 59212,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PSQH",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PSQ HOLDINGS INC",
@@ -122420,8 +122519,8 @@
           "value_thousands_usd": 7170,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PSQH",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PSYENCE BIOMEDICAL LTD",
