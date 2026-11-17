@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-14T03:42:43.546998Z",
+  "generated_at_utc": "2026-11-17T05:21:57.284877Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
     {
@@ -477,6 +477,26 @@
     {
       "issuerTicker": "MSFT",
       "issuerName": "MICROSOFT CORP",
+      "ownerName": "Coleman Amy",
+      "role": "EVP, Chief Human Resources Off",
+      "periodOfReport": "2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000236/",
+      "transactions": [
+        {
+          "transactionCode": "F",
+          "transactionDate": "2026-11-16",
+          "shares": 89.044,
+          "pricePerShare": 523.88,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0000789019-26-000236",
+      "filingLagDays": 0
+    },
+    {
+      "issuerTicker": "MSFT",
+      "issuerName": "MICROSOFT CORP",
       "ownerName": "Numoto Takeshi",
       "role": "EVP, Chief Marketing Officer",
       "periodOfReport": "2026-11-10",
@@ -800,17 +820,6 @@
       "transactions": [],
       "filedDate": "2026-09-11",
       "accessionNumber": "0000789019-26-000208"
-    },
-    {
-      "issuerTicker": "MSFT",
-      "issuerName": "MICROSOFT CORP",
-      "ownerName": "Rainey John D",
-      "role": "Director",
-      "periodOfReport": "2026-09-10",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000207/",
-      "transactions": [],
-      "filedDate": "2026-09-11",
-      "accessionNumber": "0000789019-26-000207"
     },
     {
       "issuerTicker": "NVDA",
@@ -1249,6 +1258,33 @@
       "transactions": [],
       "filedDate": "2026-08-24",
       "accessionNumber": "0001347842-26-000015"
+    },
+    {
+      "issuerTicker": "AMZN",
+      "issuerName": "AMAZON COM INC",
+      "ownerName": "BEZOS JEFFREY P",
+      "role": "Director, Executive Chair",
+      "periodOfReport": "2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000044/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-12",
+          "shares": 674088.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-13",
+          "shares": 97404.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0001018724-26-000044",
+      "filingLagDays": 4
     },
     {
       "issuerTicker": "AMZN",
@@ -1728,23 +1764,64 @@
       "filingLagDays": 4
     },
     {
-      "issuerTicker": "AMZN",
-      "issuerName": "AMAZON COM INC",
-      "ownerName": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "periodOfReport": "2026-08-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000032/",
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Shriram Kavitark Ram",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526464050/",
       "transactions": [
         {
           "transactionCode": "G",
-          "transactionDate": "2026-08-06",
-          "shares": 22000.0,
+          "transactionDate": "2026-11-12",
+          "shares": 500000.0,
           "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-12",
+          "shares": 500000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-12",
+          "shares": 500000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-12",
+          "shares": 500000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0001193125-26-464050",
+      "filingLagDays": 4
+    },
+    {
+      "issuerTicker": "GOOGL",
+      "issuerName": "Alphabet Inc.",
+      "ownerName": "Hennessy John L.",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-12",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526463983/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-12",
+          "shares": 300.0,
+          "pricePerShare": 300.0,
           "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-08-10",
-      "accessionNumber": "0001018724-26-000032",
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0001193125-26-463983",
       "filingLagDays": 4
     },
     {
@@ -2474,102 +2551,6 @@
       ],
       "filedDate": "2026-09-29",
       "accessionNumber": "0001193125-26-408009",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Pichai Sundar",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 3671.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-25",
-          "shares": 3705.0,
-          "pricePerShare": 339.01,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 3671.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-29",
-      "accessionNumber": "0001193125-26-408007",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "GOOGL",
-      "issuerName": "Alphabet Inc.",
-      "ownerName": "Schindler Philipp",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-25",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408004/",
-      "transactions": [
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 6065.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-25",
-          "shares": 6121.0,
-          "pricePerShare": 339.01,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 5379.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-25",
-          "shares": 5429.0,
-          "pricePerShare": 339.01,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 1997.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-09-25",
-          "shares": 2016.0,
-          "pricePerShare": 339.01,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "C",
-          "transactionDate": "2026-09-25",
-          "shares": 13442.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-09-29",
-      "accessionNumber": "0001193125-26-408004",
       "filingLagDays": 4
     },
     {
@@ -3741,6 +3722,17 @@
       "filedDate": "2026-02-27",
       "accessionNumber": "0001104659-26-021746",
       "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "TSLA",
+      "issuerName": "Tesla, Inc.",
+      "ownerName": "Zhu Xiaotong",
+      "role": "SVP",
+      "periodOfReport": "2026-01-08",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000197292826000001/",
+      "transactions": [],
+      "filedDate": "2026-01-12",
+      "accessionNumber": "0001972928-26-000001"
     },
     {
       "issuerTicker": "TSLA",
@@ -5585,6 +5577,106 @@
       "filedDate": "2026-10-26",
       "accessionNumber": "0000080424-26-000261",
       "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Gama Paul",
+      "role": "CEO- Health Care",
+      "periodOfReport": "2026-10-23",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000260/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-10-23",
+          "shares": 4331.0,
+          "pricePerShare": 161.27,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-10-26",
+      "accessionNumber": "0000080424-26-000260",
+      "filingLagDays": 3
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Subramaniam Rajesh",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000225/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000225",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "Portman Robert Jones",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000224/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000224",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "McEvoy Ashley",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000223/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000223",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "PG",
+      "issuerName": "PROCTER & GAMBLE Co",
+      "ownerName": "McCarthy Christine M",
+      "role": "Director",
+      "periodOfReport": "2026-10-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000222/",
+      "transactions": [
+        {
+          "transactionCode": "A",
+          "transactionDate": "2026-10-13",
+          "shares": 1438.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-10-14",
+      "accessionNumber": "0000080424-26-000222",
+      "filingLagDays": 1
     },
     {
       "issuerTicker": "HD",
@@ -9043,6 +9135,33 @@
     {
       "issuerTicker": "AMD",
       "issuerName": "ADVANCED MICRO DEVICES INC",
+      "ownerName": "Su Lisa T",
+      "role": "Director, Chair, President & CEO",
+      "periodOfReport": "2026-11-10",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000197/",
+      "transactions": [
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-10",
+          "shares": 7288.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-10",
+          "shares": 7288.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0000002488-26-000197",
+      "filingLagDays": 6
+    },
+    {
+      "issuerTicker": "AMD",
+      "issuerName": "ADVANCED MICRO DEVICES INC",
       "ownerName": "Papermaster Mark D",
       "role": "Chief Technology Officer & EVP",
       "periodOfReport": "2026-11-10",
@@ -9914,37 +10033,23 @@
       "filingLagDays": 3
     },
     {
-      "issuerTicker": "AMD",
-      "issuerName": "ADVANCED MICRO DEVICES INC",
-      "ownerName": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "periodOfReport": "2026-08-15",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000155/",
+      "issuerTicker": "WMT",
+      "issuerName": "Walmart Inc.",
+      "ownerName": "Creed Joseph E",
+      "role": "Director",
+      "periodOfReport": "2026-11-13",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000173985926000003/",
       "transactions": [
         {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-15",
-          "shares": 23747.0,
+          "transactionCode": "A",
+          "transactionDate": "2026-11-13",
+          "shares": 999.0,
           "pricePerShare": 0.0,
           "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-15",
-          "shares": 11244.0,
-          "pricePerShare": 514.39,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "F",
-          "transactionDate": "2026-08-15",
-          "shares": 531.0,
-          "pricePerShare": 514.39,
-          "acquiredOrDisposed": "Disposed"
         }
       ],
-      "filedDate": "2026-08-18",
-      "accessionNumber": "0000002488-26-000155",
+      "filedDate": "2026-11-16",
+      "accessionNumber": "0001739859-26-000003",
       "filingLagDays": 3
     },
     {
@@ -10239,26 +10344,6 @@
       ],
       "filedDate": "2026-10-02",
       "accessionNumber": "0000104169-26-000161",
-      "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "WMT",
-      "issuerName": "Walmart Inc.",
-      "ownerName": "Walton Steuart L",
-      "role": "Director",
-      "periodOfReport": "2026-09-30",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000160/",
-      "transactions": [
-        {
-          "transactionCode": "A",
-          "transactionDate": "2026-09-30",
-          "shares": 337.0,
-          "pricePerShare": 0.0,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-10-02",
-      "accessionNumber": "0000104169-26-000160",
       "filingLagDays": 2
     },
     {
