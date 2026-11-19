@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-18T04:50:39.376655Z",
+  "generated_at_utc": "2026-11-19T04:38:21.460439Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -102044,8 +102044,8 @@
           "value_thousands_usd": 119952,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LVWR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "LIVEWIRE GROUP INC",
@@ -102053,8 +102053,8 @@
           "value_thousands_usd": 28305,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "LVWR",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "LIXIANG ED HLDG CO LTD",

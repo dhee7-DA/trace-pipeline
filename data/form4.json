@@ -1,8 +1,42 @@
 {
   "source": "SEC EDGAR Form 4 filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-18T04:50:22.120829Z",
+  "generated_at_utc": "2026-11-19T04:38:04.207397Z",
   "note": "Filers must submit within 2 business days of the transaction \u2014 filingLagDays should almost always be 0-2.",
   "filings": [
+    {
+      "issuerTicker": "AAPL",
+      "issuerName": "Apple Inc.",
+      "ownerName": "LEVINSON ARTHUR D",
+      "role": "Reporting Person",
+      "periodOfReport": "2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126044773/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 36792.0,
+          "pricePerShare": 352.26,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 53208.0,
+          "pricePerShare": 353.43,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "G",
+          "transactionDate": "2026-11-16",
+          "shares": 50000.0,
+          "pricePerShare": 0.0,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-18",
+      "accessionNumber": "0001140361-26-044773",
+      "filingLagDays": 2
+    },
     {
       "issuerTicker": "AAPL",
       "issuerName": "Apple Inc.",
@@ -462,17 +496,6 @@
       "transactions": [],
       "filedDate": "2026-09-29",
       "accessionNumber": "0001140361-26-038028"
-    },
-    {
-      "issuerTicker": "AAPL",
-      "issuerName": "Apple Inc.",
-      "ownerName": "Newstead Jennifer",
-      "role": "Reporting Person",
-      "periodOfReport": "2026-09-27",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038027/",
-      "transactions": [],
-      "filedDate": "2026-09-29",
-      "accessionNumber": "0001140361-26-038027"
     },
     {
       "issuerTicker": "MSFT",
@@ -6204,6 +6227,74 @@
     {
       "issuerTicker": "KO",
       "issuerName": "COCA COLA CO",
+      "ownerName": "ARROYO MANUEL",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-11-17",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000177/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-17",
+          "shares": 57581.0,
+          "pricePerShare": 44.475,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-17",
+          "shares": 57581.0,
+          "pricePerShare": 99.4049,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-18",
+      "accessionNumber": "0000021344-26-000177",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "KO",
+      "issuerName": "COCA COLA CO",
+      "ownerName": "Douglas Monica Howard",
+      "role": "Executive Vice President",
+      "periodOfReport": "2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000175/",
+      "transactions": [
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-16",
+          "shares": 5450.0,
+          "pricePerShare": 44.475,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 3782.0,
+          "pricePerShare": 100.14,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "M",
+          "transactionDate": "2026-11-16",
+          "shares": 7555.0,
+          "pricePerShare": 45.435,
+          "acquiredOrDisposed": "Acquired"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 5282.0,
+          "pricePerShare": 100.14,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-18",
+      "accessionNumber": "0000021344-26-000175",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "KO",
+      "issuerName": "COCA COLA CO",
       "ownerName": "QUAN NANCY",
       "role": "Executive Vice President",
       "periodOfReport": "2026-11-12",
@@ -6677,88 +6768,6 @@
       "filedDate": "2026-06-10",
       "accessionNumber": "0000021344-26-000148",
       "filingLagDays": 2
-    },
-    {
-      "issuerTicker": "KO",
-      "issuerName": "COCA COLA CO",
-      "ownerName": "MANN JENNIFER K",
-      "role": "Executive Vice President",
-      "periodOfReport": "2026-06-05",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000146/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-05",
-          "shares": 80820.0,
-          "pricePerShare": 45.435,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-05",
-          "shares": 80820.0,
-          "pricePerShare": 79.461,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-05",
-          "shares": 19180.0,
-          "pricePerShare": 59.485,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-05",
-          "shares": 19180.0,
-          "pricePerShare": 79.4596,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-09",
-      "accessionNumber": "0000021344-26-000146",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "KO",
-      "issuerName": "COCA COLA CO",
-      "ownerName": "Quincey James",
-      "role": "Director, Chairman",
-      "periodOfReport": "2026-06-04",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000144/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-04",
-          "shares": 8000.0,
-          "pricePerShare": 44.475,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-04",
-          "shares": 8000.0,
-          "pricePerShare": 80.0024,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-06-05",
-          "shares": 436296.0,
-          "pricePerShare": 44.475,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-06-05",
-          "shares": 436296.0,
-          "pricePerShare": 80.1271,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-06-08",
-      "accessionNumber": "0000021344-26-000144",
-      "filingLagDays": 4
     },
     {
       "issuerTicker": "COST",
@@ -8869,6 +8878,180 @@
     {
       "issuerTicker": "AMD",
       "issuerName": "ADVANCED MICRO DEVICES INC",
+      "ownerName": "Su Lisa T",
+      "role": "Director, Chair, President & CEO",
+      "periodOfReport": "2026-11-16",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000213/",
+      "transactions": [
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 880.0,
+          "pricePerShare": 502.06,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 31761.0,
+          "pricePerShare": 503.41,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 3201.0,
+          "pricePerShare": 504.28,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 3749.0,
+          "pricePerShare": 505.21,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 4361.0,
+          "pricePerShare": 506.31,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 2890.0,
+          "pricePerShare": 507.28,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 4902.0,
+          "pricePerShare": 508.29,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 4216.0,
+          "pricePerShare": 509.28,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 3622.0,
+          "pricePerShare": 510.32,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 2338.0,
+          "pricePerShare": 511.16,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 560.0,
+          "pricePerShare": 512.3,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 1278.0,
+          "pricePerShare": 513.49,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 642.0,
+          "pricePerShare": 514.2,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 240.0,
+          "pricePerShare": 516.14,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 80.0,
+          "pricePerShare": 517.02,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 480.0,
+          "pricePerShare": 518.53,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 560.0,
+          "pricePerShare": 519.54,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 800.0,
+          "pricePerShare": 520.71,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 680.0,
+          "pricePerShare": 521.62,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 1200.0,
+          "pricePerShare": 522.91,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 1040.0,
+          "pricePerShare": 523.74,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 440.0,
+          "pricePerShare": 524.82,
+          "acquiredOrDisposed": "Disposed"
+        },
+        {
+          "transactionCode": "S",
+          "transactionDate": "2026-11-16",
+          "shares": 80.0,
+          "pricePerShare": 525.94,
+          "acquiredOrDisposed": "Disposed"
+        }
+      ],
+      "filedDate": "2026-11-18",
+      "accessionNumber": "0000002488-26-000213",
+      "filingLagDays": 2
+    },
+    {
+      "issuerTicker": "AMD",
+      "issuerName": "ADVANCED MICRO DEVICES INC",
       "ownerName": "Norrod Forrest Eugene",
       "role": "EVP & GM DSG",
       "periodOfReport": "2026-11-15",
@@ -9574,117 +9757,6 @@
       "filingLagDays": 2
     },
     {
-      "issuerTicker": "AMD",
-      "issuerName": "ADVANCED MICRO DEVICES INC",
-      "ownerName": "Norrod Forrest Eugene",
-      "role": "EVP & GM DSG",
-      "periodOfReport": "2026-08-24",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000176/",
-      "transactions": [
-        {
-          "transactionCode": "M",
-          "transactionDate": "2026-08-24",
-          "shares": 7261.0,
-          "pricePerShare": 84.85,
-          "acquiredOrDisposed": "Acquired"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 942.0,
-          "pricePerShare": 453.26,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 1182.0,
-          "pricePerShare": 454.18,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 2125.0,
-          "pricePerShare": 455.62,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 2312.0,
-          "pricePerShare": 456.49,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 1904.0,
-          "pricePerShare": 457.44,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 400.0,
-          "pricePerShare": 458.26,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 1630.0,
-          "pricePerShare": 459.68,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 1500.0,
-          "pricePerShare": 460.64,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 301.0,
-          "pricePerShare": 462.59,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 321.0,
-          "pricePerShare": 464.27,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 1455.0,
-          "pricePerShare": 465.43,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 600.0,
-          "pricePerShare": 466.26,
-          "acquiredOrDisposed": "Disposed"
-        },
-        {
-          "transactionCode": "S",
-          "transactionDate": "2026-08-24",
-          "shares": 2589.0,
-          "pricePerShare": 468.14,
-          "acquiredOrDisposed": "Disposed"
-        }
-      ],
-      "filedDate": "2026-08-26",
-      "accessionNumber": "0000002488-26-000176",
-      "filingLagDays": 2
-    },
-    {
       "issuerTicker": "WMT",
       "issuerName": "Walmart Inc.",
       "ownerName": "Creed Joseph E",
@@ -10001,6 +10073,26 @@
     {
       "issuerTicker": "TSM",
       "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "ownerName": "BURNS URSULA M",
+      "role": "Director",
+      "periodOfReport": "2026-11-17",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000803/",
+      "transactions": [
+        {
+          "transactionCode": "P",
+          "transactionDate": "2026-11-17",
+          "shares": 1375.0,
+          "pricePerShare": 363.665,
+          "acquiredOrDisposed": "Acquired"
+        }
+      ],
+      "filedDate": "2026-11-18",
+      "accessionNumber": "0001046179-26-000803",
+      "filingLagDays": 1
+    },
+    {
+      "issuerTicker": "TSM",
+      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
       "ownerName": "Wu Shien-Yang",
       "role": "SVP",
       "periodOfReport": "2026-11-06",
@@ -10283,26 +10375,6 @@
       ],
       "filedDate": "2026-11-10",
       "accessionNumber": "0001046179-26-000775",
-      "filingLagDays": 4
-    },
-    {
-      "issuerTicker": "TSM",
-      "issuerName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
-      "ownerName": "Lin Shyue-Shyh",
-      "role": "VP",
-      "periodOfReport": "2026-11-06",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000774/",
-      "transactions": [
-        {
-          "transactionCode": "P",
-          "transactionDate": "2026-11-06",
-          "shares": 47.0,
-          "pricePerShare": 70.5,
-          "acquiredOrDisposed": "Acquired"
-        }
-      ],
-      "filedDate": "2026-11-10",
-      "accessionNumber": "0001046179-26-000774",
       "filingLagDays": 4
     },
     {
