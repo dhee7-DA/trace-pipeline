@@ -1,6 +1,6 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-11-19T04:39:54.020267Z",
+  "generated_at_utc": "2026-11-20T04:27:33.341668Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
     {
@@ -3857,6 +3857,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Steve Cohen",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/18/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036849.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Tom Cole",
       "chamber": "House",
       "party": null,
@@ -5834,6 +5846,18 @@
       "tradeDate": null,
       "disclosedDate": "10/30/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035591.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Thomas H. Kean",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/19/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036844.pdf"
     },
     {
       "confidence": "index-only",
@@ -7841,6 +7865,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Michael Rulli",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/18/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036855.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "Maria Elvira Salazar",
       "chamber": "House",
       "party": null,
@@ -8042,6 +8078,18 @@
       "tradeDate": null,
       "disclosedDate": "4/21/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Terri A. Sewell",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/18/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036864.pdf"
     },
     {
       "confidence": "index-only",
