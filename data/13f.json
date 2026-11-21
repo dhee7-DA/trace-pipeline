@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-20T04:25:58.070513Z",
+  "generated_at_utc": "2026-11-21T04:25:02.166751Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -1536,8 +1536,8 @@
           "value_thousands_usd": 28028,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Sea Ltd",
@@ -2683,8 +2683,8 @@
           "value_thousands_usd": 698336,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "Shopify Inc",
@@ -11073,8 +11073,8 @@
           "value_thousands_usd": 78154664,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ROSS STORES INC",
@@ -37127,8 +37127,8 @@
           "value_thousands_usd": 1338896,
           "shares": null,
           "action": "Decreased",
-          "ticker": "BWMN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BOWMAN CONSULTING GROUP LTD",
@@ -37136,8 +37136,8 @@
           "value_thousands_usd": 426698,
           "shares": null,
           "action": "Decreased",
-          "ticker": "BWMN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BOWMAN CONSULTING GROUP LTD",
@@ -37145,8 +37145,8 @@
           "value_thousands_usd": 1692808,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "BWMN",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "BOX INC",
@@ -83801,8 +83801,8 @@
           "value_thousands_usd": 58442,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "MTRI",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "INMODE LTD",
@@ -131213,8 +131213,8 @@
           "value_thousands_usd": 529370507,
           "shares": null,
           "action": "Increased",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ROKU INC",
@@ -131222,8 +131222,8 @@
           "value_thousands_usd": 83418984,
           "shares": null,
           "action": "Increased",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ROKU INC",
@@ -131231,8 +131231,8 @@
           "value_thousands_usd": 8398699,
           "shares": null,
           "action": "Decreased",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ROKU INC",
@@ -131240,8 +131240,8 @@
           "value_thousands_usd": 25689636,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "ROKU",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "ROLLINS INC",
@@ -142175,8 +142175,8 @@
           "value_thousands_usd": 130339,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "SWAG",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "STRATA CRITICAL MEDICAL INC",
