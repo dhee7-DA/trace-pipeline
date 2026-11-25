@@ -1,6 +1,6 @@
 {
   "source": "SEC EDGAR 13F-HR filings (data.sec.gov)",
-  "generated_at_utc": "2026-11-24T07:13:38.831502Z",
+  "generated_at_utc": "2026-11-25T05:48:34.965068Z",
   "note": "13F holdings reflect a quarter-end period of report and are filed up to 45 days later \u2014 see filedDate vs periodOfReport per manager.",
   "managers": [
     {
@@ -83801,8 +83801,8 @@
           "value_thousands_usd": 58442,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "MTRI",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "INMODE LTD",
@@ -96320,8 +96320,8 @@
           "value_thousands_usd": 77348,
           "shares": null,
           "action": "Decreased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KPTIQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KARYOPHARM THERAPEUTICS INC",
@@ -96329,8 +96329,8 @@
           "value_thousands_usd": 179074,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KPTIQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KARYOPHARM THERAPEUTICS INC",
@@ -96338,8 +96338,8 @@
           "value_thousands_usd": 97966,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KPTIQ",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KASPI KZ JSC",
@@ -97634,8 +97634,8 @@
           "value_thousands_usd": 14934,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "KNRXF",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "KNOT OFFSHORE PARTNERS LP",
@@ -102044,8 +102044,8 @@
           "value_thousands_usd": 119952,
           "shares": null,
           "action": "Increased",
-          "ticker": "LVWR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LIVEWIRE GROUP INC",
@@ -102053,8 +102053,8 @@
           "value_thousands_usd": 28305,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "LVWR",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "LIXIANG ED HLDG CO LTD",
@@ -124607,8 +124607,8 @@
           "value_thousands_usd": 245230236,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PLD",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PROLOGIS INC.",
@@ -124616,8 +124616,8 @@
           "value_thousands_usd": 40315320,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PLD",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PROLOGIS INC.",
@@ -124625,8 +124625,8 @@
           "value_thousands_usd": 16364384,
           "shares": null,
           "action": "Increased",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PLD",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PROLOGIS INC.",
@@ -124634,8 +124634,8 @@
           "value_thousands_usd": 14308368,
           "shares": null,
           "action": "Held Steady",
-          "ticker": null,
-          "tickerConfidence": "none"
+          "ticker": "PLD",
+          "tickerConfidence": "exact"
         },
         {
           "issuer": "PROMIS NEUROSCIENCES INC",
@@ -127820,8 +127820,8 @@
           "value_thousands_usd": 820595,
           "shares": null,
           "action": "Held Steady",
-          "ticker": "RLYB",
-          "tickerConfidence": "exact"
+          "ticker": null,
+          "tickerConfidence": "none"
         },
         {
           "issuer": "RALPH LAUREN CORP",
