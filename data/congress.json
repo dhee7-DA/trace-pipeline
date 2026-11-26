@@ -1,8 +1,44 @@
 {
   "source": "Tiered: Quiver Quantitative (vendor-api) + Senate eFD (scraped) + House Clerk index (index-only)",
-  "generated_at_utc": "2026-11-25T05:50:04.254988Z",
+  "generated_at_utc": "2026-11-26T05:37:35.364032Z",
   "note": "Each trade carries its own 'confidence' field \u2014 vendor-api and scraped trades have real ticker/amount; index-only trades confirm a filing exists and link the source PDF but do not claim ticker/amount, which would require OCR this pipeline deliberately does not perform.",
   "trades": [
+    {
+      "confidence": "scraped",
+      "person": null,
+      "chamber": "Senate",
+      "party": null,
+      "ticker": "NVDA",
+      "transactionType": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "tradeDate": "11/05/2026",
+      "disclosedDate": null,
+      "sourceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+    },
+    {
+      "confidence": "scraped",
+      "person": null,
+      "chamber": "Senate",
+      "party": null,
+      "ticker": "NVDA",
+      "transactionType": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "tradeDate": "11/07/2026",
+      "disclosedDate": null,
+      "sourceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+    },
+    {
+      "confidence": "scraped",
+      "person": null,
+      "chamber": "Senate",
+      "party": null,
+      "ticker": "NVDA",
+      "transactionType": "Purchase",
+      "amountRange": "$1,001 - $15,000",
+      "tradeDate": "11/09/2026",
+      "disclosedDate": null,
+      "sourceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+    },
     {
       "confidence": "scraped",
       "person": null,
@@ -6149,6 +6185,18 @@
     },
     {
       "confidence": "index-only",
+      "person": "Kevin Hern",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/24/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036875.pdf"
+    },
+    {
+      "confidence": "index-only",
       "person": "James French Hill",
       "chamber": "House",
       "party": null,
@@ -8102,6 +8150,18 @@
       "tradeDate": null,
       "disclosedDate": "7/17/2026",
       "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf"
+    },
+    {
+      "confidence": "index-only",
+      "person": "Robert For Onder",
+      "chamber": "House",
+      "party": null,
+      "ticker": null,
+      "transactionType": null,
+      "amountRange": null,
+      "tradeDate": null,
+      "disclosedDate": "11/24/2026",
+      "sourceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf"
     },
     {
       "confidence": "index-only",
